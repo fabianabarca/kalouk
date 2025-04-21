@@ -1,0 +1,41 @@
+site_name: Proyecto de docencia Kalouk
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+nav:
+  - Inicio: index.md
+  - Resumen: 0_resumen.md
+  - Parte 1:
+    - Introducción: 1_0_introduccion.md
+    - Antecedentes: 1_1_antecedentes.md
+    - Justificación: 1_2_justificacion.md
+  - Parte 2:
+    - Introducción: 2_0_introduccion.md
+    - Desarrollo: 2_1_desarrollo.md
+    - Interactividad: 2_2_interactividad.md
+  - Parte 3:
+    - Introducción: 3_0_introduccion.md
+    - Resultados: 3_1_resultados.md
+    - Conclusiones: 3_2_conclusiones.md
+
+extra:
+  generator: false
