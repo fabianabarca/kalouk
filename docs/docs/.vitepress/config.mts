@@ -15,7 +15,8 @@ export default defineConfig({
       { text: 'Resumen', link: '/resumen' },
       { text: 'Diseño', link: '/diseno' },
       { text: 'Desarrollo', link: '/desarrollo' },
-      { text: 'Resultados', link: '/resultados' }
+      { text: 'Resultados', link: '/resultados' },
+      { text: 'Sobre el proyecto', link: '/sobre' }
     ],
 
     sidebar: [
