@@ -10,37 +10,40 @@ export default defineConfig({
   description: "Una plataforma de contenidos de matemática y programación",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/K_icon.png',
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Resumen', link: '/resumen' },
-      { text: 'Diseño', link: '/diseno' },
+      { text: 'Planteamiento', link: '/planteamiento' },
       { text: 'Desarrollo', link: '/desarrollo' },
       { text: 'Resultados', link: '/resultados' },
+      { text: 'Guía', link: '/guia' },
       { text: 'Sobre el proyecto', link: '/sobre' }
     ],
 
     sidebar: [
       {
-        text: 'Diseño',
+        text: 'Parte I',
         items: [
-          { text: 'Introducción', link: '/diseno' },
-          { text: 'Antecedentes', link: '/diseno/antecedentes' },
-          { text: 'Justificación', link: '/diseno/justificacion' }
+          { text: 'Planteamiento', link: '/planteamiento' },
+          { text: 'Justificación', link: '/planteamiento/justificacion' },
+          { text: 'Diseño', link: '/planteamiento/diseno' },
+          { text: 'Objetivos', link: '/objetivos' }
         ]
       },
       {
-        text: 'Desarrollo',
+        text: 'Parte II',
         items: [
-          { text: 'Introducción', link: '/desarrollo' },
-          { text: 'Tecnologías', link: '/desarrollo/tecnologias' },
-          { text: 'Interactividad', link: '/desarrollo/interactividad' }
+          { text: 'Desarrollo', link: '/desarrollo' },
+          { text: 'Pedagogía', link: '/desarrollo/pedagogia' },
+          { text: 'Tecnologías', link: '/desarrollo/tecnologias' }
         ]
       },
       {
-        text: 'Resultados',
+        text: 'Parte III',
         items: [
-          { text: 'Introducción', link: '/resultados' },
-          { text: 'Resultados', link: '/resultados/resultados' },
+          { text: 'Resultados', link: '/resultados' },
+          { text: 'Análisis', link: '/resultados/analisis' },
           { text: 'Conclusiones', link: '/resultados/conclusiones' }
         ]
       }

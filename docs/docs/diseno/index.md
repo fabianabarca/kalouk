@@ -1,3 +1,0 @@
-# Diseño
-
-Optio fugiat sint eum commodi cum, quaerat illo neque placeat laboriosam eveniet reprehenderit? Sit aliquam debitis qui aperiam iste explicabo, obcaecati quidem id tempore recusandae impedit corrupti eum natus consequuntur dolore culpa, quis perferendis dicta quae temporibus tempora consectetur earum beatae, rem blanditiis voluptate veniam id mollitia harum, fuga laboriosam ad aliquid voluptatibus molestias doloribus.
