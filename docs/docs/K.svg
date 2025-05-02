@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="K.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="K.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.72972594"
+     inkscape:cx="134.29699"
+     inkscape:cy="456.33571"
+     inkscape:window-width="1400"
+     inkscape:window-height="671"
+     inkscape:window-x="2107"
+     inkscape:window-y="325"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00c0f3;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#00c0f3;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="107.51086"
+       cy="156.75601"
+       fx="107.51086"
+       fy="156.75601"
+       r="63.464249"
+       gradientTransform="matrix(1,0,0,1.0422535,-41.365023,-97.23367)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:url(#radialGradient2);stroke-width:1.05708;stroke-linecap:round;stroke-dasharray:2.49479, 2.49479"
+       id="path1"
+       cx="66.145836"
+       cy="66.145836"
+       rx="63.464249"
+       ry="66.145836" />
+    <g
+       id="g4"
+       transform="translate(-16.438227,-144.88566)">
+      <text
+         xml:space="preserve"
+         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.349191"
+         x="65.397499"
+         y="230.47141"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.349191"
+           x="65.397499"
+           y="230.47141">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.349191"
+         x="62.170727"
+         y="233.78882"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.349191"
+           x="62.170727"
+           y="233.78882">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.349191"
+         x="58.791103"
+         y="237.32507"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.349191"
+           x="58.791103"
+           y="237.32507">K</tspan></text>
+    </g>
+  </g>
+</svg>

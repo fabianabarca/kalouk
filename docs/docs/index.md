@@ -6,6 +6,9 @@ hero:
   name: "Kalouk"
   text: "Presentaciones web para matemáticas y programación"
   tagline: Informe del proyecto de docencia PD-IE-472-2022 de la Universidad de Costa Rica
+  image:
+    src: /K.png
+    alt: Logo Kalouk
   actions:
     - theme: brand
       text: Demostración
