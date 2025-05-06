@@ -14,37 +14,67 @@ export default defineConfig({
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Resumen', link: '/resumen' },
-      { text: 'Planteamiento', link: '/planteamiento' },
+      { text: 'Proyecto', link: '/proyecto' },
+      { text: 'Diseño', link: '/diseno' },
       { text: 'Desarrollo', link: '/desarrollo' },
+      { text: 'Contenidos', link: '/contenidos' },
       { text: 'Resultados', link: '/resultados' },
-      { text: 'Guía', link: '/guia' },
-      { text: 'Sobre el proyecto', link: '/sobre' }
+      { text: 'Conclusiones', link: '/conclusiones' }
     ],
 
     sidebar: [
       {
-        text: 'Parte I',
+        text: 'Proyecto',
+        collapsed: true,
         items: [
-          { text: 'Planteamiento', link: '/planteamiento' },
-          { text: 'Justificación', link: '/planteamiento/justificacion' },
-          { text: 'Diseño', link: '/planteamiento/diseno' },
-          { text: 'Objetivos', link: '/objetivos' }
+          { text: 'Proyecto', link: '/proyecto' },
+          { text: 'Antecedentes', link: '/proyecto/antecedentes' },
+          { text: 'Objetivos', link: '/proyecto/objetivos' }
         ]
       },
       {
-        text: 'Parte II',
+        text: 'Diseño',
+        collapsed: true,
+        items: [
+          { text: 'Diseño', link: '/diseno' },
+          { text: 'Características', link: '/diseno/caracteristicas' },
+          { text: 'Docencia', link: '/diseno/docencia' }
+        ]
+      },
+      {
+        text: 'Desarrollo',
+        collapsed: true,
         items: [
           { text: 'Desarrollo', link: '/desarrollo' },
-          { text: 'Pedagogía', link: '/desarrollo/pedagogia' },
+          { text: 'Metodología', link: '/desarrollo/metodologia' },
           { text: 'Tecnologías', link: '/desarrollo/tecnologias' }
         ]
       },
       {
-        text: 'Parte III',
+        text: 'Contenidos',
+        collapsed: true,
+        items: [
+          { text: 'Contenidos', link: '/contenidos' },
+          { text: 'Metodología', link: '/contenidos/clases' },
+          { text: 'Tecnologías', link: '/contenidos/guia' }
+        ]
+      },
+      {
+        text: 'Resultados',
+        collapsed: true,
         items: [
           { text: 'Resultados', link: '/resultados' },
-          { text: 'Análisis', link: '/resultados/analisis' },
-          { text: 'Conclusiones', link: '/resultados/conclusiones' }
+          { text: 'Metodología', link: '/resultados/evaluacion' },
+          { text: 'Tecnologías', link: '/resultados/analisis' }
+        ]
+      },
+      {
+        text: 'Conclusiones',
+        collapsed: true,
+        items: [
+          { text: 'Conclusiones', link: '/conclusiones' },
+          { text: 'Agradecimientos', link: '/conclusiones/agradecimientos' },
+          { text: 'Referencias', link: '/conclusiones/referencias' }
         ]
       }
     ],

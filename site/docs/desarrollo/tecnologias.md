@@ -1,4 +1,12 @@
+# Tecnologías
+
+Este es un proyecto de desarrollo web.
+
 ## Selección tecnológica
+
+- Especificación de las **tecnologías** a utilizar
+- Creación del mapa del sitio
+- Creación de la página de inicio del sitio y otras páginas misceláneas
 
 Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
 

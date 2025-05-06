@@ -1,3 +1,9 @@
 # Desarrollo
 
-Optio fugiat sint eum commodi cum, quaerat illo neque placeat laboriosam eveniet reprehenderit? Sit aliquam debitis qui aperiam iste explicabo, obcaecati quidem id tempore recusandae impedit corrupti eum natus consequuntur dolore culpa, quis perferendis dicta quae temporibus tempora consectetur earum beatae, rem blanditiis voluptate veniam id mollitia harum, fuga laboriosam ad aliquid voluptatibus molestias doloribus.
+::: info
+Esta sección muestra el desarrollo del proyecto
+:::
+
+- Especificación de las **tecnologías** a utilizar (O2/M1/I1)
+- Comparación y selección de **metodología** de desarrollo de software (O2/M2/I1)
+- Preparación de la **documentación** del proyecto según estándares usuales de ingeniería de software (O2/M3/I1)

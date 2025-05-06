@@ -1,3 +1,9 @@
 # Resultados
 
-Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
+::: info
+Esta sección muestra los resultados del proyecto
+:::
+
+- Implementación de la **funcionalidad base** del sistema
+- Implementación gradual de **nuevas funcionalidades** en el sistema, entre ellas: sesiones de usuario, control remoto de las presentaciones, fragmentos de código ejecutable, etc.
+- Prueba del sistema en un **servidor web**
