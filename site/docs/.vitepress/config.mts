@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/kalouk/',
 
   title: "Kalouk",
-  description: "Una plataforma de contenidos de matemática y programación",
+  description: "Presentaciones web para matemáticas y programación",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/K_icon.png',
