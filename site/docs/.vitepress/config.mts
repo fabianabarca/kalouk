@@ -8,6 +8,17 @@ export default defineConfig({
 
   title: "Kalouk",
   description: "Presentaciones web para matemáticas y programación",
+  
+  head: [
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined'
+      }
+    ]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/K_icon.png',
@@ -95,5 +106,5 @@ export default defineConfig({
     search: {
       placeholder: 'Buscar'
     }
-  }
+  },
 })
