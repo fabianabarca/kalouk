@@ -38,7 +38,7 @@ export default defineConfig({
         text: 'Proyecto',
         collapsed: true,
         items: [
-          { text: 'Proyecto', link: '/proyecto' },
+          { text: 'Proyecto', link: '/proyecto/' },
           { text: 'Antecedentes', link: '/proyecto/antecedentes' },
           { text: 'Objetivos', link: '/proyecto/objetivos' }
         ]
@@ -47,7 +47,7 @@ export default defineConfig({
         text: 'Diseño',
         collapsed: true,
         items: [
-          { text: 'Diseño', link: '/diseno' },
+          { text: 'Diseño', link: '/diseno/' },
           { text: 'Características', link: '/diseno/caracteristicas' },
           { text: 'Docencia', link: '/diseno/docencia' }
         ]
@@ -56,7 +56,7 @@ export default defineConfig({
         text: 'Desarrollo',
         collapsed: true,
         items: [
-          { text: 'Desarrollo', link: '/desarrollo' },
+          { text: 'Desarrollo', link: '/desarrollo/' },
           { text: 'Metodología', link: '/desarrollo/metodologia' },
           { text: 'Tecnologías', link: '/desarrollo/tecnologias' }
         ]
@@ -65,7 +65,7 @@ export default defineConfig({
         text: 'Contenidos',
         collapsed: true,
         items: [
-          { text: 'Contenidos', link: '/contenidos' },
+          { text: 'Contenidos', link: '/contenidos/' },
           { text: 'Metodología', link: '/contenidos/clases' },
           { text: 'Tecnologías', link: '/contenidos/guia' }
         ]
@@ -74,7 +74,7 @@ export default defineConfig({
         text: 'Resultados',
         collapsed: true,
         items: [
-          { text: 'Resultados', link: '/resultados' },
+          { text: 'Resultados', link: '/resultados/' },
           { text: 'Metodología', link: '/resultados/evaluacion' },
           { text: 'Tecnologías', link: '/resultados/analisis' }
         ]
@@ -83,7 +83,7 @@ export default defineConfig({
         text: 'Conclusiones',
         collapsed: true,
         items: [
-          { text: 'Conclusiones', link: '/conclusiones' },
+          { text: 'Conclusiones', link: '/conclusiones/' },
           { text: 'Agradecimientos', link: '/conclusiones/agradecimientos' },
           { text: 'Referencias', link: '/conclusiones/referencias' }
         ]
