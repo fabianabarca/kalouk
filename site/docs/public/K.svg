@@ -28,12 +28,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.18243148"
-     inkscape:cx="-49.33359"
-     inkscape:cy="767.41139"
+     inkscape:cx="-46.592836"
+     inkscape:cy="767.41141"
      inkscape:window-width="1400"
      inkscape:window-height="671"
      inkscape:window-x="1882"
-     inkscape:window-y="268"
+     inkscape:window-y="212"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showgrid="false" />
@@ -76,48 +76,47 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="matrix(0.99480045,0,0,0.99480045,0.68784423,0.68784423)" />
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+       x="-209.14975"
+       y="-60.379349"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="-209.14975"
+         y="-60.379349">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+       x="-216.88992"
+       y="-52.421761"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-216.88992"
+         y="-52.421761">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.837616"
+       x="-224.99673"
+       y="-43.939228"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.837616"
+         x="-224.99673"
+         y="-43.939228">K</tspan></text>
     <g
-       id="g4"
-       transform="matrix(2.3987329,0,0,2.3987329,-366.02089,-613.21869)">
+       id="g1"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <text
          xml:space="preserve"
-         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.349191"
-         x="65.397499"
-         y="230.47141"
-         id="text2"><tspan
-           sodipodi:role="line"
-           id="tspan2"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.349191"
-           x="65.397499"
-           y="230.47141">K</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.349191"
-         x="62.170727"
-         y="233.78882"
-         id="text3"><tspan
-           sodipodi:role="line"
-           id="tspan3"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.349191"
-           x="62.170727"
-           y="233.78882">K</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:67.0449px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.349191"
-         x="58.791103"
-         y="237.32507"
-         id="text1"><tspan
-           sodipodi:role="line"
-           id="tspan1"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.349191"
-           x="58.791103"
-           y="237.32507">K</tspan></text>
-    </g>
-    <g
-       id="g1">
-      <text
-         xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
          x="-281.52103"
          y="366.52637"
          id="text10"
@@ -126,18 +125,18 @@
          inkscape:export-ydpi="300"><tspan
            sodipodi:role="line"
            id="tspan10"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
            x="-281.52103"
            y="366.52637">K</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
          x="-319.28992"
          y="406.72293"
          id="text9"><tspan
            sodipodi:role="line"
            id="tspan9"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
            x="-319.28992"
            y="406.72293">K</tspan></text>
       <text
@@ -157,7 +156,7 @@
        transform="translate(383.54762,-199.4817)">
       <text
          xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
          x="-281.52103"
          y="366.52637"
          id="text4"
@@ -166,18 +165,18 @@
          inkscape:export-ydpi="300"><tspan
            sodipodi:role="line"
            id="tspan4"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
            x="-281.52103"
            y="366.52637">K</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
          x="-319.28992"
          y="406.72293"
          id="text5"><tspan
            sodipodi:role="line"
            id="tspan5"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
            x="-319.28992"
            y="406.72293">K</tspan></text>
       <text
