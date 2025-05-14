@@ -2,9 +2,7 @@
 layout: section
 ---
 
-### Parte II
-
-# Desarrollo de Kalouk
+# Desarrollo
 
 ---
 

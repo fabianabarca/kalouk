@@ -17,17 +17,27 @@ layout: section
 *Universidad de Costa Rica*
 
 ---
-src: ./pages/parte_1.md
+src: ./pages/proyecto.md
 hide: false
 ---
 
 ---
-src: ./pages/parte_2.md
+src: ./pages/diseno.md
 hide: false
 ---
 
 ---
-src: ./pages/parte_3.md
+src: ./pages/desarrollo.md
+hide: false
+---
+
+---
+src: ./pages/resultados.md
+hide: false
+---
+
+---
+src: ./pages/conclusiones.md
 hide: false
 ---
 

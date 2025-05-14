@@ -2,9 +2,7 @@
 layout: section
 ---
 
-### Parte I
-
-# Antecedentes y diseño
+# Contenidos
 
 ---
 

@@ -2,9 +2,7 @@
 layout: section
 ---
 
-### Parte III
-
-# Resultados y conclusiones
+# Diseño
 
 ---
 
