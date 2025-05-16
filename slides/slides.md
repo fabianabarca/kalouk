@@ -1,8 +1,15 @@
 ---
 theme: ./theme
+mdc: true
 ---
 
 # Kalouk
+
+## Presentaciones web para matemáticas y programación
+
+Fabián Abarca Calderón
+
+:counter
 
 ---
 layout: section
