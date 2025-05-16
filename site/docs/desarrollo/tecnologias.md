@@ -1,6 +1,6 @@
 # Tecnologías
 
-Este es un proyecto de desarrollo web.
+Este es un proyecto de desarrollo web. Y muchos colores.
 
 ## Selección tecnológica
 
@@ -14,9 +14,16 @@ Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assum
 
 Impedit aliquam ad ipsam a ea sequi, nemo saepe ex sequi dolorum dolorem, voluptas numquam autem modi? Earum consequuntur inventore nihil quas, nulla ratione inventore explicabo repellendus molestiae libero ab aliquid sed? Dicta sequi rerum voluptatibus reiciendis quasi consequuntur minima, saepe vero rerum nihil laudantium aliquid distinctio eligendi, culpa sunt eos odio iure natus voluptates neque, ab reprehenderit quibusdam earum blanditiis quas maiores libero soluta deserunt.
 
+- UnoCSS
+- Markdown
+- Vue
+- Vite
+
 ### Tema personalizado de Kalouk
 
 Impedit aliquam ad ipsam a ea sequi, nemo saepe ex sequi dolorum dolorem, voluptas numquam autem modi? Earum consequuntur inventore nihil quas, nulla ratione inventore explicabo repellendus molestiae libero ab aliquid sed? Dicta sequi rerum voluptatibus reiciendis quasi consequuntur minima, saepe vero rerum nihil laudantium aliquid distinctio eligendi, culpa sunt eos odio iure natus voluptates neque, ab reprehenderit quibusdam earum blanditiis quas maiores libero soluta deserunt.
+
+Disponible aquí: https://www.npmjs.com/package/slidev-theme-kalouk
 
 ## Django
 
