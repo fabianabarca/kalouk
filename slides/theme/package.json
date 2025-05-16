@@ -1,16 +1,15 @@
 {
-  "name": "@slidev/theme-default",
-  "version": "0.25.0",
-  "description": "Default theme for Slidev",
-  "author": "antfu <anthonyfu117@hotmail.com>",
+  "name": "slidev-theme-kalouk",
+  "version": "0.1.0",
+  "description": "Kalouk theme for Slidev",
+  "author": "fabianabarca <fabian.abarca@ucr.ac.cr",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://sli.dev",
+  "homepage": "https://kalouk.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidevjs/themes"
+    "url": "https://github.com/fabianabarca/slidev-theme-kalouk"
   },
-  "bugs": "https://github.com/slidevjs/themes/issues",
+  "bugs": "https://github.com/fabianabarca/slidev-theme-kalouk/issues",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -22,10 +21,11 @@
   "slidev": {
     "defaults": {
       "fonts": {
-        "mono": "Fira Code",
-        "sans": "Avenir Next,Nunito Sans",
-        "local": "Avenir Next"
-      }
+        "mono": "Roboto Mono",
+        "sans": "Roboto",
+        "local": "Roboto"
+      },
+      "aspectRatio": "16/9"
     }
   },
   "dependencies": {
