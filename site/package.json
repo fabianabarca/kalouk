@@ -1,6 +1,9 @@
 {
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "unocss": "^66.1.2",
+    "vite": "^6.3.5",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.14"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
