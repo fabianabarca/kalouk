@@ -8,7 +8,7 @@ export default defineConfig({
   base: "/kalouk/",
 
   title: "Kalouk",
-  description: "Presentaciones web para matemáticas y programación",
+  description: "Componentes web para matemáticas y programación",
 
   head: [
     [

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Kalouk"
-  text: "Presentaciones web para matemáticas y programación"
+  text: "Componentes web para matemáticas y programación"
   tagline: Informe del proyecto de docencia PD-IE-472-2022 de la Universidad de Costa Rica
   image:
     src: /K.png
@@ -14,8 +14,8 @@ hero:
       text: Demostración
       link: /demo
     - theme: alt
-      text: Objetivos
-      link: /proyecto/objetivos
+      text: Resumen
+      link: /resumen
 
 features:
   - icon: <span class="material-symbols-outlined">assignment</span>
