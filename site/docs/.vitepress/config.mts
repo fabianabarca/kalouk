@@ -7,6 +7,10 @@ export default defineConfig({
   cleanUrls: true,
   base: "/kalouk/",
 
+  vite: {
+    plugins: [UnoCSS()],
+  },
+
   title: "Kalouk",
   description: "Componentes web para matemáticas y programación",
 
@@ -91,10 +95,6 @@ export default defineConfig({
       },
     ],
 
-    vite: {
-      plugins: [UnoCSS()],
-    },
-
     socialLinks: [
       { icon: "github", link: "https://github.com/fabianabarca/kalouk" },
     ],
@@ -109,7 +109,10 @@ export default defineConfig({
       next: "Página siguiente",
     },
     search: {
-      placeholder: "Buscar",
+      provider: "local",
+      options: {
+        placeholder: "Buscar",
+      },
     },
   },
 });

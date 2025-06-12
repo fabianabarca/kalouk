@@ -1,5 +1,7 @@
 <script setup>
 import Counter from '../.vitepress/theme/components/Counter.vue'
+import CardGrid from '../.vitepress/theme/components/CardGrid.vue'
+import Card from '../.vitepress/theme/components/Card.vue'
 </script>
 
 # Características del sistema
@@ -15,10 +17,22 @@ Prueba de Vue
 And this
 
 <div class="bg-white rounded-xl shadow p-6 border border-gray-200">
-  <h3 class="text-xl font-bold mb-2">Card Title</h3>
+  <h3 class="text-xl font-italic mb-2">Súper título</h3>
   <p class="text-gray-600 mb-4">This is the card body. You can put any content here.</p>
   <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Action</button>
 </div>
+
+<CardGrid :cols="2">
+  <Card>
+    Primero
+  </Card>
+  <Card>
+    Content for the second card.
+  </Card>
+  <Card>
+    Content for the third card.
+  </Card>
+</CardGrid>
 
 Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
 
@@ -38,7 +52,7 @@ La siguiente es la lista de características que fueron determinadas como deseab
 1. Capacidad de **editar y ejecutar código** en la misma plataforma.
 1. Capacidad de hacer **sesiones remotas sincrónicas o asincrónicas**, con participación de personas desde cualquier dispositivo con un navegador web. En el caso sincrónico, una persona presentadora es capaz de controlar las diapositivas para todos los participantes.
 1. Capacidad nativa de **registro de participantes** en una base de datos para almacenamiento de la información de su participación y estadísticas generales de uso.
-1. Capacidad de **adaptación para el registro de participantes** en una base de datos para almacenamiento de la información de su participación y estadísticas generales de uso.
+1. Capacidad de **editar el aspecto** (tema) de las presentaciones para seguir la identidad visual del proyecto.
 1. Capacidad de **edición de diapositivas con interfaz de usuario**, no con código.
 1. Disponible como **software libre**.
 
