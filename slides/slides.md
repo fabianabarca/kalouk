@@ -9,8 +9,6 @@ mdc: true
 
 Fabián Abarca Calderón
 
-:counter
-
 ---
 layout: section
 ---
@@ -22,6 +20,47 @@ layout: section
 **Fabián Abarca Calderón** | 
 *Escuela de Ingeniería Eléctrica* |
 *Universidad de Costa Rica*
+
+---
+
+# Vamos a ver
+
+<KCardGrid :cols="2">
+    <KCard>Proyecto</KCard>
+    <KCard>Diseño</KCard>
+    <KCard>Desarrollo</KCard>
+    <KCard>Resultados</KCard>
+    <KCard>Conclusiones</KCard>
+</KCardGrid>
+
+---
+
+<KQuizAPI quizCode="quiz_001" />
+
+---
+
+# Una grilla
+
+<KButton />
+
+---
+
+::k-quiz{answer="A"}
+#question
+¿Quién es el autor de Kalouk?
+
+#optionA
+Fabián Abarca Calderón
+
+#optionB
+Aristóteles
+
+#optionC
+Albert Einstein
+
+#optionD
+Isaac Newton
+::
 
 ---
 src: ./pages/proyecto.md
@@ -53,3 +92,5 @@ layout: end
 ---
 
 Gracias, ¿preguntas?
+
+---
