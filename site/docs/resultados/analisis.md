@@ -1,5 +1,12 @@
 # Análisis de resultados
 
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
+
 - Documentación de la experiencia docente en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases.
 - Artículo de divulgación sobre la experiencia
 

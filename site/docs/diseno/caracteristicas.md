@@ -6,35 +6,25 @@ import Card from '../.vitepress/theme/components/Card.vue'
 
 # Características del sistema
 
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
+
 - Tabla de **comparación** de sistemas existentes similares
 - Lista de **características** deseables
 - Diseño de la **apariencia del sitio** y de las presentaciones
 
-Prueba de Vue
+El sistema propuesta cae dentro del segmento de plataformas en línea tipo software como servicio (SaaS, _Software-as-a-Service_), y dentro de dos subcategorías:
 
-<Counter />
+1. Sistemas de presentaciones en línea
+2. Plataformas de aprendizaje digital
 
-And this
+Existe una gran cantidad de opciones disponibles, del orden de cientos, sin embargo, en esta comparación solamente serán analizados los más relevantes o similares por sus objetivos.
 
-<div class="bg-white rounded-xl shadow p-6 border border-gray-200">
-  <h3 class="text-xl font-italic mb-2">Súper título</h3>
-  <p class="text-gray-600 mb-4">This is the card body. You can put any content here.</p>
-  <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Action</button>
-</div>
-
-<CardGrid :cols="2">
-  <Card>
-    Primero
-  </Card>
-  <Card>
-    Content for the second card.
-  </Card>
-  <Card>
-    Content for the third card.
-  </Card>
-</CardGrid>
-
-Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
+Según la lista de características deseables para el sistema propuesto (descrito más adelante en la meta 2) es posible hacer una calificación de estos sistemas analizados. Se asignó un punto por el cumplimiento de cada característica.
 
 Libre y de código abierto
 Facilidad para mostrar ecuaciones y figuras matemáticas
@@ -89,10 +79,10 @@ La comparación es la siguiente:
 | Prezi             | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 4     |
 | Canva             | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 4     |
 
-Este resultado indica que la selección de la herramienta base debe ser Slidev, pues ofrece la mayor cantidad de características deseables.
+Desde esta perspectiva, se puede observar que la elección de Slidev como plataforma de desarrollo es la más adecuada en función de la lista de características deseadas. Sin embargo, dicha elección no constituye una "calificación perfecta", ya que su edición no es sencilla y requiere conocimientos especializados de programación. Además, la plataforma carece de un sistema "back-end" para el registro de participantes, por lo que es necesario desarrollarlo mediante el uso de Django, tal como se especifica en el segundo objetivo específico.
 
 ::: danger Cambio de herramienta base
-Por la mayor parte del proyecto, la herramienta utilizada fue Reveal.js. Sin embargo, a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas.
+Por la mayor parte del tiempo de ejecución del proyecto, la herramienta utilizada fue Reveal.js. Sin embargo, a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas.
 :::
 
 ## Especificación de las características de Kalouk

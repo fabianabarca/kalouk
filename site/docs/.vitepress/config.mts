@@ -33,7 +33,6 @@ export default defineConfig({
       { text: "Proyecto", link: "/proyecto" },
       { text: "Diseño", link: "/diseno" },
       { text: "Desarrollo", link: "/desarrollo" },
-      { text: "Contenidos", link: "/contenidos" },
       { text: "Resultados", link: "/resultados" },
       { text: "Conclusiones", link: "/conclusiones" },
     ],
@@ -76,21 +75,30 @@ export default defineConfig({
         ],
       },
       {
-        text: "Contenidos",
-        collapsed: true,
-        items: [
-          { text: "Contenidos", link: "/contenidos/" },
-          { text: "Metodología", link: "/contenidos/clases" },
-          { text: "Tecnologías", link: "/contenidos/guia" },
-        ],
-      },
-      {
         text: "Resultados",
         collapsed: true,
         items: [
           { text: "Resultados", link: "/resultados/" },
-          { text: "Metodología", link: "/resultados/evaluacion" },
-          { text: "Tecnologías", link: "/resultados/analisis" },
+          { text: "Componentes Kalouk", link: "/resultados/kalouk" },
+          { text: "API Kalouk", link: "/resultados/kalouk-api" },
+          { text: "Sitio web Kalouk", link: "/resultados/kalouk-web" },
+          {
+            text: "improbabilidades.com",
+            link: "/resultados/improbabilidades",
+          },
+          { text: "Integración con Slidev", link: "/resultados/slidev" },
+          {
+            text: "Contenidos",
+            collapsed: true,
+            items: [
+              { text: "Contenidos", link: "/contenidos/" },
+              { text: "Clases", link: "/contenidos/clases" },
+              { text: "Proyectos", link: "/contenidos/proyectos" },
+              { text: "Guía pedagógica", link: "/contenidos/guia" },
+            ],
+          },
+          { text: "Evaluación", link: "/resultados/evaluacion" },
+          { text: "Análisis", link: "/resultados/analisis" },
         ],
       },
       {

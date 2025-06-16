@@ -1,5 +1,12 @@
 # Metodología de desarrollo
 
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
+
 - Comparación y selección de **metodología** de desarrollo de software
 - Preparación de la **documentación** del proyecto según estándares usuales de ingeniería de software
 - Creación de un **repositorio web** para desarrollo y documentación
@@ -28,9 +35,9 @@ Como ejemplo, en un extremo está la metodología lineal o "en cascada" clásica
 
 En el otro extremo están las metodologías "ágiles", que son poco estructuradas -hay mucha incertidumbre sobre los requerimientos-. Hay iteraciones muy frecuentes y existe comunicación constante con los clientes o un representante de ellos, quienes prueban versiones tempranas de desarrollo.
 
-En nuestro caso tenemos un producto cuyas características son bien conocidas *a priori* pero que requiere constante evaluación de las nuevas características implementadas. Nuestros "clientes" (estudiantes), sin embargo, no serán parte del desarrollo sino hasta etapas más avanzadas. En ese sentido, nuestro proyecto es de **alta iteración, baja interacción y alta estructuración**, con un equipo pequeño de desarrollo. 
+En nuestro caso tenemos un producto cuyas características son bien conocidas _a priori_ pero que requiere constante evaluación de las nuevas características implementadas. Nuestros "clientes" (estudiantes), sin embargo, no serán parte del desarrollo sino hasta etapas más avanzadas. En ese sentido, nuestro proyecto es de **alta iteración, baja interacción y alta estructuración**, con un equipo pequeño de desarrollo.
 
-Para estas características sería apropiada una metodología híbrida, como el desarrollo basado en funcionalidades (**FDD**, *Feature Driven Development*), que se considera una metodología "ágil", pero más estructurada que otras, ya que proporciona una guía más detallada para el desarrollo del software.
+Para estas características sería apropiada una metodología híbrida, como el desarrollo basado en funcionalidades (**FDD**, _Feature Driven Development_), que se considera una metodología "ágil", pero más estructurada que otras, ya que proporciona una guía más detallada para el desarrollo del software.
 
 FDD tiene cinco etapas:
 
@@ -44,7 +51,7 @@ Aparte de las características descritas arriba, otros criterios de selección d
 
 La elección de metodología y herramientas fue:
 
-#### Metodología: FDD (*Feature Driven Development*) 
+#### Metodología: FDD (_Feature Driven Development_)
 
 Una metodología ágil de desarrollo de software centrada en entregar funcionalidades incrementales, por medio del trabajo en iteraciones cortas y enfocadas en entregas de funcionalidades específicas. La metodología promueve el desarrollo de una lista de características prioritarias para el proyecto, lo que nos permite crear una hoja de ruta clara. En nuestro caso, estas funcionalidades están basadas en la lista de características del primer objetivo específico.
 
@@ -66,6 +73,6 @@ Un editor de código con una variedad de características y extensiones para el 
 
 #### Documentación: VitePress
 
-Un generador de sitios estáticos basado en Vue.js que permite crear documentación técnica de manera sencilla y rápida. Es fácil de usar y tiene una buena integración con GitHub, lo que facilita la publicación de la documentación en el repositorio. 
+Un generador de sitios estáticos basado en Vue.js que permite crear documentación técnica de manera sencilla y rápida. Es fácil de usar y tiene una buena integración con GitHub, lo que facilita la publicación de la documentación en el repositorio.
 
 Otras selecciones tecnológicas que quedan pendientes son la base de datos y el servidor.

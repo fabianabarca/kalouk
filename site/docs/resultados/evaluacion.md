@@ -1,5 +1,12 @@
 # Evaluación del proyecto
 
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
+
 - Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
 - Informe de resultados de la evaluación técnica
 - Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
@@ -15,4 +22,3 @@ Reprehenderit facilis maiores dolor atque unde, reiciendis optio laboriosam modi
 Impedit aliquam ad ipsam a ea sequi, nemo saepe ex sequi dolorum dolorem, voluptas numquam autem modi? Earum consequuntur inventore nihil quas, nulla ratione inventore explicabo repellendus molestiae libero ab aliquid sed? Dicta sequi rerum voluptatibus reiciendis quasi consequuntur minima, saepe vero rerum nihil laudantium aliquid distinctio eligendi, culpa sunt eos odio iure natus voluptates neque, ab reprehenderit quibusdam earum blanditiis quas maiores libero soluta deserunt.
 
 ## Divulgación
-

@@ -1,5 +1,12 @@
 # Docencia
 
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
+
 - Investigación y creación de un instrumento de **evaluación pedagógica** para aplicar a los estudiantes del curso Modelos Probabilísticos de Señales y Sistemas
 
 ## Tipos de interactividad

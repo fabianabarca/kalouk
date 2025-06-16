@@ -8,6 +8,26 @@ Este es un proyecto de desarrollo web. Y muchos colores.
 - Creación del mapa del sitio
 - Creación de la página de inicio del sitio y otras páginas misceláneas
 
+La decisión sobre las tecnologías para desarrollo está basada en un análisis sobre plataformas similares presentado en el primer objetivo específico, donde fue determinado que una plataforma de presentaciones web como Reveal.js es la mejor opción para satisfacer las características deseadas, en comparación con otros SaaS (Software-as-a-Service) existentes en el mercado.
+
+Esta selección, sin embargo, tiene una deficiencia y una debilidad: la deficiencia es que Reveal.js no tiene una plataforma para manejo de usuarios. Esto es solventado con Django en el desarrollo de nuestro proyecto. La debilidad es que su edición es directamente en HTML, CSS y JavaScript, es decir, requiere conocimiento técnico especializado y no tiene una interfaz gráfica.
+
+Por tanto, las plataformas son:
+
+Back-end: Django, un framework de desarrollo web basado en Python.
+Implementaciones:
+El sistema de usuarios
+El registro de estadísticas de uso
+La interactividad
+Front-end: Reveal.js, un framework de presentaciones HTML, CSS y JavaScript.
+Implementaciones:
+El diseño visual de las presentaciones
+El contenido de las presentaciones
+Programación: PyScript, un framework que permite crear aplicaciones de Python en el navegador utilizando la interfaz de HTML.
+Implementaciones:
+La ejecución de código (REPL) en la presentación en el navegador
+La creación nativa de gráficas en la presentación en el navegador
+
 Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
 
 ## Slidev

@@ -1,0 +1,8 @@
+# API Kalouk
+
+::: info Puntos clave
+
+- Puntos clave
+- Síntesis
+
+:::
