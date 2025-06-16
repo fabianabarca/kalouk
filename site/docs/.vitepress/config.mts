@@ -79,9 +79,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Resultados", link: "/resultados/" },
-          { text: "Componentes Kalouk", link: "/resultados/kalouk" },
-          { text: "API Kalouk", link: "/resultados/kalouk-api" },
-          { text: "Sitio web Kalouk", link: "/resultados/kalouk-web" },
+          { text: "Kalouk", link: "/resultados/kalouk" },
+          { text: "Kalouk API", link: "/resultados/kalouk-api" },
+          { text: "Kalouk JS", link: "/resultados/kalouk-js" },
+          { text: "Kalouk Web", link: "/resultados/kalouk-web" },
           {
             text: "improbabilidades.com",
             link: "/resultados/improbabilidades",

@@ -20,3 +20,7 @@ Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assum
 - `@kalouk/react`: componentes para React.js
 - `@kalouk/angular`: componentes para Angular.js
 - `@kalouk/svelte`: componentes para Svelte.js
+
+El impacto del proyecto consiste en la exploración e implementación de nuevas herramientas tecnológicas para las sesiones virtuales sincrónicas, diseñadas específicamente para las características del curso. Esto es diferente a otras opciones disponibles, como Mediación Virtual, Zoom, Teams, Nearpod, Kahoot, Socrative, Google Forms y similares, que no combinan todas las características deseables. Además, es elaborado con software libre y disponible para toda la comunidad universitaria.
+
+También, el proyecto será una oportunidad para la experiencia docente de creación de nuevos contenidos, cuyos resultados serán luego socializados con la comunidad universitaria.
