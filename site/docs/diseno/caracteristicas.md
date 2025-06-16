@@ -36,6 +36,12 @@ And this
 
 Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
 
+Libre y de código abierto
+Facilidad para mostrar ecuaciones y figuras matemáticas
+Integración con herramientas de Python
+Integración con herramientas de JavaScript
+Visible desde el navegador y no como pantalla compartida, lo que significa menor uso de datos (conveniente para personas con conectividad a internet limitada) y mejor visibilidad (mayor resolución y posibilidad de hacer zoom)
+
 ## Comparación con sistemas similares
 
 La siguiente es la lista de características que fueron determinadas como deseables para el sistema, y que fueron comparadas con los sistemas existentes similares (según una investigación en línea en https://www.g2.com/, un sitio para comparar productos de software, realizada en abril de 2023).

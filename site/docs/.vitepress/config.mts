@@ -43,9 +43,15 @@ export default defineConfig({
         text: "Proyecto",
         collapsed: true,
         items: [
-          { text: "Proyecto", link: "/proyecto/" },
+          { text: "Información general", link: "/proyecto/" },
           { text: "Antecedentes", link: "/proyecto/antecedentes" },
+          {
+            text: "Consideraciones pedagógicas",
+            link: "/proyecto/consideraciones",
+          },
           { text: "Objetivos", link: "/proyecto/objetivos" },
+          { text: "Metodología", link: "/proyecto/metodologia" },
+          { text: "Evaluación", link: "/proyecto/evaluacion" },
         ],
       },
       {
@@ -62,7 +68,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Desarrollo", link: "/desarrollo/" },
-          { text: "Metodología", link: "/desarrollo/metodologia" },
+          {
+            text: "Metodología",
+            link: "/desarrollo/metodologia",
+          },
           { text: "Tecnologías", link: "/desarrollo/tecnologias" },
         ],
       },
