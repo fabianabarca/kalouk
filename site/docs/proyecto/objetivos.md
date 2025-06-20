@@ -78,10 +78,10 @@ Docencia
 
 - **Meta 1** (Cualitativa): Creación de **sesiones virtuales** con presentación de contenidos y actividades de interacción a partir del material del curso
   - Indicador 1: Al menos dos sesiones completas demostrando las funcionalidades
-    - :open_file_folder: sección [contenidos / clases](/contenidos/clases.md)
+    - :open_file_folder: sección [resultados / contenidos / clases](/resultados/contenidos/clases.md)
 - **Meta 2** (Cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
   - Indicador 1: Guía pedagógica dentro del mismo sitio virtual del sistema web.
-    - :open_file_folder: sección [contenidos / guía](/contenidos/guia.md)
+    - :open_file_folder: sección [resultados / contenidos / guía](/resultados/contenidos/guia.md)
 
 ### Objetivo específico 6
 
@@ -114,4 +114,3 @@ Docencia
 - **Meta 2** (Cualitativa): **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases.
   - Indicador 1: Artículo de divulgación sobre la experiencia
     - :open_file_folder: sección [resultados / análisis](/resultados/analisis.md)
-
