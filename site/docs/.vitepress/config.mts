@@ -22,6 +22,7 @@ export default defineConfig({
         href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
       },
     ],
+    ["link", { rel: "icon", href: "/kalouk/K.ico" }],
   ],
 
   themeConfig: {
