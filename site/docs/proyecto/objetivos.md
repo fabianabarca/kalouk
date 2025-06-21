@@ -2,115 +2,115 @@
 
 ## Objetivo general
 
+<div class="text-xl">
 Diseñar e implementar un sistema web de presentación de contenidos e interacción entre profesores y estudiantes para sesiones sincrónicas virtuales dedicado a la enseñanza y aprendizaje de conceptos de probabilidad y estadística para ingeniería eléctrica.
+</div>
 
-## Objetivos específicos
+## Objetivo específico 1
 
-### Objetivo específico 1
-
-Docencia
+_Docencia_
 
 > Recopilar información sobre los requisitos del sistema y sus necesidades pedagógicas.
 
-- **Meta 1** (Cualitativa): Tabla de **comparación** de sistemas existentes similares
-  - Indicador 1: Documento de descripción del sitio
-    - :open_file_folder: sección [diseño / características](/diseno/caracteristicas.md)
-- **Meta 2** (Cualitativa): Lista de **características** deseables
-  - Indicador 1: Documento de descripción del sitio
-    - :open_file_folder: sección [diseño / características](/diseno/caracteristicas.md)
+- **Meta 1** (cualitativa): Tabla de **comparación** de sistemas existentes similares
+  - _Indicador 1_: Documento de descripción del sitio
+    - :page_facing_up: sección [diseño / características](/diseno/caracteristicas.md)
+- **Meta 2** (cualitativa): Lista de **características** deseables
+  - _Indicador 1_: Documento de descripción del sitio
+    - :page_facing_up: sección [diseño / características](/diseno/caracteristicas.md)
 
-### Objetivo específico 2
+## Objetivo específico 2
 
-Docencia
+_Docencia_
 
 > Planificar las tecnologías a utilizar y la metodología de desarrollo de software.
 
-- **Meta 1** (Cualitativa): Especificación de las **tecnologías** a utilizar
-  - Indicador 1: Documento de descripción del sitio
-    - :open_file_folder: sección [desarrollo / tecnologías](/desarrollo/tecnologias.md)
-- **Meta 2** (Cualitativa): Comparación y selección de **metodología** de desarrollo de software
-  - Indicador 1: Documento de descripción del sitio
-    - :open_file_folder: sección [desarrollo / metodología](/desarrollo/metodologia.md)
-- **Meta 3** (Cualitativa): Preparación de la **documentación** del proyecto según estándares usuales de ingeniería de software
-  - Indicador 1: Documentación en sitio y modalidad por definir
-    - :open_file_folder: sección [desarrollo / metodología](/desarrollo/metodologia.md)
+- **Meta 1** (cualitativa): Especificación de las **tecnologías** a utilizar
+  - _Indicador 1_: Documento de descripción del sitio
+    - :page_facing_up: sección [desarrollo / tecnologías](/desarrollo/tecnologias.md)
+- **Meta 2** (cualitativa): Comparación y selección de **metodología** de desarrollo de software
+  - _Indicador 1_: Documento de descripción del sitio
+    - :page_facing_up: sección [desarrollo / metodología](/desarrollo/metodologia.md)
+- **Meta 3** (cualitativa): Preparación de la **documentación** del proyecto según estándares usuales de ingeniería de software
+  - _Indicador 1_: Documentación en sitio y modalidad por definir
+    - :page_facing_up: sección [desarrollo / metodología](/desarrollo/metodologia.md)
 
-### Objetivo específico 3
+## Objetivo específico 3
 
-Docencia
+_Docencia_
 
 > Diseñar la arquitectura de información y la apariencia del sitio.
 
-- **Meta 1** (Cualitativa): Creación del mapa del sitio
-  - Indicador 1: Documento de descripción del sitio
-    - :open_file_folder: sección [desarrollo / tecnologías](/desarrollo/tecnologias.md)
-- **Meta 2** (Cualitativa): Creación de la página de inicio del sitio y otras páginas misceláneas
-  - Indicador 1: Captura de pantalla de las páginas del sitio y códigos HTML
-    - :open_file_folder: sección [desarrollo / tecnologías](/desarrollo/tecnologias.md)
-- **Meta 3** (Cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
-  - Indicador 1: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
-    - :open_file_folder: sección [diseño / características](/diseno/caracteristicas.md)
+- **Meta 1** (cualitativa): Creación del **mapa del sitio**
+  - _Indicador 1_: Documento de descripción del sitio
+    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
+- **Meta 2** (cualitativa): Creación de la página de inicio del sitio y otras páginas misceláneas
+  - _Indicador 1_: Captura de pantalla de las páginas del sitio y códigos HTML
+    - :page_facing_up: sección [diseño / sitio web](/desadisenorrollo/sitio.md)
+- **Meta 3** (cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
+  - _Indicador 1_: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
+    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
 
-### Objetivo específico 4
+## Objetivo específico 4
 
-Docencia
+_Docencia_
 
 > Desarrollar la programación.
 
-- **Meta 1** (Cualitativa): Creación de un **repositorio web** para desarrollo y documentación
-  - Indicador 1: Repositorio en GitHub con el código del sistema
-    - :open_file_folder: sección [desarrollo / metodología](/desarrollo/metodologia.md)
-- **Meta 2** (Cualitativa): Implementación de la **funcionalidad base** del sistema
-  - Indicador 1: Repositorio en GitHub con el código del sistema
-    - :open_file_folder: sección [resultados](/resultados/)
-- **Meta 3** (Cualitativa): Implementación gradual de **nuevas funcionalidades** en el sistema, entre ellas: sesiones de usuario, control remoto de las presentaciones, fragmentos de código ejecutable, etc.
-  - Indicador 1: Repositorio con **el código y la documentación** de las funcionalidades
-    - :open_file_folder: sección [resultados](/resultados/)
-- **Meta 4** (Cualitativa): Prueba del sistema en un **servidor web**
-  - Indicador 1: Sitio https://mpss.eie.ucr.ac.cr (o similar)
-    - :open_file_folder: sección [resultados](/resultados/)
+- **Meta 1** (cualitativa): Creación de un **repositorio web** para desarrollo y documentación
+  - _Indicador 1_: Repositorio en GitHub con el código del sistema
+    - :page_facing_up: sección [resumen de resultados](/resultados/)
+- **Meta 2** (cualitativa): Implementación de la **funcionalidad base** del sistema
+  - _Indicador 1_: Repositorio en GitHub con el código del sistema
+    - :page_facing_up: sección [resumen de resultados](/resultados/)
+- **Meta 3** (cualitativa): Implementación gradual de **nuevas funcionalidades** en el sistema, entre ellas: sesiones de usuario, control remoto de las presentaciones, fragmentos de código ejecutable, etc.
+  - _Indicador 1_: Repositorio con **el código y la documentación** de las funcionalidades
+    - :page_facing_up: sección [resumen de resultados](/resultados/)
+- **Meta 4** (cualitativa): Prueba del sistema en un **servidor web**
+  - _Indicador 1_: Sitio web
+    - :page_facing_up: sección [resumen de resultados](/resultados/)
 
-### Objetivo específico 5
+## Objetivo específico 5
 
-Docencia
+_Docencia_
 
 > Crear contenido para sesiones sincrónicas virtuales con los contenidos del curso Modelos Probabilísticos de Señales y Sistemas.
 
-- **Meta 1** (Cualitativa): Creación de **sesiones virtuales** con presentación de contenidos y actividades de interacción a partir del material del curso
-  - Indicador 1: Al menos dos sesiones completas demostrando las funcionalidades
-    - :open_file_folder: sección [resultados / contenidos / clases](/resultados/contenidos/clases.md)
-- **Meta 2** (Cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
-  - Indicador 1: Guía pedagógica dentro del mismo sitio virtual del sistema web.
-    - :open_file_folder: sección [resultados / contenidos / guía](/resultados/contenidos/guia.md)
+- **Meta 1** (cualitativa): Creación de **sesiones virtuales** con presentación de contenidos y actividades de interacción a partir del material del curso
+  - _Indicador 1_: Al menos dos sesiones completas demostrando las funcionalidades
+    - :page_facing_up: sección [resultados / contenidos](/resultados/contenidos/)
+- **Meta 2** (cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
+  - _Indicador 1_: Guía pedagógica dentro del mismo sitio virtual del sistema web.
+    - :page_facing_up: sección [resultados / contenidos / guía](/resultados/contenidos/guia.md)
 
-### Objetivo específico 6
+## Objetivo específico 6
 
-Docencia
+_Docencia_
 
 > Evaluar la recepción pedagógica y el desempeño técnico del sistema.
 
-- **Meta 1** (Cualitativa): Investigación y creación de un instrumento de **evaluación pedagógica** para aplicar a los estudiantes del curso Modelos Probabilísticos de Señales y Sistemas
-  - Indicador 1: Instrumento virtual de evaluación (formulario web)
-    - :open_file_folder: sección [diseño / docencia](/diseno/docencia.md)
-- **Meta 2** (Cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
-  - Indicador 1: Informe de resultados de evaluación pedagógica
-    - :open_file_folder: sección [resultados / evaluación](/resultados/evaluacion.md)
-- **Meta 3** (Cualitativa): Investigación y creación de un instrumento de evaluación con las **métricas de desempeño** determinadas por las mejores prácticas de desarrollo web y con el objetivo de evaluar aspectos como funcionalidad, usabilidad, interfaz, compatibilidad, desempeño
-  - Indicador 1: Metodología de evaluación dentro del informe de resultados
-    - :open_file_folder: sección [desarrollo / metodología](/desarrollo/metodologia.md)
-- **Meta 4** (Cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación de desempeño del sistema
-  - Indicador 1: Informe de resultados de la evaluación técnica
-    - :open_file_folder: sección [resultados / evaluación](/resultados/evaluacion.md)
+- **Meta 1** (cualitativa): Investigación y creación de un instrumento de **evaluación pedagógica** para aplicar a los estudiantes del curso Modelos Probabilísticos de Señales y Sistemas
+  - _Indicador 1_: Instrumento virtual de evaluación (formulario web)
+    - :page_facing_up: sección [diseño / evaluación / pedagógica](/diseno/evaluacion/pedagogica.md)
+- **Meta 2** (cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
+  - _Indicador 1_: Informe de resultados de evaluación pedagógica
+    - :page_facing_up: sección [resultados / evaluación / pedagógica](/resultados/evaluacion/pedagogica.md)
+- **Meta 3** (cualitativa): Investigación y creación de un instrumento de evaluación con las **métricas de desempeño** determinadas por las mejores prácticas de desarrollo web y con el objetivo de evaluar aspectos como funcionalidad, usabilidad, interfaz, compatibilidad, desempeño
+  - _Indicador 1_: Metodología de evaluación dentro del informe de resultados
+    - :page_facing_up: sección [diseño / evaluación / técnica](/diseno/evaluacion/tecnica.md)
+- **Meta 4** (cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación de desempeño del sistema
+  - _Indicador 1_: Informe de resultados de la evaluación técnica
+    - :page_facing_up: sección [resultados / evaluación / técnica](/resultados/evaluacion/tecnica.md)
 
-### Objetivo específico 7
+## Objetivo específico 7
 
-Docencia
+_Docencia_
 
 > Socializar los resultados del proyecto.
 
-- **Meta 1** (Cuantitativa: 1): Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
-  - Indicador 1: Un evento virtual anunciado por correo a profesores y por redes sociales
-    - :open_file_folder: sección [resultados / evaluación](/resultados/evaluacion.md)
-- **Meta 2** (Cualitativa): **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases.
-  - Indicador 1: Artículo de divulgación sobre la experiencia
-    - :open_file_folder: sección [resultados / análisis](/resultados/analisis.md)
+- **Meta 1** (cuantitativa: 1): Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
+  - _Indicador 1_: Un evento virtual anunciado por correo a profesores y por redes sociales
+    - :page_facing_up: sección [resultados / divulgación](/resultados/divulgacion.md)
+- **Meta 2** (cualitativa): **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases.
+  - _Indicador 1_: Artículo de divulgación sobre la experiencia
+    - :page_facing_up: sección [resultados / divulgación](/resultados/divulgacion.md)

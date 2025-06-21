@@ -50,23 +50,32 @@ export default defineConfig({
           },
           { text: "Objetivos", link: "/proyecto/objetivos" },
           { text: "Metodología", link: "/proyecto/metodologia" },
-          { text: "Evaluación", link: "/proyecto/evaluacion" },
         ],
       },
       {
         text: "Diseño",
         collapsed: true,
         items: [
-          { text: "Diseño", link: "/diseno/" },
+          { text: "Principios", link: "/diseno/" },
           { text: "Características", link: "/diseno/caracteristicas" },
+          { text: "Sitio web", link: "/diseno/sitio" },
           { text: "Docencia", link: "/diseno/docencia" },
+          {
+            text: "Evaluación",
+            collapsed: true,
+            items: [
+              { text: "Descripción", link: "/diseno/evaluacion" },
+              { text: "Pedagógica", link: "/diseno/evaluacion/pedagogica" },
+              { text: "Técnica", link: "/diseno/evaluacion/tecnica" },
+            ],
+          },
         ],
       },
       {
         text: "Desarrollo",
         collapsed: true,
         items: [
-          { text: "Desarrollo", link: "/desarrollo/" },
+          { text: "Descripción", link: "/desarrollo/" },
           {
             text: "Metodología",
             link: "/desarrollo/metodologia",
@@ -78,7 +87,7 @@ export default defineConfig({
         text: "Resultados",
         collapsed: true,
         items: [
-          { text: "Resultados", link: "/resultados/" },
+          { text: "Resumen", link: "/resultados/" },
           { text: "Kalouk", link: "/resultados/kalouk" },
           { text: "Kalouk API", link: "/resultados/kalouk-api" },
           { text: "Kalouk JS", link: "/resultados/kalouk-js" },
@@ -92,13 +101,22 @@ export default defineConfig({
             text: "Contenidos",
             collapsed: true,
             items: [
-              { text: "Contenidos", link: "/contenidos/" },
-              { text: "Clases", link: "/contenidos/clases" },
-              { text: "Proyectos", link: "/contenidos/proyectos" },
+              { text: "Descripción", link: "/resultados/contenidos/" },
+              { text: "Clases", link: "/resultados/contenidos/clases" },
+              { text: "Proyectos", link: "/resultados/contenidos/proyectos" },
               { text: "Guía pedagógica", link: "/contenidos/guia" },
             ],
           },
-          { text: "Evaluación", link: "/resultados/evaluacion" },
+          {
+            text: "Evaluación",
+            collapsed: true,
+            items: [
+              { text: "Descripción", link: "/resultados/evaluacion" },
+              { text: "Pedagógica", link: "/resultados/evaluacion/pedagogica" },
+              { text: "Técnica", link: "/resultados/evaluacion/tecnica" },
+            ],
+          },
+          { text: "Divulgación", link: "/resultados/divulgacion" },
           { text: "Análisis", link: "/resultados/analisis" },
         ],
       },

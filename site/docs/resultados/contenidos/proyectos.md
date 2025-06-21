@@ -20,3 +20,12 @@ Esta es la temática que tienen:
 5. Teoría de colas: análisis de un sistema dinámico con datos de solicitudes (“clientes”) a un servidor web
 
 Con estas sesiones virtuales será posible explorar las funcionalidades o capacidades más importantes del sistema (descritas en el objetivo específico 2), incluyendo la interactividad y la demostración de contenido matemático, código fuente y gráficas.
+
+Generador de datos sintéticos para análisis en el proyecto
+Recolección programática de datos de un API
+Tareas periódicas (recolección por 24 horas)
+Uso de bases de datos (SQLite)
+Uso de Git y GitHub
+Documentación en MkDocs
+Análisis de datos con Pandas y SciPy
+Graficación

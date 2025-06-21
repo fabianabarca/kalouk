@@ -1,12 +1,22 @@
 # Tecnologías
 
-Este es un proyecto de desarrollo web. Y muchos colores.
+::: info Metas e indicadores
+
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob2|Me1` Especificación de las **tecnologías** a utilizar
+
+:::
 
 ## Selección tecnológica
 
-- Especificación de las **tecnologías** a utilizar
-- Creación del mapa del sitio
-- Creación de la página de inicio del sitio y otras páginas misceláneas
+| Plataforma | Dominio        | Descripción                                         |
+| ---------- | -------------- | --------------------------------------------------- |
+| Python     | _Programación_ | Lenguaje de programación de alto nivel.             |
+| Django     | _Backend_      | _Framework_ de desarrollo web basado en Python.     |
+| Vue.js     | _Frontend_     | _Framework_ de desarrollo web basado en JavaScript. |
+| Slidev     | _Frontend_     | _Framework_ de presentaciones basado en Vue.js.     |
+| Nuxt.js    | _Frontend_     | _Framework_ de desarrollo web basado en Vue.js.     |
 
 La decisión sobre las tecnologías para desarrollo está basada en un análisis sobre plataformas similares presentado en el primer objetivo específico, donde fue determinado que una plataforma de presentaciones web como Reveal.js es la mejor opción para satisfacer las características deseadas, en comparación con otros SaaS (Software-as-a-Service) existentes en el mercado.
 
