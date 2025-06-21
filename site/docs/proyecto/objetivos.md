@@ -46,7 +46,7 @@ _Docencia_
     - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
 - **Meta 2** (cualitativa): Creación de la página de inicio del sitio y otras páginas misceláneas
   - _Indicador 1_: Captura de pantalla de las páginas del sitio y códigos HTML
-    - :page_facing_up: sección [diseño / sitio web](/desadisenorrollo/sitio.md)
+    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
 - **Meta 3** (cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
   - _Indicador 1_: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
     - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)

@@ -1,4 +1,10 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts } from 'unocss'
+import {
+  defineConfig,
+  presetAttributify,
+  presetIcons,
+  presetUno,
+  presetWebFonts,
+} from "unocss";
 
 export default defineConfig({
   presets: [
@@ -10,9 +16,9 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        sans: "DM Sans",
+        serif: "DM Serif Display",
+        mono: "DM Mono",
       },
     }),
   ],
@@ -22,7 +28,11 @@ export default defineConfig({
   ],
   // Shortcuts for commonly used combinations
   shortcuts: [
-    // Example: ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50']
+    ["cell", "flex flex-col rounded p-4 bg-gray-50 dark:bg-neutral-900 h-full"],
+    ["cell-header", "flex items-center mb-2"],
+    ["cell-title", "text-xl font-bold"],
+    ["cell-content", "flex-1 mb-2"],
+    ["cell-footer", "text-sm text-gray-500 dark:text-gray-400 mt-auto"],
+    ["cell-icon", "ml-auto"],
   ],
-})
-
+});

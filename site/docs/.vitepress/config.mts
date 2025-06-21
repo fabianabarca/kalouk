@@ -91,7 +91,7 @@ export default defineConfig({
           { text: "Kalouk", link: "/resultados/kalouk" },
           { text: "Kalouk API", link: "/resultados/kalouk-api" },
           { text: "Kalouk JS", link: "/resultados/kalouk-js" },
-          { text: "Kalouk Web", link: "/resultados/kalouk-web" },
+          { text: "Kalouk XYZ", link: "/resultados/kalouk-xyz" },
           {
             text: "improbabilidades.com",
             link: "/resultados/improbabilidades",

@@ -1,4 +1,4 @@
-# Desarrollo
+# Etapas del desarrollo
 
 ::: info
 Esta sección muestra el desarrollo del proyecto
