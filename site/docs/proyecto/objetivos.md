@@ -26,10 +26,10 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Tabla de **comparación** de sistemas existentes similares
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: sección [diseño / características](/diseno/caracteristicas.md)
+    - :page_facing_up: [diseño / características](/diseno/caracteristicas.md)
 - **Meta 2** (cualitativa): Lista de **características** deseables
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: sección [diseño / características](/diseno/caracteristicas.md)
+    - :page_facing_up: [diseño / características](/diseno/caracteristicas.md)
 
 ::: details Avance de cumplimiento
 
@@ -69,13 +69,13 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Especificación de las **tecnologías** a utilizar
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: sección [desarrollo / tecnologías](/desarrollo/tecnologias.md)
+    - :page_facing_up: [desarrollo / tecnologías](/desarrollo/tecnologias.md)
 - **Meta 2** (cualitativa): Comparación y selección de **metodología** de desarrollo de software
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: sección [desarrollo / metodología](/desarrollo/metodologia.md)
+    - :page_facing_up: [desarrollo / metodología](/desarrollo/metodologia.md)
 - **Meta 3** (cualitativa): Preparación de la **documentación** del proyecto según estándares usuales de ingeniería de software
   - _Indicador 1_: Documentación en sitio y modalidad por definir
-    - :page_facing_up: sección [desarrollo / metodología](/desarrollo/metodologia.md)
+    - :page_facing_up: [desarrollo / metodología](/desarrollo/metodologia.md)
 
 ::: details Avance de cumplimiento
 
@@ -124,13 +124,13 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Creación del **mapa del sitio**
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
 - **Meta 2** (cualitativa): Creación de la **página de inicio** del sitio y otras páginas misceláneas
   - _Indicador 1_: Captura de pantalla de las páginas del sitio y códigos HTML
-    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
 - **Meta 3** (cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
   - _Indicador 1_: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
-    - :page_facing_up: sección [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
 
 ::: details Avance de cumplimiento
 
@@ -179,16 +179,16 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Creación de un **repositorio web** para desarrollo y documentación
   - _Indicador 1_: Repositorio en GitHub con el código del sistema
-    - :page_facing_up: sección [resumen de resultados](/resultados/)
+    - :page_facing_up: [resumen de resultados](/resultados/)
 - **Meta 2** (cualitativa): Implementación de la **funcionalidad base** del sistema
   - _Indicador 1_: Repositorio en GitHub con el código del sistema
-    - :page_facing_up: sección [resumen de resultados](/resultados/)
+    - :page_facing_up: [resumen de resultados](/resultados/)
 - **Meta 3** (cualitativa): Implementación gradual de **nuevas funcionalidades** en el sistema, entre ellas: sesiones de usuario, control remoto de las presentaciones, fragmentos de código ejecutable, etc.
   - _Indicador 1_: Repositorio con **el código y la documentación** de las funcionalidades
-    - :page_facing_up: sección [resumen de resultados](/resultados/)
+    - :page_facing_up: [resumen de resultados](/resultados/)
 - **Meta 4** (cualitativa): Prueba del sistema en un **servidor web**
   - _Indicador 1_: Sitio web
-    - :page_facing_up: sección [resumen de resultados](/resultados/)
+    - :page_facing_up: [resumen de resultados](/resultados/)
 
 ::: details Avance de cumplimiento
 
@@ -246,10 +246,10 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Creación de **sesiones virtuales** con presentación de contenidos y actividades de interacción a partir del material del curso
   - _Indicador 1_: Al menos dos sesiones completas demostrando las funcionalidades
-    - :page_facing_up: sección [resultados / contenidos](/resultados/contenidos/)
+    - :page_facing_up: [resultados / contenidos](/resultados/contenidos/)
 - **Meta 2** (cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
   - _Indicador 1_: Guía pedagógica dentro del mismo sitio virtual del sistema web.
-    - :page_facing_up: sección [resultados / contenidos / guía](/resultados/contenidos/guia.md)
+    - :page_facing_up: [resultados / contenidos / guía](/resultados/contenidos/guia.md)
 
 ::: details Avance de cumplimiento
 
@@ -289,16 +289,16 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Investigación y creación de un instrumento de **evaluación pedagógica** para aplicar a los estudiantes del curso Modelos Probabilísticos de Señales y Sistemas
   - _Indicador 1_: Instrumento virtual de evaluación (formulario web)
-    - :page_facing_up: sección [diseño / evaluación / pedagógica](/diseno/evaluacion/pedagogica.md)
+    - :page_facing_up: [diseño / evaluación / pedagógica](/diseno/evaluacion/pedagogica.md)
 - **Meta 2** (cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
   - _Indicador 1_: Informe de resultados de evaluación pedagógica
-    - :page_facing_up: sección [resultados / evaluación / pedagógica](/resultados/evaluacion/pedagogica.md)
+    - :page_facing_up: [resultados / evaluación / pedagógica](/resultados/evaluacion/pedagogica.md)
 - **Meta 3** (cualitativa): Investigación y creación de un instrumento de evaluación con las **métricas de desempeño** determinadas por las mejores prácticas de desarrollo web y con el objetivo de evaluar aspectos como funcionalidad, usabilidad, interfaz, compatibilidad, desempeño
   - _Indicador 1_: Metodología de evaluación dentro del informe de resultados
-    - :page_facing_up: sección [diseño / evaluación / técnica](/diseno/evaluacion/tecnica.md)
+    - :page_facing_up: [diseño / evaluación / técnica](/diseno/evaluacion/tecnica.md)
 - **Meta 4** (cualitativa): Presentación de resultados de la aplicación del instrumento de evaluación de desempeño del sistema
   - _Indicador 1_: Informe de resultados de la evaluación técnica
-    - :page_facing_up: sección [resultados / evaluación / técnica](/resultados/evaluacion/tecnica.md)
+    - :page_facing_up: [resultados / evaluación / técnica](/resultados/evaluacion/tecnica.md)
 
 ::: details Avance de cumplimiento
 
@@ -356,10 +356,10 @@ _Docencia_
 
 - **Meta 1** (cuantitativa: 1): Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
   - _Indicador 1_: Un evento virtual anunciado por correo a profesores y por redes sociales
-    - :page_facing_up: sección [resultados / divulgación](/resultados/divulgacion.md)
+    - :page_facing_up: [resultados / divulgación](/resultados/divulgacion.md)
 - **Meta 2** (cualitativa): **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases.
   - _Indicador 1_: Artículo de divulgación sobre la experiencia
-    - :page_facing_up: sección [resultados / divulgación](/resultados/divulgacion.md)
+    - :page_facing_up: [resultados / divulgación](/resultados/divulgacion.md)
 
 ::: details Avance de cumplimiento
 

@@ -187,10 +187,11 @@ No hay procesos emergentes reportados en el proyecto. Sin embargo, con los resul
 
 > Reporte de publicaciones o divulgaciones realizadas a partir de la ejecución del proyecto y que evidencian los principales aportes a la docencia universitaria.
 
-Hay dos artículos en desarrollo, a partir del proceso y los resultados del proyecto:
+Hay tres artículos en desarrollo, a partir del proceso y los resultados del proyecto:
 
 - Kalouk: ecosistema de contenidos web y su estrategia para sesiones virtuales con contenidos de matemática y programación
 - _Measuring students' engagement in online synchronous teaching: a manual and semi-automatic methodology using the learning platform Kalouk_
+- _Context Server for LLM Interfaces in Virtual Learning Environments Using Kalouk and the Model Context Protocol_
 
 :information_source: Más información
 
