@@ -1,4 +1,4 @@
-# Componentes Kalouk JS
+# Kalouk JS
 
 ::: info Puntos clave
 
@@ -7,4 +7,4 @@
 
 :::
 
-Sitio web para presentaciones interactivas, disponible en kalouk.xyz.
+Componentes web para contenido interactivo.

@@ -30,7 +30,6 @@ export default defineConfig({
     logo: "/K_icon.png",
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Resumen", link: "/resumen" },
       { text: "Proyecto", link: "/proyecto" },
       { text: "Diseño", link: "/diseno" },
       { text: "Desarrollo", link: "/desarrollo" },
@@ -44,6 +43,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Información general", link: "/proyecto/" },
+          { text: "Resumen", link: "/proyecto/resumen" },
           { text: "Antecedentes", link: "/proyecto/antecedentes" },
           {
             text: "Consideraciones pedagógicas",
@@ -90,8 +90,10 @@ export default defineConfig({
         items: [
           { text: "Resumen", link: "/resultados/" },
           { text: "Kalouk", link: "/resultados/kalouk" },
-          { text: "Kalouk API", link: "/resultados/kalouk-api" },
+          { text: "Kalouk WEB", link: "/resultados/kalouk-web" },
           { text: "Kalouk JS", link: "/resultados/kalouk-js" },
+          { text: "Kalouk MCP", link: "/resultados/kalouk-mcp" },
+          { text: "Kalouk CLI", link: "/resultados/kalouk-cli" },
           { text: "Kalouk XYZ", link: "/resultados/kalouk-xyz" },
           {
             text: "improbabilidades.com",

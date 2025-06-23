@@ -1,1 +1,3 @@
 # Recomendaciones
+
+## Dificultades

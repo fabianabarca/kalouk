@@ -96,9 +96,9 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
   </div>
   <div class="cell">
     <div class="cell-header">
-      <div class="cell-title">Kalouk API/WS</div>
+      <div class="cell-title">Kalouk WEB</div>
     </div>
-    <div class="cell-content">Un servidor web para generación de datos sintéticos para el análisis de datos, vía API, y la interacción en tiempo real, vía WebSockets.</div>
+    <div class="cell-content">Un servidor web para generación de datos sintéticos para recolección y análisis, usando protocolos REST API, WS y SSE.</div>
     <div class="cell-footer">📖 <a href="../resultados/kalouk-api">Ver más</a> 🌐 <a href="https://api.kalouk.xyz/">api.kalouk.xyz</a></div>
   </div>
   <div class="cell">
@@ -110,9 +110,23 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
   </div>
   <div class="cell">
     <div class="cell-header">
+      <div class="cell-title">Kalouk MCP</div>
+    </div>
+    <div class="cell-content">Un servidor web con el protocolo de contexto de modelos (MCP) para proveer datos e información de contexto sobre la teoría del curso a agentes de inteligencia artificial.</div>
+    <div class="cell-footer">📖 <a href="../resultados/kalouk-mcp">Ver más</a> 🌐 <a href="https://mcp.kalouk.xyz/">npm</a></div>
+  </div>
+  <div class="cell">
+    <div class="cell-header">
+      <div class="cell-title">Kalouk CLI</div>
+    </div>
+    <div class="cell-content">Una interfaz de línea de comandos (CLI) para interactuar de forma programática con los otros componentes de Kalouk, como Kalouk WEB y Kalouk MCP.</div>
+    <div class="cell-footer">📖 <a href="../resultados/kalouk-cli">Ver más</a> 🌐 <a href="https://www.npmjs.com/org/kalouk">npm</a></div>
+  </div>
+  <div class="cell">
+    <div class="cell-header">
       <div class="cell-title">Kalouk XYZ</div>
     </div>
-    <div class="cell-content">Un sitio web para alojar presentaciones interactivas de Slidev para sesiones sincrónicas, utilizando las integraciones desarrolladas con Kalouk API y Kalouk JS.</div>
+    <div class="cell-content">Un sitio web para alojar presentaciones interactivas de Slidev para sesiones sincrónicas, utilizando las integraciones desarrolladas con Kalouk.</div>
     <div class="cell-footer">📖 <a href="../resultados/kalouk-xyz">Ver más</a> 🌐 <a href="https://kalouk.xyz/">kalouk.xyz</a></div>
   </div>
   <div class="cell">
