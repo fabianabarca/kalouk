@@ -5,7 +5,7 @@ import UnoCSS from "unocss/vite";
 export default defineConfig({
   lang: "es-ES",
   cleanUrls: true,
-  base: "/kalouk/",
+  base: "/",
 
   vite: {
     plugins: [UnoCSS()],
@@ -22,7 +22,7 @@ export default defineConfig({
         href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
       },
     ],
-    ["link", { rel: "icon", href: "/kalouk/K.ico" }],
+    ["link", { rel: "icon", href: "/K.ico" }],
   ],
 
   themeConfig: {
