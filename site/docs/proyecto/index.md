@@ -35,9 +35,9 @@ fabian.abarca@ucr.ac.cr
 
 ### Estudiantes asistentes
 
-- Sirlany Mora García (ECCI)
-- Wilmer Jesús Araya Rivas (ECCI)
-- Yasty Sánchez Piedrahita (ECCI)
+- Sirlany Mora García, <span class="text-sm">ECCI</span>
+- Wilmer Jesús Araya Rivas, <span class="text-sm">ECCI</span>
+- Yasty Sánchez Piedrahita, <span class="text-sm">ECCI</span>
 
 <span class="text-sm">ECCI: Escuela de Ciencias de la Computación e Informática, UCR</span>
 
@@ -98,7 +98,7 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
     <div class="cell-header">
       <div class="cell-title">Kalouk WEB</div>
     </div>
-    <div class="cell-content">Un servidor web para generación de datos sintéticos para recolección y análisis, usando protocolos REST API, WS y SSE.</div>
+    <div class="cell-content">Un servidor web para generación de datos sintéticos para recolección y análisis, usando protocolos REST API, WebSockets, SSE y webhooks.</div>
     <div class="cell-footer">📖 <a href="../resultados/kalouk-api">Ver más</a> 🌐 <a href="https://api.kalouk.xyz/">api.kalouk.xyz</a></div>
   </div>
   <div class="cell">

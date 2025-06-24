@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Demostración
-      link: /demo
+      link: https://demo.kalouk.xyz/
     - theme: alt
-      text: Resumen
-      link: /resumen
+      text: Información general
+      link: /proyecto/
 
 features:
   - icon: <span class="material-symbols-outlined">assignment</span>

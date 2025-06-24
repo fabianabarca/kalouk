@@ -150,7 +150,21 @@ export default defineConfig({
     search: {
       provider: "local",
       options: {
-        placeholder: "Buscar",
+        translations: {
+          button: {
+            buttonText: "Buscar",
+            buttonAriaLabel: "Buscar",
+          },
+          modal: {
+            noResultsText: "No se encontraron resultados",
+            resetButtonTitle: "Limpiar búsqueda",
+            footer: {
+              navigateText: "Para navegar",
+              selectText: "Para seleccionar",
+              closeText: "Para cerrar",
+            },
+          },
+        },
       },
     },
   },
