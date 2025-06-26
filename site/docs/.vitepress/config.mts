@@ -58,8 +58,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Principios", link: "/diseno/" },
-          { text: "Características", link: "/diseno/caracteristicas" },
-          { text: "Sitio web", link: "/diseno/sitio" },
+          { text: "Requisitos", link: "/diseno/requisitos" },
+          { text: "Ecosistema", link: "/diseno/ecosistema" },
           { text: "Docencia", link: "/diseno/docencia" },
           {
             text: "Evaluación",

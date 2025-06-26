@@ -14,7 +14,7 @@ kalouk --help
 
 ## Interfaz de consultas
 
-La interfaz `quin` (_query interface_) permite realizar consultas a la base de datos de Kalouk.
+El módulo `quin` (_query interface_) permite realizar consultas a la base de datos de Kalouk.
 
 ```bash
 kalouk quin --help
@@ -22,7 +22,7 @@ kalouk quin --help
 
 ## Configuración de canalización de datos
 
-La interfaz `pipe` permite configurar la canalización de datos (_data pipeline_) para Kalouk.
+El módulo `pipe` permite configurar la canalización de datos (_data pipeline_) para Kalouk.
 
 ```bash
 kalouk pipe --help

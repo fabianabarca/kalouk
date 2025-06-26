@@ -39,7 +39,7 @@ fabian.abarca@ucr.ac.cr
 - Wilmer Jesús Araya Rivas, <span class="text-sm">ECCI</span>
 - Yasty Sánchez Piedrahita, <span class="text-sm">ECCI</span>
 
-<span class="text-sm">ECCI: Escuela de Ciencias de la Computación e Informática, UCR</span>
+<span class="text-sm">ECCI - Escuela de Ciencias de la Computación e Informática, UCR</span>
 
 ## Beneficiarios
 
@@ -56,7 +56,7 @@ fabian.abarca@ucr.ac.cr
   </div>
   <div class="text-center w-full mx-auto mb-4">
     <div class="text-4xl font-bold">
-    5
+    3
     </div>
     <div class="text-italic">
     Profesores que participaron en una sesión especial de demostración de los resultados
@@ -64,18 +64,20 @@ fabian.abarca@ucr.ac.cr
   </div>
 </div>
 
-:information_source: Más información
+:information_source: **Más información**
 
 - 📝 [Resultados de la evaluación pedagógica](/resultados/evaluacion/pedagogica.md)
-- 📣 [Divulgación del proyecto en la comunidad universitaria](/resultados/divulgacion.md)
+- 📣 [Divulgación del proyecto](/resultados/divulgacion.md)
 
 ## Actividades desarrolladas
 
 > Actividades desarrolladas en la ejecución del proyecto de docencia para la consecución de los objetivos propuestos.
 
-Este es un proyecto con una fuerte componente de desarrollo tecnológico, por lo que las actividades se enfocaron en la creación del sistema web que da soporte a las actividades interactivas. El diseño incluye los elementos de software necesarios para cumplir los objetivos. El diseño también incluye la estrategia pedagógica para la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+Por la naturaleza de su planteamiento, la principal componente de este proyecto es de desarrollo tecnológico, por lo que las actividades se enfocaron en la creación del sistema web que da soporte a las actividades interactivas. El diseño también incluye la estrategia pedagógica para la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
 
-:information_source: Más información
+La sección de [objetivos](/proyecto/objetivos.md) describe todos los pasos realizados.
+
+:information_source: **Más información**
 
 - ✏️ [Diseño](/diseno/index.md)
 - 🔧 [Desarrollo](/desarrollo/index.md)
@@ -84,7 +86,7 @@ Este es un proyecto con una fuerte componente de desarrollo tecnológico, por lo
 
 > Descripción de los logros o resultados alcanzados con la ejecución del proyecto, considerando el cumplimiento de los objetivos y metas propuestas y también otros elementos que emergieron del proceso y resultaron relevantes o impactaron la ejecución del proyecto.
 
-Los siguientes son los componentes tecnológicos y pedagógicos desarrollados como parte del proyecto.
+Los siguientes son los componentes tecnológicos y pedagógicos desarrollados para el proyecto.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
   <div class="cell">
@@ -98,14 +100,14 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
     <div class="cell-header">
       <div class="cell-title">Kalouk WEB</div>
     </div>
-    <div class="cell-content">Un servidor web para generación de datos sintéticos para recolección y análisis, usando protocolos REST API, WebSockets, SSE y webhooks.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-api">Ver más</a> 🌐 <a href="https://api.kalouk.xyz/">api.kalouk.xyz</a></div>
+    <div class="cell-content">Un servidor web versátil para generación de datos sintéticos usados en recolección y análisis en el curso, por medio de los modelos de comunicación REST API, WebSockets, SSE y webhooks.</div>
+    <div class="cell-footer">📖 <a href="../resultados/kalouk-web">Ver más</a> 🌐 <a href="https://web.kalouk.xyz/">web.kalouk.xyz</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk JS</div>
     </div>
-    <div class="cell-content">Un conjunto de componentes web de JavaScript para actividades interactivas en sitios web, tanto en sesiones asincrónicas (contenido teórico) como en sesiones sincrónicas (presentaciones).</div>
+    <div class="cell-content">Un conjunto de componentes web con Vue (JavaScript) para actividades interactivas en sitios web, tanto en sesiones virtuales asincrónicas (contenido teórico) como sincrónicas (presentaciones).</div>
     <div class="cell-footer">📖 <a href="../resultados/kalouk-js">Ver más</a> 🌐 <a href="https://www.npmjs.com/org/kalouk">npm</a></div>
   </div>
   <div class="cell">
@@ -113,14 +115,14 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
       <div class="cell-title">Kalouk MCP</div>
     </div>
     <div class="cell-content">Un servidor web con el protocolo de contexto de modelos (MCP) para proveer datos e información de contexto sobre la teoría del curso a agentes de inteligencia artificial.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-mcp">Ver más</a> 🌐 <a href="https://mcp.kalouk.xyz/">npm</a></div>
+    <div class="cell-footer">📖 <a href="../resultados/kalouk-mcp">Ver más</a> 🌐 <a href="https://mcp.kalouk.xyz/chat">mcp.kalouk.xyz/chat</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk CLI</div>
     </div>
     <div class="cell-content">Una interfaz de línea de comandos (CLI) para interactuar de forma programática con los otros componentes de Kalouk, como Kalouk WEB y Kalouk MCP.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-cli">Ver más</a> 🌐 <a href="https://www.npmjs.com/org/kalouk">npm</a></div>
+    <div class="cell-footer">📖 <a href="../resultados/kalouk-cli">Ver más</a> 🌐 <a href="https://www.npmjs.com/package/@kalouk/cli">@kalouk/cli</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
@@ -131,9 +133,9 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
   </div>
   <div class="cell">
     <div class="cell-header">
-      <div class="cell-title">Improbabilidades</div>
+      <div class="cell-title">improbabilidades.com</div>
     </div>
-    <div class="cell-content">Un sitio web para alojar el contenido teórico del curso, a modo de libro digital, utilizando las integraciones desarrolladas con Kalouk API y Kalouk JS.</div>
+    <div class="cell-content">Un sitio web para alojar el contenido teórico del curso, a modo de libro digital, utilizando las integraciones desarrolladas con Kalouk.</div>
     <div class="cell-footer">📖 <a href="../resultados/improbabilidades">Ver más</a> 🌐 <a href="http://improbabilidades.com/">improbabilidades.com</a></div>
   </div>
   <div class="cell">
@@ -147,21 +149,24 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados co
     <div class="cell-header">
       <div class="cell-title">Proyectos de programación</div>
     </div>   
-    <div class="cell-content">Ejercicios de recolección y análisis de datos para el aprendizaje de herramientas de programación de Python en escenarios realistas más complejos.</div>
+    <div class="cell-content">Ejercicios de recolección y análisis de datos para el aprendizaje de herramientas de programación de Python en escenarios realistas y más complejos.</div>
     <div class="cell-footer">📖 <a href="../resultados/contenidos/proyectos">Ver más</a></div>  
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">PyX</div>
     </div>
-    <div class="cell-content">Tutoriales básicos de programación en Python aplicados a la ciencia e ingeniería de datos, base para los ejercicios de programación del curso y en Kalouk.</div>
+    <div class="cell-content">Tutoriales básicos de programación en Python aplicados a la ciencia e ingeniería de datos, que son la base para los ejercicios de programación del curso y en Kalouk.</div>
     <div class="cell-footer">📖 <a href="../resultados/contenidos/pyx">Ver más</a> 🌐 <a href="https://github.com/improbabilidades/PyX">PyX</a></div>
   </div>
 </div>
 
-Adicionalmente, fue propuesto un instrumento de evaluación pedagógica para medir el impacto del proyecto en la enseñanza y el aprendizaje de los estudiantes.
+Adicionalmente, fue propuesto:
 
-:information_source: Más información
+- Un instrumento de evaluación pedagógica para medir el impacto del proyecto en la enseñanza y el aprendizaje de los estudiantes
+- Un instrumento para la evaluación técnica del desarrollo de software
+
+:information_source: **Más información**
 
 - ☑️ [Resultados](/resultados/index.md)
 
@@ -169,11 +174,13 @@ Adicionalmente, fue propuesto un instrumento de evaluación pedagógica para med
 
 > Reporte de las dificultades enfrentadas y la estrategia para revertirlas en beneficio de los logros del proyecto de docencia.
 
-Este proyecto necesitó dos prórrogas para su finalización por las dificultades enfrentadas. Las dificultades fueron en dos dimensiones: tecnológica, ya que el desarrollo de los componentes web fue retador y requirió más tiempo del inicialmente previsto, y pedagógica, ya que la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas estuvo retrasada por la parte tecnológica y no permitió un tiempo adecuado para su diseño.
+Este proyecto necesitó dos prórrogas para su finalización por las dificultades enfrentadas.
 
-A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernos de desarrollo web y de procesamiento de datos.
+Las dificultades radicaron en dos dimensiones: **tecnológica**, ya que el desarrollo de los componentes web fue retador y requirió más tiempo del inicialmente previsto, incluyendo un cambio completo de tecnologías hacia el final del proyecto, y **pedagógica**, ya que la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas estuvo retrasada por la ausencia de las herramientas desarrolladas y no permitió un tiempo adecuado para su diseño.
 
-:information_source: Más información
+A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernos de desarrollo web y de procesamiento de datos, con el potencial de crecer como software de código abierto desarrollado por y para la comunidad educativa.
+
+:information_source: **Más información**
 
 - ⚠️ [Recomendaciones / dificultades](/conclusiones/recomendaciones.md)
 
@@ -181,7 +188,16 @@ A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al crite
 
 > Reporte de procesos emergentes como enlace con TFG, presentaciones en congresos, conferencias o seminarios, en el caso de haberse dado.
 
-No hay procesos emergentes reportados en el proyecto. Sin embargo, con los resultados obtenidos es posible y deseable la formulación de enlaces con otras iniciativas docentes y la participación en conferencias y seminarios.
+Para el segundo ciclo del 2025 hay dos temas planteados de Proyecto Eléctrico (curso integrador de bachillerato en ingeniería eléctrica):
+
+- Diseño y desarrollo de actividades interactivas con datos con las herramientas de Kalouk para la teoría del curso Modelos Probabilísticos de Señales y Sistemas
+- Implementación de un agente de inteligencia artificial con un servidor MCP para el curso Modelos Probabilísticos de Señales y Sistemas
+
+Y un tema planteado de trabajo final de graduación (TFG):
+
+- Diseño de la estrategia de operación y mantenimiento del ecosistema Kalouk
+
+Con los resultados obtenidos es posible y deseable la formulación de enlaces con otras iniciativas docentes y la participación en conferencias y seminarios en el futuro próximo.
 
 ## Publicaciones o divulgaciones
 
@@ -193,7 +209,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 - _Measuring students' engagement in online synchronous teaching: a manual and semi-automatic methodology using the learning platform Kalouk_
 - _Context Server for LLM Interfaces in Virtual Learning Environments Using Kalouk and the Model Context Protocol_
 
-:information_source: Más información
+:information_source: **Más información**
 
 - 📣 [Divulgación](/resultados/divulgacion.md)
 
@@ -201,7 +217,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 
 > Enumerar observaciones o recomendaciones relacionadas con el impacto y resultados del proyecto que pueden ser acogidas para la formulación de una Iniciativa Docente.
 
-:information_source: Más información
+:information_source: **Más información**
 
 - 💡 [Recomendaciones](/conclusiones/recomendaciones.md)
 
@@ -209,7 +225,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 
 > Reporte de la apreciación general de todas las personas involucradas en el proyecto de docencia (responsable, colaboradoras y participantes) en torno al impacto del proyecto.
 
-:information_source: Más información
+:information_source: **Más información**
 
 - 💡 [Recomendaciones](/conclusiones/recomendaciones.md)
 
@@ -221,7 +237,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 - Como proyecto académico, los resultados del proyecto se divulgarán en la comunidad universitaria, a través de presentaciones y artículos académicos.
 - Como proyecto de docencia, los resultados del proyecto serán utilizados de forma permanente e incremental en el curso Modelos Probabilísticos de Señales y Sistemas, a través de las actividades interactivas desarrolladas y la guía pedagógica.
 
-:information_source: Más información
+:information_source: **Más información**
 
 - 📣 [Divulgación](/resultados/divulgacion.md)
 

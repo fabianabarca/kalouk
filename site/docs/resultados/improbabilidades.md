@@ -1,4 +1,4 @@
-# Sitio web _improbabilidades.com_
+# improbabilidades.com
 
 ::: info Puntos clave
 

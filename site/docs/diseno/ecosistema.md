@@ -1,4 +1,4 @@
-# Mapa del sitio
+# Ecosistema
 
 ::: info Metas e indicadores
 
@@ -9,6 +9,8 @@ En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 - `Ob3|Me3` Diseño de la **apariencia del sitio** y de las presentaciones
 
 :::
+
+El proyecto evolucionó para pasar de un sistema de presentaciones a un ecosistema de herramientas web para facilitar la creación de contenidos interactivos aplicados al análisis de datos.
 
 ## Mapa del sitio
 
