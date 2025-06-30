@@ -26,10 +26,10 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Tabla de **comparación** de sistemas existentes similares
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: [diseño / características](/diseno/caracteristicas.md)
+    - :page_facing_up: [diseño / requisitos](/diseno/requisitos.md)
 - **Meta 2** (cualitativa): Lista de **características** deseables
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: [diseño / características](/diseno/caracteristicas.md)
+    - :page_facing_up: [diseño / requisitos](/diseno/requisitos.md)
 
 ::: details Avance de cumplimiento
 
@@ -124,13 +124,13 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Creación del **mapa del sitio**
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
 - **Meta 2** (cualitativa): Creación de la **página de inicio** del sitio y otras páginas misceláneas
   - _Indicador 1_: Captura de pantalla de las páginas del sitio y códigos HTML
-    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
 - **Meta 3** (cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
   - _Indicador 1_: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
-    - :page_facing_up: [diseño / sitio web](/diseno/sitio.md)
+    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
 
 ::: details Avance de cumplimiento
 
@@ -246,10 +246,10 @@ _Docencia_
 
 - **Meta 1** (cualitativa): Creación de **sesiones virtuales** con presentación de contenidos y actividades de interacción a partir del material del curso
   - _Indicador 1_: Al menos dos sesiones completas demostrando las funcionalidades
-    - :page_facing_up: [resultados / contenidos](/resultados/contenidos/)
+    - :page_facing_up: [resultados / contenidos](/resultados/contexto/)
 - **Meta 2** (cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
   - _Indicador 1_: Guía pedagógica dentro del mismo sitio virtual del sistema web.
-    - :page_facing_up: [resultados / contenidos / guía](/resultados/contenidos/guia.md)
+    - :page_facing_up: [resultados / contenidos / guía](/resultados/guia.md)
 
 ::: details Avance de cumplimiento
 

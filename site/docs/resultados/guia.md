@@ -73,12 +73,6 @@ A continuación hay una ampliación de cada componente.
 La estrategia pedagógica para el uso de Kalouk gira alrededor de la creación de un **Espacio Kalouk**, la base para crear experiencias educativas interactivas con las herramientas desarrolladas.
 :::
 
-<script setup>
-import Dice from '../../docs/.vitepress/theme/components/Dice.vue'
-</script>
-
-<Dice />
-
 ## Paso 3:
 
 ::: tip Premisa
