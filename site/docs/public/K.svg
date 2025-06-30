@@ -27,13 +27,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.14707439"
-     inkscape:cx="-203.97841"
-     inkscape:cy="1220.4708"
+     inkscape:zoom="0.29414878"
+     inkscape:cx="-489.54817"
+     inkscape:cy="159.78308"
      inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:window-height="1027"
      inkscape:window-x="1728"
-     inkscape:window-y="128"
+     inkscape:window-y="153"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showgrid="false" />
@@ -43,7 +43,7 @@
        id="linearGradient4"
        inkscape:collect="always">
       <stop
-         style="stop-color:#00c0f3;stop-opacity:1;"
+         style="stop-color:#04a5e5;stop-opacity:1;"
          offset="0"
          id="stop4" />
       <stop
@@ -60,22 +60,22 @@
        fx="132.29167"
        fy="132.29167"
        r="132.29167"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99480045,0,0,0.99480045,0.687855,0.68784664)" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="opacity:0.38;fill:url(#radialGradient5);fill-opacity:1;stroke-width:2.15836;stroke-linecap:round;stroke-dasharray:5.0939, 5.0939"
+       style="opacity:0.38;fill:url(#radialGradient5);fill-opacity:1;stroke-width:2.14714;stroke-linecap:round;stroke-dasharray:5.06741, 5.06741"
        id="path1"
        cx="132.29167"
        cy="132.29167"
-       r="132.29167"
+       r="131.60382"
        inkscape:export-filename="K.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"
-       transform="matrix(0.99480045,0,0,0.99480045,0.68784423,0.68784423)" />
+       inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
@@ -295,48 +295,41 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';stroke-width:0.264583"
          x="-460.48871"
          y="507.55527">kalouk</tspan></text>
-    <g
-       id="g26"
-       transform="translate(331.53885,-415.76528)"
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#f9e2af;fill-opacity:1;stroke-width:0.837616"
+       x="108.50574"
+       y="170.257"
+       id="text24"
        inkscape:export-filename="./K_icon.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <text
-         xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
-         x="-223.03311"
-         y="586.02228"
-         id="text24"
-         inkscape:export-filename="./K_icon.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           sodipodi:role="line"
-           id="tspan24"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
-           x="-223.03311"
-           y="586.02228">k</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
-         x="-261.86032"
-         y="625.16046"
-         id="text25"><tspan
-           sodipodi:role="line"
-           id="tspan25"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
-           x="-261.86032"
-           y="625.16046">k</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
-         x="-245.98059"
-         y="610.02051"
-         id="text26"><tspan
-           sodipodi:role="line"
-           id="tspan26"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
-           x="-245.98059"
-           y="610.02051">k</tspan></text>
-    </g>
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#f9e2af;fill-opacity:1;stroke-width:0.837616"
+         x="108.50574"
+         y="170.257">k</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#a6e3a1;fill-opacity:1;stroke-width:0.837616"
+       x="69.678528"
+       y="209.39519"
+       id="text25"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#a6e3a1;fill-opacity:1;stroke-width:0.837616"
+         x="69.678528"
+         y="209.39519">k</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#1e66f5;fill-opacity:1;stroke-width:0.909622"
+       x="85.558258"
+       y="194.25523"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#1e66f5;fill-opacity:1;stroke-width:0.909622"
+         x="85.558258"
+         y="194.25523">k</tspan></text>
   </g>
 </svg>

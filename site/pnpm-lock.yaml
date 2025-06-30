@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@kalouk/vitepress':
+        specifier: ^0.1.0
+        version: 0.1.0(vue@3.5.14)
       mermaid:
         specifier: ^11.6.0
         version: 11.6.0
@@ -490,6 +493,11 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@kalouk/vitepress@0.1.0':
+    resolution: {integrity: sha512-xxNpk9AEHw3Xd/XejUroxfypJrgZFi1AF1eZpqHHypomZDpVoSZ8cUcDry8PM3rnGlVWAbmnJVWnglsKqaz2ww==}
+    peerDependencies:
+      vue: ^3.0.0
 
   '@mermaid-js/parser@0.4.0':
     resolution: {integrity: sha512-wla8XOWvQAwuqy+gxiZqY+c7FokraOTHRWMsbB4AgRx9Sy7zKslNyejy7E+a77qHfey5GXw/ik3IXv/NHMJgaA==}
@@ -2147,6 +2155,10 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@kalouk/vitepress@0.1.0(vue@3.5.14)':
+    dependencies:
+      vue: 3.5.14
 
   '@mermaid-js/parser@0.4.0':
     dependencies:

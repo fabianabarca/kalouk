@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob3|Me1` Creación del **mapa del sitio**
 - `Ob3|Me2` Creación de la página de inicio del sitio y otras páginas misceláneas

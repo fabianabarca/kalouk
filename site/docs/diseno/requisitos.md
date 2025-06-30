@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob1|Me1` Tabla de **comparación** de sistemas existentes similares
 - `Ob1|Me2` Lista de **características** deseables

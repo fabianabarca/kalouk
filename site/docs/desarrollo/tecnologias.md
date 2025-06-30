@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob2|Me1` Especificación de las **tecnologías** a utilizar
 

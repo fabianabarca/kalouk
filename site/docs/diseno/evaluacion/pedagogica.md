@@ -7,9 +7,9 @@
 
 :::
 
-::: tip Metas
+::: tip Metas e indicadores
 
-Metas e indicadores en esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob6|Me1` Investigación y creación de un instrumento de **evaluación pedagógica** para aplicar a los estudiantes del curso Modelos Probabilísticos de Señales y Sistemas
 

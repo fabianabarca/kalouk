@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob2|Me3` Preparación de la **documentación** del proyecto
 - `Ob2|Me2` Comparación y selección de **metodologías** de desarrollo de software

@@ -3,7 +3,7 @@
 <img src="/K.svg" alt="UCR" width="200px" class="block mx-auto" />
 
 <div class="text-xl">
-Kalouk es un ecosistema de componentes web para la creación de contenidos interactivos aplicados al análisis de datos
+Kalouk es un ecosistema de herramientas computacionales y componentes web para la creación de contenidos interactivos con elementos de matemáticas y programación aplicados al análisis de datos.
 </div>
 
 ::: tip ¿Qué significa Kalouk?

@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob6|Me2` Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
 

@@ -2,7 +2,7 @@
 
 ::: info Metas e indicadores
 
-En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob4|Me1` Creación de un **repositorio web** para desarrollo y documentación
 - `Ob4|Me2` Implementación de la **funcionalidad base** del sistema

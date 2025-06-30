@@ -93,64 +93,78 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados pa
     <div class="cell-header">
       <div class="cell-title">Kalouk</div>
     </div>
-    <div class="cell-content">Un ecosistema de componentes web para actividades interactivas con contenidos de matemáticas y programación.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk">Ver más</a></div>
+    <div class="cell-content">Un ecosistema de herramientas computacionales y componentes web para la creación de contenidos interactivos con elementos de matemáticas y programación aplicados al análisis de datos.</div>
+    <div class="cell-footer">📖 <a href="/resultados/kalouk">Ver más</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk WEB</div>
     </div>
     <div class="cell-content">Un servidor web versátil para generación de datos sintéticos usados en recolección y análisis en el curso, por medio de los modelos de comunicación REST API, WebSockets, SSE y webhooks.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-web">Ver más</a> 🌐 <a href="https://web.kalouk.xyz/">web.kalouk.xyz</a></div>
-  </div>
-  <div class="cell">
-    <div class="cell-header">
-      <div class="cell-title">Kalouk JS</div>
-    </div>
-    <div class="cell-content">Un conjunto de componentes web con Vue (JavaScript) para actividades interactivas en sitios web, tanto en sesiones virtuales asincrónicas (contenido teórico) como sincrónicas (presentaciones).</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-js">Ver más</a> 🌐 <a href="https://www.npmjs.com/org/kalouk">npm</a></div>
+    <div class="cell-footer">📖 <a href="/resultados/servicios/kalouk-web">Ver más</a> 🌐 <a href="https://web.kalouk.xyz/">web.kalouk.xyz</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk MCP</div>
     </div>
     <div class="cell-content">Un servidor web con el protocolo de contexto de modelos (MCP) para proveer datos e información de contexto sobre la teoría del curso a agentes de inteligencia artificial.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-mcp">Ver más</a> 🌐 <a href="https://mcp.kalouk.xyz/chat">mcp.kalouk.xyz/chat</a></div>
+    <div class="cell-footer">📖 <a href="/resultados/servicios/kalouk-mcp">Ver más</a> 🌐 <a href="https://mcp.kalouk.xyz/chat">mcp.kalouk.xyz/chat</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk CLI</div>
     </div>
     <div class="cell-content">Una interfaz de línea de comandos (CLI) para interactuar de forma programática con los otros componentes de Kalouk, como Kalouk WEB y Kalouk MCP.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-cli">Ver más</a> 🌐 <a href="https://www.npmjs.com/package/@kalouk/cli">@kalouk/cli</a></div>
+    <div class="cell-footer">📖 <a href="/resultados/interfaces/kalouk-cli">Ver más</a> 🌐 <a href="https://www.npmjs.com/package/@kalouk/cli">@kalouk/cli</a></div>
+  </div>
+  <div class="cell">
+    <div class="cell-header">
+      <div class="cell-title">Kalouk JS</div>
+    </div>
+    <div class="cell-content">Un conjunto de componentes web de JavaScript para actividades interactivas en sitios web, tanto en sesiones virtuales asincrónicas (contenido teórico) como sincrónicas (presentaciones).</div>
+    <div class="cell-footer">📖 <a href="/resultados/interfaces/kalouk-js">Ver más</a> 🌐 <a href="https://www.npmjs.com/org/kalouk">npm</a></div>
+  </div>
+  <div class="cell">
+    <div class="cell-header">
+      <div class="cell-title">Kalouk PY</div>
+    </div>
+    <div class="cell-content">Un paquete de Python para interactuar con los servicios y herramientas de Kalouk.</div>
+    <div class="cell-footer">📖 <a href="/resultados/interfaces/kalouk-py">Ver más</a> 🌐 <a href="https://pypi.org/project/kalouk/">PyPI</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Kalouk XYZ</div>
     </div>
     <div class="cell-content">Un sitio web para alojar presentaciones interactivas de Slidev para sesiones sincrónicas, utilizando las integraciones desarrolladas con Kalouk.</div>
-    <div class="cell-footer">📖 <a href="../resultados/kalouk-xyz">Ver más</a> 🌐 <a href="https://kalouk.xyz/">kalouk.xyz</a></div>
+    <div class="cell-footer">📖 <a href="/resultados/interfaces/kalouk-xyz">Ver más</a> 🌐 <a href="https://kalouk.xyz/">kalouk.xyz</a></div>
+  </div>
+  <div class="cell">
+    <div class="cell-header">
+      <div class="cell-title">Kalouk PWA</div>
+    </div>
+    <div class="cell-content">Aplicación móvil tipo aplicación web progresiva (PWA) para facilitar el acceso a los contenidos de Kalouk desde el celular.</div>
+    <div class="cell-footer">📖 <a href="/resultados/interfaces/kalouk-xyz">Ver más</a> 🌐 <a href="https://kalouk.xyz/">kalouk.xyz</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">improbabilidades.com</div>
     </div>
     <div class="cell-content">Un sitio web para alojar el contenido teórico del curso, a modo de libro digital, utilizando las integraciones desarrolladas con Kalouk.</div>
-    <div class="cell-footer">📖 <a href="../resultados/improbabilidades">Ver más</a> 🌐 <a href="http://improbabilidades.com/">improbabilidades.com</a></div>
+    <div class="cell-footer">📖 <a href="../resultados/contexto/improbabilidades">Ver más</a> 🌐 <a href="http://improbabilidades.com/">improbabilidades.com</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Guía pedagógica</div>
     </div>
     <div class="cell-content">Recomendaciones para el desarrollo de material teórico y presentaciones interactivas utilizando las herramientas de Kalouk.</div>
-    <div class="cell-footer">📖 <a href="../resultados/contenidos/guia">Ver más</a></div>
+    <div class="cell-footer">📖 <a href="../resultados/guia">Ver más</a></div>
   </div>
   <div class="cell">
     <div class="cell-header">
       <div class="cell-title">Proyectos de programación</div>
     </div>   
     <div class="cell-content">Ejercicios de recolección y análisis de datos para el aprendizaje de herramientas de programación de Python en escenarios realistas y más complejos.</div>
-    <div class="cell-footer">📖 <a href="../resultados/contenidos/proyectos">Ver más</a></div>  
+    <div class="cell-footer">📖 <a href="../resultados/contexto/proyectos">Ver más</a></div>  
   </div>
   <div class="cell">
     <div class="cell-header">
@@ -179,10 +193,6 @@ Este proyecto necesitó dos prórrogas para su finalización por las dificultade
 Las dificultades radicaron en dos dimensiones: **tecnológica**, ya que el desarrollo de los componentes web fue retador y requirió más tiempo del inicialmente previsto, incluyendo un cambio completo de tecnologías hacia el final del proyecto, y **pedagógica**, ya que la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas estuvo retrasada por la ausencia de las herramientas desarrolladas y no permitió un tiempo adecuado para su diseño.
 
 A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernos de desarrollo web y de procesamiento de datos, con el potencial de crecer como software de código abierto desarrollado por y para la comunidad educativa.
-
-:information_source: **Más información**
-
-- ⚠️ [Recomendaciones / dificultades](/conclusiones/recomendaciones.md)
 
 ## Procesos emergentes
 
