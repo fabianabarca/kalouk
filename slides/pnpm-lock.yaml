@@ -27,6 +27,9 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.3)
     devDependencies:
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.41
+        version: 1.2.41
       naive-ui:
         specifier: ^2.41.1
         version: 2.41.1(vue@3.5.13(typescript@5.8.3))
@@ -471,6 +474,9 @@ packages:
 
   '@iconify-json/ph@1.2.2':
     resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
+
+  '@iconify-json/simple-icons@1.2.41':
+    resolution: {integrity: sha512-4tt29cKzNsxvt6rjAOVhEgpZV0L8jleTDTMdtvIJjF14Afp9aH8peuwGYyX35l6idfFwuzbvjSVfVyVjJtfmYA==}
 
   '@iconify-json/svg-spinners@1.2.2':
     resolution: {integrity: sha512-DIErwfBWWzLfmAG2oQnbUOSqZhDxlXvr8941itMCrxQoMB0Hiv8Ww6Bln/zIgxwjDvSem2dKJtap+yKKwsB/2A==}
@@ -3788,6 +3794,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/ph@1.2.2':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.41':
     dependencies:
       '@iconify/types': 2.0.0
 

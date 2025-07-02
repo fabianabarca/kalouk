@@ -3,13 +3,12 @@ theme: kalouk
 mdc: true
 addons:
   - slidev-addon-python-runner
+transition: slide-left
 ---
 
 # Kalouk
 
-## Presentaciones web para matemáticas y programación
-
-Fabián Abarca Calderón
+## Componentes web para matemáticas y programación
 
 ---
 
@@ -18,122 +17,356 @@ Fabián Abarca Calderón
 ## Estrategias docentes para sesiones virtuales interactivas con el desarrollo de un nuevo sistema web: una experiencia en el curso Modelos Probabilísticos de Señales y Sistemas
 
 **Fabián Abarca Calderón** <br> 
-*Escuela de Ingeniería Eléctrica* |
+*Escuela de Ingeniería Eléctrica* <br>
 *Universidad de Costa Rica*
 
 ---
-
-# What is Slidev?
-
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
-
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
+layout: fact
 ---
 
-# What is Kalouk?
+<img src="/K.png" width="200" alt="Logo Kalouk" style="display: block; margin: 0 auto;" />
 
-Kalouk is a set of tools and environments designed for teachers and students using math and programming. The Kalouk theme includes the following features:
+# Kalouk
 
-- 📝 **New layouts** - equations, charts, step-by-step and more
-- 🧑‍💻 **Quizzing** - built-in quizzing utility to test your viewers knowledge
-- 🎨 **Catppuccin colors** - a pastel [theme](https://catppuccin.com/) for the high-spirited!
-
-<br>
-<br>
-
-Read more about [Kalouk](https://kalouk.xyz)
-
-
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-
----
-layout: section
----
-
-# Layouts
-
----
-layout: fact 
----
-
-# The Secret Sauce
-
-Kalouk's layouts use PrimeVue UI components to enable new styles and functionality.
-
----
-layout: subsection
----
-
-# Kalouk Layouts
+Un <span v-mark.red="1">ecosistema</span> de herramientas computacionales y componentes web para la creación de <span v-mark.circle.orange="2">contenidos interactivos</span> con matemáticas y programación para <span v-mark.green="3">análisis de datos</span>.
 
 ---
 layout: grid
 ---
 
-Kalouk provides a set of layouts specially suited for teaching and learning, with a focus on mathematics and programming for data analysis.
+# Componentes
 
 ::A::
-Grid
+Kalouk **WEB**
 
 ::B::
-Equation
+Kalouk **MCP**
 
 ::C::
-Chart
+Kalouk **CLI**
 
 ::D::
-Quiz
+Kalouk **JS** 
 
 ::E::
-Steps
+Kalouk **PY**
 
 ::F::
-Code
+Kalouk **XYZ** 
 
 ::G::
-Process
+Kalouk **PWA**
 
 ::H::
-Exercise
+**improbabilidades**.com
 
 ::I::
-Jupyter
+Kalouk **PyX**
 
-::bottom::
+---
+layout: fact
+---
 
-Find out more in the next slides!
+# Estrategia de aplicación
+
+La base para crear experiencias educativas interactivas con las herramientas desarrolladas es la creación de un <span v-mark.red="1">Espacio Kalouk</span>.
+
+---
+layout: section
+---
+
+# Espacio Kalouk
+
+---
+layout: subsection
+---
+
+# Componentes
+
+```mermaid
+flowchart LR 
+    subgraph Espacio Kalouk
+        S[Servicios]
+        I[Interfaces]
+        C[Contexto]
+    end
+    D([Docentes])
+    E([Estudiantes])
+
+    I <--> S
+    S <--> C
+    D <--> I
+    E <--> I
+```
+
+---
+layout: subsection
+---
+
+# Servicios
+
+Sistemas que facilitan el uso de datos y la interacción entre las partes
+
+```mermaid
+flowchart LR 
+    subgraph Servicios
+        WEB[Kalouk WEB]
+        MCP[Kalouk MCP]
+        DB@{ shape: database, label: "Base de datos" }
+    end
+    INT@{ shape: circle, label: "Interfaces" }
+
+    INT --API--> WEB
+    INT --Webhooks--> WEB
+    WEB --SSE--> INT
+    MCP --SSE--> INT
+    INT <--WebSocket--> WEB
+    DB <--> WEB
+    DB <--> MCP
+```
 
 ---
 
-# Grid
+# Kalouk **WEB** 
 
-A practical layout to show important elements with up to nine cards.
+Un servidor web versátil en [web.kalouk.kyz](https://web.kalouk.xyz/) para generación de **datos sintéticos** usados en recolección y análisis en el curso, por medio de los modelos de comunicación REST API, WebSockets, SSE y webhooks. Tiene además base de datos, registro de usuarios, etc.
+
+<img src="/kalouk-web.png" alt="WEB" width="500" class="mx-auto" />
+
+<div class="text-center text-xs mt-4">
+<simple-icons-github /> Disponible en <a href="https://github.com/fabianabarca/kalouk-web">GitHub</a> | <code>git clone https://github.com/fabianabarca/kalouk-web.git</code>
+</div>
+
+---
+
+# Kalouk **MCP**
+
+Un servidor web con el protocolo de contexto de modelos (MCP) para proveer datos e información de contexto sobre la teoría del curso a agentes de inteligencia artificial.
+
+<img src="/mcp.png" alt="MCP" width="400" class="mx-auto" />
+
+<div class="text-center text-xs mt-4">
+<simple-icons-github /> Disponible en <a href="https://github.com/fabianabarca/kalouk-mcp">GitHub</a> | <code>git clone https://github.com/fabianabarca/kalouk-mcp.git</code>
+</div>
+
+---
+layout: subsection
+---
+
+# Interfaces
+
+Puntos de contacto con los usuarios, tanto docentes como estudiantes
+
+```mermaid
+flowchart LR
+    subgraph Interfaces
+        subgraph Programáticas
+            CLI@{ shape: manual, label: "Kalouk CLI" }
+            PY@{ shape: manual, label: "Kalouk PY" }
+        end
+        subgraph Web
+            JS@{ shape: display, label: "Kalouk JS" }
+        end
+        subgraph Móvil 
+            PWA@{ shape: display, label: "Kalouk PWA" }
+        end
+    end
+```
+
+---
+
+# Kalouk **CLI**
+
+Una interfaz de línea de comandos (CLI) para interactuar de forma programática con los otros componentes de Kalouk, como Kalouk WEB y Kalouk MCP.
+
+```bash
+$ kalouk --help
+Usage: kalouk [options] [command]
+
+Kalouk CLI - Interface for interacting with Kalouk tools and services
+
+Options:
+  -V, --version   output the version number
+  -h, --help      Display help for command
+
+Commands:
+  quin            Query Interface - Make queries to the Kalouk API
+  pipe            Data Pipeline - Set up and configure data pipelines
+  help [command]  display help for command
+
+For more information, visit: https://cli.kalouk.xyz
+```
+
+<div class="text-center text-xs mt-4">
+<simple-icons-npm/> Disponible en <a href="https://www.npmjs.com/package/@kalouk/cli">NPM</a> | <code>npm i @kalouk/cli</code>
+</div>
+
+---
+
+# Kalouk **PY**
+
+Un paquete de Python para interactuar con los servicios y herramientas de Kalouk. Especialmente útil para docentes &mdash;creadores de contenido&mdash; para gestionar los datos de Kalouk WEB.
+
+```python
+from kalouk import Dataset
+
+# Create a new dataset
+dataset = Dataset()
+
+# Set metadata using Schema.org Dataset properties
+dataset.set_metadata("name", "My Dataset")
+dataset.set_metadata("description", "A sample dataset")
+
+# Send to Kalouk's API
+kalouk_token = "ka_1234567890abcdef"
+response = dataset.send_to_kalouk(token=kalouk_token)
+print(f"Status: {response.status_code}")
+```
+
+<div class="text-center text-xs mt-4">
+<simple-icons-pypi/> Disponible en <a href="https://www.npmjs.com/package/slidev-theme-kalouk">PyPI</a> | <code>pip install kalouk</code>
+</div>
+
+---
+layout: grid
+---
+
+# Kalouk **JS**
+
+Un conjunto de componentes web de JavaScript para actividades interactivas en sitios web.
+
+::A::
+**Slidev** | *presentaciones*
+
+![Slidev](/slidev.png)
+
+<div class="mx-auto text-xs">
+<simple-icons-npm/> Disponible en <a href="https://www.npmjs.com/package/slidev-theme-kalouk">NPM</a> | <code>npm i slidev-theme-kalouk</code>
+</div>
+
+::B::
+**VitePress** | *documentación*
+
+![VitePress](/vitepress.png)
+
+<div class="mx-auto text-xs">
+<simple-icons-npm/> Disponible en <a href="https://www.npmjs.com/package/@kalouk/vitepress">NPM</a> | <code>npm i @kalouk/vitepress</code>
+</div>
+
+---
+layout: grid
+---
+
+# Kalouk **PWA**
+
+Aplicación móvil tipo aplicación web progresiva (PWA) para facilitar el acceso a los contenidos de Kalouk desde el celular, incluyendo presentaciones e [improbabilidades.com](https://improbabilidades.com).
+
+::A::
+
+<img src="/pwa-cover.png" width="109.74" />
+
+::B::
+
+<img src="/pwa-temas.png" width="109.74" />
+
+::C::
+
+<img src="/pwa-slidev.png" width="227.26" />
+
+
+---
+layout: subsection
+---
+
+# Contexto
+
+Teoría y cualquier otro tipo de contenido que sustenta el espacio educativo
+
+```mermaid
+flowchart LR
+    subgraph Contexto
+        DOCS@{ shape: docs, label: "Documentos"}
+        DATA@{ shape: docs, label: "Otros datos"}
+    end
+    SER@{ shape: circle, label: "Servicios" }
+
+    Contexto --> SER
+```
+
+---
+layout: iframe-right
+url: https://improbabilidades.com/
+---
+
+# Improbabilidades
+
+Un sitio web para alojar el contenido teórico del curso, a modo de libro digital, utilizando las integraciones desarrolladas con Kalouk.
+
+---
+layout: iframe-right
+url: /ipynb.html
+---
+
+# Kalouk **PyX**
+
+Tutoriales básicos de programación en Python aplicados a la ciencia e ingeniería de datos, que son la base para los ejercicios de programación del curso y en Kalouk.
+
+<div class="text-center text-xs mt-4">
+<simple-icons-github /> Disponible en <a href="https://github.com/improbabilidades/pyx">GitHub</a>
+</div>
+
+---
+layout: section
+---
+
+# Presentaciones
+
+---
+layout: grid
+---
+
+## Tema de Kalouk para Slidev
+
+Provee un conjunto de diseños especialmente adaptados para el análisis de datos.
+
+::A::
+`layout: grid`
+
+::B::
+`layout: equation`
+
+::C::
+`layout: chart`
+
+::D::
+`layout: quiz`
+
+::E::
+`layout: steps`
+
+::F::
+`layout: code`
+
+::G::
+`layout: process`
+
+::H::
+`layout: exercise`
+
+::I::
+`layout: jupyter`
+
+::bottom::
+
+<div class="text-xs">
+<simple-icons-npm/> Disponible en <a href="https://www.npmjs.com/package/slidev-theme-kalouk">NPM</a> | <code>npm i slidev-theme-kalouk</code>
+</div>
+
+---
+
+# Cuadrícula | `grid`
+
+Un diseño para mostrar elementos importantes con hasta nueve tarjetas.
 
 ```md
 ---
@@ -161,53 +394,41 @@ Further explanation, if required
 layout: grid
 ---
 
-# Title of the Grid
+# Temas del curso
 
 ::A::
 
-A
+Introducción a la probabilidad
 
 ::B::
 
-B
+Variables aleatorias
 
 ::C::
 
-C
+Variables aleatorias múltiples
 
 ::D::
 
-D
+Procesos aleatorios
 
 ::E::
 
-E
+Cadenas de Markov
 
 ::F::
 
-F
-
-::G::
-
-G
-
-::H::
-
-H
-
-::I::
-
-I
+Programación para el análisis de datos
 
 ::bottom::
 
-Further explanation, if required
+Sesiones virtuales sincrónicas
 
 ---
 
-# Equation
+# Ecuación | `equation`
 
-Showing an equation in its full glory with an extra big font.
+Mostrando una ecuación en todo su esplendor con una fuente extra grande.
 
 ```md 
 ---
@@ -229,23 +450,27 @@ $E$ is the energy, $m$ is the mass, and $c$ is the speed of light.
 layout: equation
 ---
 
-# Title of the Equation
+# Distribución exponencial
 
 ::equation::
 
 $$
-E = mc^2
+f_X(x) = 
+\begin{cases}
+\lambda e^{-\lambda x} & x \geq 0 \\
+0 & x < 0
+\end{cases}
 $$
 
 ::bottom::
 
-$E$ is the energy, $m$ is the mass, and $c$ is the speed of light.
+donde $f_X(x)$ es la función de densidad y $\lambda > 0$ es el parámetro, conocido como *tasa* o *escala inversa*.
 
 ---
 
-# Chart
+# Gráficas | `chart`
 
-Good-looking charts with PrimeVue's Chart.js-powered component, with data from Kalouk API or any other Schema.org's Dataset type-compliant source.
+Gráficas a partir de conjuntos de datos obtenidos de Kalouk WEB.
 
 ```md
 ---
@@ -267,17 +492,17 @@ dataset: ingresos-semanales
 type: line
 ---
 
-# Title of the Chart
+# Ventas semanales
 
 ::bottom::
 
-Footer content
+Ventas en miles de colones
 
 ---
 
-# Quiz
+# Prueba corta | `quiz`
 
-Test your readers with a quiz with up to four options to choose from.
+Confección rápida de pruebas cortas de selección única (hasta cuatro opciones) con validación de la respuesta y retroalimentación.
 
 ```md
 ---
@@ -303,26 +528,34 @@ layout: quiz
 answer: B
 ---
 
-# Title of the Quiz
+# Aplicaciones de la distribución exponencial
 
 ::statement::
 
-Statement of the quiz
+¿Cuál de los siguientes ejemplos de variables aleatorias describe una aplicación típica de la distribución exponencial, descrita por la siguiente función de densidad?
+
+$$
+f_X(x) = 
+\begin{cases}
+\lambda e^{-\lambda x} & x \geq 0 \\
+0 & x < 0
+\end{cases}
+$$
 
 ::A::
-Option A
+La amplitud del ruido térmico en un transistor
 
 ::B::
-Option B
+La duración del servicio en un trámite bancario
 
 ::C::
-Option C
+La distancia radial del centro de un tablero a los dardos
 
 ---
 
-# Steps
+# Pasos | `steps`
 
-A layout to show a sequence of steps, with a progress bar and navigation.
+Secuencia de pasos con una barra de progreso y navegación, útil para mostrar soluciones de problemas.
 
 ```md
 ---
@@ -346,15 +579,15 @@ The content of step 3
 
 ---
 
-# Title of the Steps
+# Pasos de la solución
 
 <Stepper />
 
 ---
 
-# Code
+# Código | `code`
 
-This layout is for showing code snippets with syntax highlighting and line numbers, that executes the code in the browser and shows the output.
+Para mostrar fragmentos de código con resaltado de sintaxis y números de línea, que ejecuta el código en el navegador y muestra la salida.
 
 ```md
 ---
@@ -371,128 +604,74 @@ print(colored("Hello, Slidev!", "blue"))
 ```
 
 ---
+layout: code
+---
 
-# Title of the Code
+# Valores aleatorios de la distribución exponencial
 
 ```py {monaco-run}
-from termcolor import colored
+import random
 
-print(colored("Hello, Slidev!", "blue"))
+valor = random.expovariate(1)
+print(f"Valor aleatorio de la distribución exponencial: {valor}")
 ```
 
 ---
 
-# Jupyter Lite
+# Cuadernos computacionales
+
+Editor de *Notebooks* alojados en Kalouk WEB, que incluye un IDE con directorios y archivos ejecutados directamente en el navegador con Pyodide.
+
+```md
+---
+layout: jupyter
+url: https://jupyter.kalouk.xyz/demo/
+---
+```
+
+<br>
+
+<img src="/jupyterlite.svg" width="300" alt="Logo Jupyter Lite" style="display: block; margin: 0 auto;" />
 
 ---
 layout: iframe
-url: https://jupyter.org/try-jupyter/lab/
+url: https://improbabilidades.github.io/jupyter/
 ---
 
 ---
-layout: subsection
+layout: iframe
+url: https://improbabilidades.github.io/jupyter/repl/?toolbar=1
 ---
 
-# Slidev Layouts
-
-*Kaloukified*
-
 ---
-layout: two-cols
+layout: section
 ---
 
-# Left
-
-This shows on the left
-
-::right::
-
-# Right
-
-This shows on the right
-
----
-layout: two-cols-header 
----
-
-# This spans both
-
-::left::
-
-# Left
-
-This shows on the left
-
-::right::
-
-# Right
-
-This shows on the right
-
-::bottom::
-
-This shows at the bottom, aligned to the end (bottom) of the grid
+# Análisis
 
 ---
 
-# Mermaid
+# Diagnóstico
 
-```mermaid
-flowchart TD
-  Start e1@--> Stop
-
-  e1@{ animate: true }
-```
+Fue aplicada una evaluación de las experiencias y las preferencias de los estudiantes en el aprendizaje virtual. Disponible como [Google Forms](https://forms.gle/rK1AzVNMdpsGHja87).
 
 ---
-layout: image-right
-image: https://cover.sli.dev
+
+# Conclusiones
+
+- Una serie de componentes fueron desarrollados para crear un ecosistema que asiste en la creación de experiencias educativas orientadas al análisis de datos con matemáticas y programación.
+- Este proyecto de docencia permitió el nacimiento de un nuevo proyecto de desarrollo colaborativo de código abierto con perspectivas positivas de crecimiento.
+
 ---
 
-# Side image (right or left)
+# Trabajo futuro
 
-So many things to say here.
+- Incorporar herramientas automatizadas de medición de *engagement*, especialmente en sesiones virtuales sincrónicas con Kalouk para Slidev.
+- Continuar la aplicación del instrumento de evaluación pedagógica.
+- Migrar las presentaciones actuales a Kalouk.
 
 ---
 layout: end
 ---
 
-# Learn More
-
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
-
-
----
-
----
-src: ./pages/proyecto.md
-hide: false
----
-
----
-src: ./pages/diseno.md
-hide: false
----
-
----
-src: ./pages/desarrollo.md
-hide: false
----
-
----
-src: ./pages/resultados.md
-hide: false
----
-
----
-src: ./pages/conclusiones.md
-hide: false
----
-
----
-layout: end
----
-
-Gracias, ¿preguntas?
-
----
+# Gracias
