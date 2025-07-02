@@ -14,6 +14,10 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@citation-js/core": "^0.7.18",
+    "@citation-js/plugin-bibtex": "^0.7.18",
+    "@citation-js/plugin-csl": "^0.7.18",
+    "@citation-js/plugin-doi": "^0.7.18",
     "@kalouk/vitepress": "^0.1.0",
     "mermaid": "^11.6.0"
   }
