@@ -8,7 +8,10 @@ export default defineConfig({
   base: "/",
 
   vite: {
-    plugins: [UnoCSS()],
+    plugins: [UnoCSS() as any],
+    optimizeDeps: {
+      include: ["mermaid"],
+    },
   },
 
   title: "Kalouk",
