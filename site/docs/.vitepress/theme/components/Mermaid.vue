@@ -36,8 +36,16 @@ const renderMermaid = async () => {
       theme: "base", // Use base theme for custom styling
       securityLevel: "loose",
 
+      // Add font family configuration to inherit VitePress font
+      fontFamily:
+        "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+
       // Custom theme variables that match VitePress colors
       themeVariables: {
+        // Also set font family in theme variables
+        fontFamily:
+          "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
+
         // Primary colors using VitePress brand colors
         primaryColor: isDark.value ? "#a8b1ff" : "#3451b2", // --vp-c-brand-1
         primaryTextColor: isDark.value ? "#dfdfd6" : "#3c3c43", // Black on light colors, white on dark colors
@@ -175,8 +183,18 @@ watch(isDark, async () => {
   overflow-x: auto;
 }
 
+/* Force font inheritance on Mermaid SVG elements */
 :deep(.mermaid svg) {
   max-width: 100%;
   height: auto;
+  font-family: inherit !important;
+}
+
+:deep(.mermaid text) {
+  font-family: inherit !important;
+}
+
+:deep(.mermaid .label text) {
+  font-family: inherit !important;
 }
 </style>
