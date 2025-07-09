@@ -45,5 +45,5 @@ features:
 ---
 
 ::: danger Trabajo en progreso
-Este informe estará disponible en **julio 2025**. Mientras tanto, solamente aparece aquí la estructura y algunos resultados.
+Este informe estará disponible en **julio 2025**.
 :::
