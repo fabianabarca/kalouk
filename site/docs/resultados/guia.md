@@ -10,7 +10,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 A continuación hay una serie de pasos recomendados para hacer un diseño estructurado del uso de Kalouk en un curso universitario con componentes de matemáticas y programación y énfasis en el análisis de datos.
 
-## Paso 1: Crear un Espacio Kalouk
+## Espacio Kalouk
 
 ::: tip Premisa
 La estrategia pedagógica para el uso de Kalouk gira alrededor de la creación de un **Espacio Kalouk**, la base para crear experiencias educativas interactivas con las herramientas desarrolladas.
@@ -27,9 +27,14 @@ Su relación, incluyendo los componentes del [ecosistema Kalouk](/resultados/kal
 <img src="/espacio_light.svg" alt="Espacio Kalouk" class="block dark:hidden" />
 <img src="/espacio_dark.svg" alt="Espacio Kalouk" class="hidden dark:block" />
 
-A continuación hay una ampliación de cada componente.
+## Paso 1: Definición del contexto
 
-### Servicios
+| Componente | Descripción                                                        |
+| ---------- | ------------------------------------------------------------------ |
+| Documentos | Teoría, programa del curso y cualquier otra información relevante. |
+| Datos      | Estadísticas, .                                                    |
+
+## Paso 2: Definición de los servicios
 
 | Componente    | Descripción                                           |
 | ------------- | ----------------------------------------------------- |
@@ -37,7 +42,7 @@ A continuación hay una ampliación de cada componente.
 | Kalouk MCP    | Interacción con agentes de inteligencia artificial    |
 | Base de datos | Almacenamiento de resultados de evaluaciones y otros  |
 
-#### Decisiones de diseño
+### Decisiones de diseño
 
 <div class="mt-3">
     <input type="checkbox" id="scales" />
@@ -48,7 +53,7 @@ A continuación hay una ampliación de cada componente.
     <label for="horns">Horns</label>
 </div>
 
-### Interfaces
+## Paso 3: Definición de las interfaces
 
 | Componente | Descripción                                                       |
 | ---------- | ----------------------------------------------------------------- |
@@ -60,21 +65,4 @@ A continuación hay una ampliación de cada componente.
 | Slidev     | Aplicación móvil con .                                            |
 | VitePress  | Aplicación móvil con .                                            |
 
-### Contexto
-
-| Componente | Descripción                                                        |
-| ---------- | ------------------------------------------------------------------ |
-| Documentos | Teoría, programa del curso y cualquier otra información relevante. |
-| Datos      | Estadísticas, .                                                    |
-
-## Paso 2: Establecer objetivos de las experiencias educativas interactivas
-
-::: tip Premisa
-La estrategia pedagógica para el uso de Kalouk gira alrededor de la creación de un **Espacio Kalouk**, la base para crear experiencias educativas interactivas con las herramientas desarrolladas.
-:::
-
-## Paso 3:
-
-::: tip Premisa
-La estrategia pedagógica para el uso de Kalouk gira alrededor de la creación de un **Espacio Kalouk**, la base para crear experiencias educativas interactivas con las herramientas desarrolladas.
-:::
+Ahora sí.

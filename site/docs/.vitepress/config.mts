@@ -122,14 +122,12 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: "Introducción", link: "/resultados/contexto/" },
-              { text: "Documentos", link: "/resultados/contexto/documentos" },
-              { text: "Clases", link: "/resultados/contexto/clases" },
-              { text: "Proyectos", link: "/resultados/contexto/proyectos" },
+              { text: "Kalouk PyX", link: "/resultados/contexto/kalouk-pyx" },
               {
                 text: "improbabilidades.com",
-                link: "/resultados/improbabilidades",
+                link: "/resultados/contexto/improbabilidades",
               },
-              { text: "PyX", link: "/resultados/contexto/pyx" },
+              { text: "Proyectos", link: "/resultados/contexto/proyectos" },
             ],
           },
           {

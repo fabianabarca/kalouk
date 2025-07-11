@@ -1,9 +1,8 @@
 # Proyectos de programación
 
-::: info Puntos clave
+::: info ¿Qué son?
 
-- Puntos clave
-- Síntesis
+Ejercicios de recolección y análisis de datos para el aprendizaje de herramientas de programación de Python en escenarios realistas y más complejos.
 
 :::
 

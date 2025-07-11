@@ -1,9 +1,8 @@
 # Kalouk XYZ
 
-::: info Puntos clave
+::: info ¿Qué es?
 
-- Puntos clave
-- Síntesis
+Un sitio web para alojar presentaciones interactivas de Slidev para sesiones sincrónicas, utilizando las integraciones desarrolladas con Kalouk.
 
 :::
 

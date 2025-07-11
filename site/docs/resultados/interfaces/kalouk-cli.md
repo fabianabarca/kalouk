@@ -1,8 +1,8 @@
 # Kalouk CLI
 
-::: info ¿Qué es Kalouk CLI?
+::: info ¿Qué es?
 
-Kalouk CLI es una herramienta de línea de comandos para interactuar con Kalouk, permitiendo realizar consultas, configurar canalizaciones de datos y otras tareas en conjunto con los otros componentes del ecosistema.
+Una **interfaz de línea de comandos** (CLI) para interactuar de forma programática con los servicios de Kalouk, como Kalouk WEB y Kalouk MCP.
 
 :::
 
@@ -12,7 +12,7 @@ Disponible en <span class="i-simple-icons-npm"></span> [@kalouk/cli](https://www
 kalouk --help
 ```
 
-## Interfaz de consultas
+## Interfaz de consultas `quin`
 
 El módulo `quin` (_query interface_) permite realizar consultas a la base de datos de Kalouk.
 
@@ -20,7 +20,7 @@ El módulo `quin` (_query interface_) permite realizar consultas a la base de da
 kalouk quin --help
 ```
 
-## Configuración de canalización de datos
+## Configuración de canalización de datos `pipe`
 
 El módulo `pipe` permite configurar la canalización de datos (_data pipeline_) para Kalouk.
 

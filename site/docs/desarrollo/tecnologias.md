@@ -73,6 +73,8 @@ Una razón para elegir Django para desarrollo web es que se trata del mismo leng
 
 ## <span class="i-simple-icons-vuedotjs"></span> Vue.js
 
+<simple-icons-pwa/>
+
 Praesentium cumque inventore possimus nam in dolor provident sed corrupti, assumenda quae dolorum repellat ut explicabo nostrum voluptate. Molestias quod quasi tempora doloremque magnam nam minima laboriosam, repellat quidem ex culpa voluptatibus beatae hic earum, corrupti eos commodi, dolorum doloremque unde aliquam perspiciatis et assumenda labore, ipsum iure minima harum ullam nesciunt accusantium? Tempore doloribus expedita assumenda ratione nam quibusdam, ipsam asperiores possimus fuga eum ipsum in voluptatum voluptates quia, culpa quidem expedita impedit quia corporis odio a tempore?
 
 ## <span class="i-simple-icons-nuxt"></span> Nuxt

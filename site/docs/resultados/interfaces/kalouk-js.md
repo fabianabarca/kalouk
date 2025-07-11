@@ -1,9 +1,8 @@
 # Kalouk JS
 
-::: info Puntos clave
+::: info ¿Qué es?
 
-- Puntos clave
-- Síntesis
+Un conjunto de **componentes de JavaScript** para actividades interactivas en sitios web, tanto en las presentaciones (sesiones virtuales sincrónicas) como en el contenido teórico (asincrónico).
 
 :::
 

@@ -43,6 +43,14 @@ Presentación: esquema tradicional donde la información fluye del docente hacia
 
 Flujo unidireccional de información: Docente ------> Estudiantes
 
+<!-- prettier-ignore -->
+<Mermaid :code="`
+graph LR
+    A[Client] -->B[Load Balancer]
+    B -->C[Server1]
+    B -->D[Server2]
+`" />
+
 Diálogo: información hacia y desde la o el docente y las y los estudiantes (generalmente utilizando videoconferencia).
 
 Flujo bidireccional de información: Docente <-----> Estudiantes

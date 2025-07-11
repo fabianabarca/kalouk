@@ -1,11 +1,14 @@
 # Kalouk WEB
 
-::: info Puntos clave
+::: info ¿Qué es?
 
-- Puntos clave
-- Síntesis
+Un **servidor web versátil** para generación de datos sintéticos utilizados en el curso y sus proyectos, accesibles por medio de diferentes modelos de comunicación (REST API, WebSocket, SSE y webhooks).
 
 :::
+
+## Modelos de comunicación
+
+### REST API
 
 ::: tip Documentación del API
 
@@ -14,3 +17,9 @@ Un componente esencial de cualquier API es la documentación. La documentación 
 https://web.kalouk.xyz/api/docs
 
 :::
+
+### WebSocket
+
+### SSE
+
+### Webhooks

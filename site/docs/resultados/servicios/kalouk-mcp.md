@@ -1,6 +1,20 @@
 # Kalouk MCP
 
+::: info ¿Qué es?
+
+Un servidor web con el **protocolo de contexto de modelos** ([MCP](https://modelcontextprotocol.io/)) para proveer datos e información de contexto sobre la teoría del curso a agentes de inteligencia artificial.
+
+:::
+
 Servidor de contexto de Kalouk.
+
+<!-- prettier-ignore -->
+<Mermaid :code="`
+graph LR
+    A[Client] -->B[Load Balancer]
+    B -->C[Server1]
+    B -->D[Server2]
+`" />
 
 Un primer ejemplo de uso es el siguiente:
 
