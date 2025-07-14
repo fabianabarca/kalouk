@@ -46,12 +46,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "Información general", link: "/proyecto/" },
-          { text: "Resumen", link: "/proyecto/resumen" },
           { text: "Antecedentes", link: "/proyecto/antecedentes" },
-          {
-            text: "Consideraciones pedagógicas",
-            link: "/proyecto/consideraciones",
-          },
           { text: "Objetivos", link: "/proyecto/objetivos" },
           { text: "Metodología", link: "/proyecto/metodologia" },
         ],

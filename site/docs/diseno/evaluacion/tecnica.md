@@ -1,13 +1,6 @@
 # Diseño de la evaluación técnica del sistema
 
-::: info Puntos clave
-
-- La evaluación se hará en dos dimensiones: pedagógica y técnica.
-- Los resultados están en distintas secciones del informe.
-
-:::
-
-::: tip Metas e indicadores
+::: info Metas e indicadores
 
 En esta página (ver [objetivos](/proyecto/objetivos.md)):
 

@@ -3,24 +3,24 @@
 ## Objetivo general
 
 <div class="text-xl">
-Diseñar e implementar un sistema web de presentación de contenidos e interacción entre profesores y estudiantes para sesiones sincrónicas virtuales dedicado a la enseñanza y aprendizaje de conceptos de probabilidad y estadística para ingeniería eléctrica.
+Diseñar e implementar un sistema web de presentación de contenidos e interacción entre profesores y estudiantes para sesiones virtuales dedicado a la enseñanza y aprendizaje de conceptos de probabilidad y estadística para ingeniería eléctrica.
 </div>
 
 ## Objetivos específicos
 
 Contenidos de esta sección:
 
-1. [Requisitos](#objetivo-especifico-1)
-1. [Tecnologías](#objetivo-especifico-2)
-1. [Arquitectura](#objetivo-especifico-3)
-1. [Programación](#objetivo-especifico-4)
-1. [Contenido](#objetivo-especifico-5)
-1. [Evaluación](#objetivo-especifico-6)
-1. [Divulgación](#objetivo-especifico-7)
+1. [Requisitos](#_1-requisitos)
+1. [Tecnologías](#_2-tecnologias)
+1. [Arquitectura](#_3-arquitectura)
+1. [Programación](#_4-programacion)
+1. [Contenidos](#_5-contenidos)
+1. [Evaluación](#_6-evaluacion)
+1. [Divulgación](#_7-divulgacion)
 
-## Objetivo específico 1
+## 1. Requisitos
 
-_Docencia_
+_Objetivo específico_
 
 > Recopilar información sobre los requisitos del sistema y sus necesidades pedagógicas.
 
@@ -35,13 +35,13 @@ _Docencia_
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+Fue realizada una comparación exhaustiva con sistemas similares y la lista de características deseables propuesta permitió el diseño de las funcionalidades del sistema.
 
 _Meta 1_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
   <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
@@ -50,7 +50,7 @@ _Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
   <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
@@ -61,9 +61,9 @@ No hay observaciones.
 
 :::
 
-## Objetivo específico 2
+## 2. Tecnologías
 
-_Docencia_
+_Objetivo específico_
 
 > Planificar las tecnologías a utilizar y la metodología de desarrollo de software.
 
@@ -81,7 +81,7 @@ _Docencia_
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+La elección de las tecnologías demostró ser uno de los retos más relevantes del proyecto. Luego de un largo proceso de "prueba y error" en relación con las tecnologías elegidas, finalmente fueron elegidos un conjunto de sistemas de código abierto que satisfacen las necesidades del planteamiento y abren el camino al desarrollo futuro.
 
 _Meta 1_
 
@@ -116,44 +116,44 @@ No hay observaciones.
 
 :::
 
-## Objetivo específico 3
+## 3. Arquitectura
 
-_Docencia_
+_Objetivo específico_
 
 > Diseñar la arquitectura de información y la apariencia del sitio.
 
 - **Meta 1** (cualitativa): Creación del **mapa del sitio**
   - _Indicador 1_: Documento de descripción del sitio
-    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
+    - :page_facing_up: [resultados / interfaces](/resultados/interfaces/)
 - **Meta 2** (cualitativa): Creación de la **página de inicio** del sitio y otras páginas misceláneas
   - _Indicador 1_: Captura de pantalla de las páginas del sitio y códigos HTML
-    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
+    - :page_facing_up: [resultados / interfaces](/resultados/interfaces/)
 - **Meta 3** (cualitativa): Diseño de la **apariencia del sitio** y de las presentaciones
   - _Indicador 1_: Archivos CSS (estilo de páginas web) modificados según la línea gráfica UCR
-    - :page_facing_up: [diseño / sitio web](/resultados/interfaces/kalouk-xyz.md)
+    - :page_facing_up: [resultados / interfaces](/resultados/interfaces/)
 
 ::: details Avance de cumplimiento
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+Uno de los aciertos más importantes del proyecto es el diseño de una arquitectura modular que le permitirá al proyecto crecer como un proyecto desarrollo colaborativo de software de código abierto.
 
 _Meta 1_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 90%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">90%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 _Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 _Meta 3_
@@ -167,13 +167,13 @@ _Meta 3_
 
 **Observaciones**
 
-No hay observaciones.
+Las metas aquí planteadas no reflejan el esfuerzo de diseño de la arquitectura, sino que están concentradas en unos pasos intermedios del diseño.
 
 :::
 
-## Objetivo específico 4
+## 4. Programación
 
-_Docencia_
+_Objetivo específico_
 
 > Desarrollar la programación.
 
@@ -194,53 +194,53 @@ _Docencia_
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+Posiblemente el aporte más importante es la base de código desarrollada para el proyecto, la cual permite probar el concepto planteado en los objetivos pero además habilita la implementación posterior de nuevas funcionalidades con herramientas web modernas.
 
 _Meta 1_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 _Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 _Meta 3_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-lime-500 h-1 rounded" style="width: 70%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">70%</span>
 </div>
 
 _Meta 4_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 **Observaciones**
 
-No hay observaciones.
+Algunos funcionalidades como el registro de usuarios y la sincronización de presentaciones entre usuarios remotos no fue implementada para el momento de este informe, pero son prioridad para el desarrollo futuro.
 
 :::
 
-## Objetivo específico 5
+## 5. Contenidos
 
-_Docencia_
+_Objetivo específico_
 
 > Crear contenido para sesiones sincrónicas virtuales con los contenidos del curso Modelos Probabilísticos de Señales y Sistemas.
 
@@ -249,41 +249,41 @@ _Docencia_
     - :page_facing_up: [resultados / contenidos](/resultados/contexto/)
 - **Meta 2** (cualitativa): Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
   - _Indicador 1_: Guía pedagógica dentro del mismo sitio virtual del sistema web.
-    - :page_facing_up: [resultados / contenidos / guía](/resultados/guia.md)
+    - :page_facing_up: [resultados / guía](/resultados/guia.md)
 
 ::: details Avance de cumplimiento
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+La guía pedagógica propone el concepto de "Espacio Kalouk", la base para crear experiencias educativas interactivas con las herramientas desarrolladas. Por otra parte, son presentados aquí una gran cantidad de contenidos del curso, incluyendo la página **improbabilidades.com**.
 
 _Meta 1_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 70%"></div>
+    <div class="bg-lime-500 h-1 rounded" style="width: 60%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">70%</span>
+  <span class="ml-2 text-sm text-gray-700">60%</span>
 </div>
 
 _Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 90%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">90%</span>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
 </div>
 
 **Observaciones**
 
-No hay observaciones.
+A pesar de la cantidad de contenidos del curso dsearrollados, no están las dos sesiones completas demostrando las funcionalidades con teoría del curso sino una presentación genérica demostrando las funcionalidades. Crear esta presentación era uno de los retos más importantes del proyecto. La creación de todas las sesiones con la teoría del curso será tarea de los próximos semestres, fuera del proyecto.
 
 :::
 
-## Objetivo específico 6
+## 6. Evaluación
 
-_Docencia_
+_Objetivo específico_
 
 > Evaluar la recepción pedagógica y el desempeño técnico del sistema.
 
@@ -304,18 +304,9 @@ _Docencia_
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+La evaluación del proyecto fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, los instrumentos desarrollados y aplicados permitirán seguir tomando decisiones de diseño sobre el sistema para estar mejor ajustado a las necesidades, tanto pedagógicas como técnicas.
 
 _Meta 1_
-
-<div class="flex items-center w-full">
-  <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
-  </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
-</div>
-
-_Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
@@ -324,22 +315,31 @@ _Meta 2_
   <span class="ml-2 text-sm text-gray-700">90%</span>
 </div>
 
+_Meta 2_
+
+<div class="flex items-center w-full">
+  <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
+    <div class="bg-green-500 h-1 rounded" style="width: 100%"></div>
+  </div>
+  <span class="ml-2 text-sm text-gray-700">100%</span>
+</div>
+
 _Meta 3_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 60%"></div>
+    <div class="bg-lime-500 h-1 rounded" style="width: 50%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">60%</span>
+  <span class="ml-2 text-sm text-gray-700">50%</span>
 </div>
 
 _Meta 4_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 70%"></div>
+    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">70%</span>
+  <span class="ml-2 text-sm text-gray-700">80%</span>
 </div>
 
 **Observaciones**
@@ -348,9 +348,9 @@ No hay observaciones.
 
 :::
 
-## Objetivo específico 7
+## 7. Divulgación
 
-_Docencia_
+_Objetivo específico_
 
 > Socializar los resultados del proyecto.
 
@@ -365,24 +365,24 @@ _Docencia_
 
 **Descripción de avance en relación con cronograma**
 
-El proyecto se encuentra en la fase final de desarrollo y evaluación, con la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas.
+Igual que con la evaluación, la divulgación fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, hay excelentes perspectivas tanto de nuevas actividades de divulgación y promoción de la herramienta como de escritura de artículos académicos, donde hay al menos tres planteados.
 
 _Meta 1_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 80%"></div>
+    <div class="bg-lime-500 h-1 rounded" style="width: 75%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">80%</span>
+  <span class="ml-2 text-sm text-gray-700">75%</span>
 </div>
 
 _Meta 2_
 
 <div class="flex items-center w-full">
   <div class="flex-1 bg-gray-200 rounded h-1 overflow-hidden">
-    <div class="bg-green-500 h-1 rounded" style="width: 95%"></div>
+    <div class="bg-lime-500 h-1 rounded" style="width: 75%"></div>
   </div>
-  <span class="ml-2 text-sm text-gray-700">95%</span>
+  <span class="ml-2 text-sm text-gray-700">75%</span>
 </div>
 
 **Observaciones**

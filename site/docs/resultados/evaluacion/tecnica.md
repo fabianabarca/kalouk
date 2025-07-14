@@ -1,6 +1,6 @@
 # Resultados de la evaluación técnica del sistema
 
-::: tip Metas e indicadores
+::: info Metas e indicadores
 
 En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
