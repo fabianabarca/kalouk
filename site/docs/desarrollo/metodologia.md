@@ -88,3 +88,7 @@ Un generador de sitios estáticos basado en Vue.js que permite crear documentaci
 #### Servidor de pruebas: DigitalOcean
 
 Un proveedor de servicios en la nube que ofrece servidores virtuales (_droplets_) para alojar aplicaciones web. Nos permite desplegar y probar el sitio web en un entorno real antes de su lanzamiento.
+
+## ¿¿¿Ingeniería de software???
+
+Por su naturaleza, este es un proyecto de ingeniería de software, y por eso se elegirá y seguirá alguna de las metodologías de desarrollo conocidas, como Agile, Scrum, FDD, Lean, XP, Cascada, RAD, y otros [1]. Por tanto, habrá una primera etapa de selección de la metodología. En general, las metodologías siguen una secuencia básica de pasos: reunión de información, planificación, diseño, programación, desarrollo de contenido, implementación, pruebas y mantenimiento. De hecho, de esta forma se han establecido los objetivos específicos.

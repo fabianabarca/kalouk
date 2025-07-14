@@ -51,10 +51,10 @@ fabian.abarca@ucr.ac.cr
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
   <div class="text-center w-full mx-auto mb-4">
     <div class="text-4xl font-bold">
-    21
+    54
     </div>
     <div class="text-italic">
-    Estudiantes del curso de probabilidad que participaron en las clases de demostración
+    Estudiantes del curso de probabilidad que participaron en la evaluación pedagógica
     </div>
   </div>
   <div class="text-center w-full mx-auto mb-4">
@@ -78,7 +78,7 @@ fabian.abarca@ucr.ac.cr
 
 La principal actividad de este proyecto fue **desarrollo tecnológico**, por lo que las actividades se enfocaron en la creación del sistema web que da soporte a las actividades interactivas. Las actividades desarrolladas también incluyen el **diseño de la estrategia pedagógica** para la implementación en el curso.
 
-Los detalles están en la página de objetivos y las secciones de diseño y desarrollo.
+Los detalles están en la página de objetivos y en las secciones de diseño y desarrollo.
 
 :information_source: **Más información**
 
@@ -179,11 +179,6 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados:
   </div>
 </div>
 
-Adicionalmente, fue propuesto:
-
-- Un instrumento de evaluación pedagógica para medir el impacto del proyecto en la enseñanza y el aprendizaje de los estudiantes
-- Un instrumento para la evaluación técnica del desarrollo de software
-
 :information_source: **Más información**
 
 - ☑️ [Resultados](/resultados/index.md)
@@ -196,7 +191,7 @@ Este proyecto necesitó dos prórrogas para su finalización por las dificultade
 
 Las dificultades radicaron en dos dimensiones: **tecnológica**, ya que el desarrollo de los componentes web fue retador y requirió más tiempo del inicialmente previsto, incluyendo un cambio completo de tecnologías hacia el final del proyecto, y **pedagógica**, ya que la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas estuvo retrasada por la ausencia de las herramientas desarrolladas y no permitió un tiempo adecuado para su diseño.
 
-A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernos de desarrollo web y de procesamiento de datos, con el potencial de crecer como software de código abierto desarrollado por y para la comunidad educativa.
+A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernas de desarrollo web y de procesamiento de datos, con el potencial de crecer como proyecto de software de código abierto desarrollado por y para la comunidad educativa.
 
 ## Procesos emergentes
 
@@ -204,12 +199,12 @@ A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al crite
 
 Para el segundo ciclo del 2025 hay dos temas planteados de Proyecto Eléctrico (curso integrador de bachillerato en ingeniería eléctrica):
 
-- Diseño y desarrollo de actividades interactivas con datos con las herramientas de Kalouk para la teoría del curso Modelos Probabilísticos de Señales y Sistemas
-- Implementación de un agente de inteligencia artificial con un servidor MCP para el curso Modelos Probabilísticos de Señales y Sistemas
+- _Diseño y desarrollo de actividades interactivas con datos con las herramientas de Kalouk para la teoría del curso Modelos Probabilísticos de Señales y Sistemas_
+- _Implementación de un agente de inteligencia artificial con un servidor MCP para el curso Modelos Probabilísticos de Señales y Sistemas_
 
 Y un tema planteado de trabajo final de graduación (TFG):
 
-- Diseño de la estrategia de operación y mantenimiento del ecosistema Kalouk
+- _Diseño de la estrategia de operación y mantenimiento del ecosistema Kalouk_
 
 Con los resultados obtenidos es posible y deseable la formulación de enlaces con otras iniciativas docentes y la participación en conferencias y seminarios en el futuro próximo.
 
@@ -241,7 +236,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 
 :information_source: **Más información**
 
-- 💡 [Recomendaciones](/conclusiones/recomendaciones.md)
+- 💡 [Divulgación](/resultados/divulgacion.md)
 
 ## Estrategias de divulgación
 
@@ -264,10 +259,10 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 | 1   | Requisitos          | 100%  | 100%        |
 | 2   | Tecnologías         | 100%  | 100%        |
 | 3   | Arquitectura        | 100%  | 100%        |
-| 4   | Programación        | 100%  | 100%        |
-| 5   | Contenidos          | 100%  | 100%        |
-| 6   | Evaluación          | 100%  | 100%        |
-| 7   | Divulgación         | 100%  | 100%        |
+| 4   | Programación        | 93%   | 93%         |
+| 5   | Contenidos          | 80%   | 80%         |
+| 6   | Evaluación          | 80%   | 80%         |
+| 7   | Divulgación         | 75%   | 75%         |
 
 La descripción de avance en relación con el 📆 cronograma y las 📝 observaciones están en la sección de [objetivos](/proyecto/objetivos.md).
 

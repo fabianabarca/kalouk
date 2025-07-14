@@ -1,4 +1,4 @@
-# Características del sistema
+# Requisitos del sistema
 
 ::: info Metas e indicadores
 
@@ -10,6 +10,8 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 :::
 
 ## Lista de **características** deseables
+
+La siguiente es una lista de características deseables para el sistema, recopiladas a partir de la experiencia del autor en las sesiones virtuales sincrónicas y la necesidades derivadas de un curso con componentes de matemáticas y programación.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
   <div class="cell">
@@ -45,7 +47,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">developer_mode</span></div>
     </div>
     <div class="cell-content">
-      Capacidad de uso de <strong>plataformas (<em>frameworks</em>) de <em>front end</em></strong>, como React, Vue o Angular, para facilitar la creación de contenido interactivo.
+      Capacidad de uso de <strong>plataformas (<em>frameworks</em>) de <em>front end</em></strong>, como React, Vue o Angular, para facilitar la creación de contenido interactivo con herramientas modernas y modulares.
     </div>
   </div>
   <div class="cell">
@@ -63,7 +65,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">psychology</span></div>
     </div>
     <div class="cell-content">
-      Capacidad de mostrar <strong>diapositivas con interacción avanzada</strong>.
+      Capacidad de mostrar <strong>diapositivas con interacción avanzada</strong> como datos con actualización en tiempo real.
     </div>
   </div>
   <div class="cell">
@@ -99,7 +101,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">play_arrow</span></div>
     </div>
     <div class="cell-content">
-      Capacidad de <strong>editar y ejecutar código</strong> en la misma plataforma.
+      Capacidad de <strong>editar y ejecutar código</strong> en la misma plataforma y de forma nativa.
     </div>
   </div>
   <div class="cell">
@@ -108,7 +110,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">sync_alt</span></div>
     </div>
     <div class="cell-content">
-      Capacidad de hacer <strong>sesiones remotas sincrónicas o asincrónicas</strong>, con participación de personas desde cualquier dispositivo con un navegador web. En el caso sincrónico, una persona presentadora es capaz de controlar las diapositivas para todos los participantes.
+      Capacidad de hacer <strong>sesiones remotas sincrónicas o asincrónicas</strong>, con participación de personas desde cualquier dispositivo con un navegador web.
     </div>
   </div>
   <div class="cell">
@@ -117,7 +119,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">person_add</span></div>
     </div>
     <div class="cell-content">
-      Capacidad nativa de <strong>registro de participantes</strong> en una base de datos para almacenamiento de la información de su participación y estadísticas generales de uso.
+      Capacidad de <strong>registro de participantes</strong> en una base de datos para almacenamiento de la información de su participación y estadísticas generales de uso.
     </div>
   </div>
   <div class="cell">
@@ -135,7 +137,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
       <div class="cell-icon"><span class="material-symbols-outlined">edit</span></div>
     </div>
     <div class="cell-content">
-      Capacidad de <strong>edición de diapositivas con interfaz de usuario</strong>, no con código.
+      Capacidad de <strong>edición de diapositivas con interfaz de usuario</strong> o Markdown como lenguaje intermedio, no con código HTML.
     </div>
   </div>
   <div class="cell">
@@ -151,42 +153,50 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 ## Comparación con sistemas existentes similares
 
-El sistema propuesta cae dentro del segmento de plataformas del tipo software como servicio (SaaS, _Software-as-a-Service_), y dentro de dos subcategorías:
+El sistema propuesta cae dentro del segmento de plataformas del tipo **software como servicio** (**SaaS**, _Software-as-a-Service_), y dentro de dos subcategorías:
 
-1. Sistemas de presentaciones en línea
-2. Plataformas de aprendizaje digital
+1. **Sistemas de presentaciones en línea**
+2. **Plataformas de aprendizaje digital**
 
 Existe una gran cantidad de opciones disponibles, del orden de cientos, sin embargo, en esta comparación solamente fueron analizados los más relevantes o similares por sus objetivos, según una investigación en línea hecha en https://www.g2.com/, un sitio para comparar productos de software, realizada en abril de 2023.
 
 En la siguiente tabla fue asignado un punto por el cumplimiento de cada característica listada en la sección anterior.
 
-| Plataforma     | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | Total |
-| -------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ----- |
-| Sli.dev        | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 14    |
-| Reveal.js      | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 11    |
-| Slides         | 1   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 0   | 1   | 0   | 7     |
-| Nearpod        | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| Kahoot!        | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| Socrative      | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| RELAYTO        | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| Mentimeter     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| mmhmm          | 1   | 1   | 1   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 7     |
-| Synthesia      | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Vyond          | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Visme          | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Beautiful.ai   | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Powtoon        | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Colossyan      | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 6     |
-| Genially       | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 6     |
-| PowerPoint     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 6     |
-| Zoom           | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 5     |
-| Beamer (LaTeX) | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 4     |
-| Slidebean      | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 5     |
-| Prezi          | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 4     |
-| Canva          | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 4     |
+| Plataforma     | Total | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  |
+| -------------- | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Sli.dev        | 14    | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 0   | 1   | 1   | 1   |
+| Reveal.js      | 11    | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   | 1   | 0   | 1   | 0   | 1   | 0   | 1   |
+| Slides         | 7     | 1   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   | 0   | 1   | 0   |
+| Nearpod        | 7     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Kahoot!        | 7     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Socrative      | 7     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| RELAYTO        | 7     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Mentimeter     | 7     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| mmhmm          | 7     | 1   | 1   | 1   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Synthesia      | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Vyond          | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Visme          | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Beautiful.ai   | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Powtoon        | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Colossyan      | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 1   | 0   |
+| Genially       | 6     | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| PowerPoint     | 6     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| Slidebean      | 5     | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| Zoom           | 5     | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 0   | 0   | 0   |
+| Beamer (LaTeX) | 4     | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 1   |
+| Prezi          | 4     | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| Canva          | 4     | 1   | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
 
-Desde esta perspectiva, se puede observar que la elección de Slidev como plataforma de desarrollo es la más adecuada en función de la lista de características deseadas. Sin embargo, dicha elección no constituye una "calificación perfecta", ya que su edición no es sencilla y requiere conocimientos especializados de programación. Además, la plataforma carece de un sistema "back-end" para el registro de participantes, por lo que es necesario desarrollarlo mediante el uso de Django, tal como se especifica en el segundo objetivo específico.
+::: tip Elección de la herramienta Slidev
+
+Con estos datos, la elección de [Slidev](https://sli.dev/) como plataforma de desarrollo es evidente, en función de la lista de características deseadas. Sin embargo, dicha elección no constituye una "calificación perfecta", ya que su edición no es sencilla y requiere conocimientos especializados de programación. Además, la plataforma carece de un sistema "back-end" para el registro de participantes, por lo que es necesario desarrollarlo también (ver sección [desarrollo](../desarrollo/)).
+
+:::
 
 ::: danger Cambio de herramienta base
-Por la mayor parte del tiempo de ejecución del proyecto, la herramienta utilizada fue Reveal.js. Sin embargo, a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas.
+
+Por la mayor parte del tiempo de ejecución del proyecto, la herramienta utilizada fue [Reveal.js](https://revealjs.com/). Sin embargo, a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas.
+
+Por tanto, esta herramienta fue desechada a favor de un nuevo _tech stack_ (conjunto de tecnologías).
+
 :::

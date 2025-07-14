@@ -62,3 +62,14 @@ Hay un amplio registro [7] de experiencias positivas con la gamificación. Majur
 - Dificultad adaptativa
 
 Esta es una guía valiosa para el diseño de actividades virtuales sincrónicas mediadas por el sistema propuesto, en este caso orientado al análisis y modelado de datos.
+
+## Diseño de contenidos
+
+Todos los contenidos de las presentaciones del sistema deben ser adaptados a partir de los contenidos teóricos y prácticos del curso. El material generado, sin embargo, debe tener consideraciones especiales por tratarse de una forma de educación virtual, siendo que el material original del curso no tenía un diseño específico para esto. Hay consideraciones en relación con varios tipos de interacción [2].
+
+El ciclo de vida de creación de las sesiones virtuales se propone a grandes rasgos como en [3] en forma de fases iterativas:
+
+- **Fase 1**: el diseño del módulo de la clase virtual, basado en los objetivos de aprendizaje.
+- **Fase 2**: la impartición de la clase virtual, basado en patrones de interacción apropiados.
+- **Fase 3**: la evaluación de las asignaciones de los estudiantes.
+- **Fase 4**: la reflexión sobre el módulo virtual, incluyendo el compromiso y resultados de los estudiantes.

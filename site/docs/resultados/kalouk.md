@@ -14,6 +14,11 @@ El nombre "Kalouk" proviene de la lengua bribri y significa "agarrar" o "tomar",
 
 Bajo el nombre Kalouk fueron desarrollados los componentes más importantes del proyecto, para darles identidad y coherencia temática.
 
+Algunos componentes de Kalouk caen dentro de la categoría de **software como servicio** (SaaS, _Software-as-a-Service_), y, en general, dentro de dos subcategorías:
+
+- Sistemas de presentaciones en línea
+- Plataformas de aprendizaje digital
+
 Kalouk no es un sistema monolítico como otros sistemas similares (Kahoot!, Nearpod, etc.) mostrados en la tabla de comparación con sistemas existentes similares en los [requisitos de diseño](../diseno/requisitos). En cambio, Kalouk está integrado con otros ambientes y sistemas que favorecen la interoperabilidad y la cooperación en escenarios más realistas de análisis de datos.
 
 Esto confiere al sistema una flexibilidad mayor, apta para incorporar contenidos interactivos aprovechando el universo del desarrollo web y el software de código abierto.
@@ -21,11 +26,11 @@ Esto confiere al sistema una flexibilidad mayor, apta para incorporar contenidos
 <!-- prettier-ignore -->
 <Mermaid :code="`
 flowchart TD
-    subgraph Backend
+    subgraph Backend [Procesamiento de datos]
         WEB[Kalouk WEB]
         MCP[Kalouk MCP]
     end
-    subgraph Frontend
+    subgraph Frontend [Interacción con usuarios]
         CLI[Kalouk CLI]
         JS[Kalouk JS]
         PY[Kalouk PY]
@@ -39,4 +44,4 @@ flowchart TD
     PY <--> PYX
 `" />
 
-Para entender mejor los componentes de Kalouk, es apropiado iniciar por la guía de aplicación de Kalouk al diseño pedagógico de un curso, en la siguiente sección.
+Para entender mejor los componentes de Kalouk por medio de una clasificación en **interfaces**, **servicios** y **contexto**, es apropiado iniciar por la guía de aplicación de Kalouk al diseño pedagógico de un curso, en la siguiente sección.

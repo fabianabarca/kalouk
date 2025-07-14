@@ -1,13 +1,24 @@
-# Resultados
+# Resultados del proyecto
+
+::: tip Objetivos
+
+En este apartado (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob4` Desarrollar la programación.
+- `Ob5` Crear contenido para sesiones sincrónicas virtuales con los contenidos del curso Modelos Probabilísticos de Señales y Sistemas.
+- `Ob6` Evaluar la recepción pedagógica y el desempeño técnico del sistema.
+- `Ob7` Socializar los resultados del proyecto.
+
+:::
+
+## Componentes tecnológicos
 
 ::: info Metas e indicadores
 
-En esta página (ver [objetivos](/proyecto/objetivos.md)):
+En estas secciones (ver [objetivos](/proyecto/objetivos.md)):
 
-- `Ob4|Me1` Creación de un **repositorio web** para desarrollo y documentación
 - `Ob4|Me2` Implementación de la **funcionalidad base** del sistema
 - `Ob4|Me3` Implementación gradual de **nuevas funcionalidades** en el sistema, entre ellas: sesiones de usuario, control remoto de las presentaciones, fragmentos de código ejecutable, etc.
-- `Ob4|Me4` Prueba del sistema en un **servidor web**
 
 :::
 
@@ -102,7 +113,15 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados:
   </div>
 </div>
 
-## Repositorios del proyecto
+### Repositorios del proyecto
+
+::: info Metas e indicadores
+
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob4|Me1` Creación de un **repositorio web** para desarrollo y documentación
+
+:::
 
 <span class="i-simple-icons-github"></span> **GitHub**
 
@@ -117,3 +136,54 @@ Los siguientes son los componentes tecnológicos y pedagógicos desarrollados:
 - [fabianabarca / **slidev-addon-kalouk**](https://github.com/fabianabarca/slidev-addon-kalouk)
 - [fabianabarca / **improbabilidades**](https://github.com/fabianabarca/improbabilidades)
 - [improbabilidades / **pyx**](https://github.com/improbabilidades/pyx)
+
+### Prueba del sistema
+
+::: info Metas e indicadores
+
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob4|Me4` Prueba del sistema en un **servidor web**
+
+:::
+
+- Kalouk WEB
+- Kalouk XYZ
+
+## Guía de aplicación
+
+::: info Metas e indicadores
+
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob5|Me2` Creación de una propuesta de **guía pedagógica** para la incorporación del sistema en los cursos universitarios
+
+:::
+
+Ver sección de [guía de aplicación](guia).
+
+## Evaluación
+
+::: info Metas e indicadores
+
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob6|Me2` Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
+- `Ob6|Me4` Presentación de resultados de la aplicación del instrumento de evaluación de desempeño del sistema
+
+:::
+
+Ver sección de [evaluación](evaluacion).
+
+## Divulgación
+
+::: info Metas e indicadores
+
+En esta página (ver [objetivos](/proyecto/objetivos.md)):
+
+- `Ob7|Me1` Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
+- `Ob7|Me2` **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases
+
+:::
+
+Ver sección de [divulgación](divulgacion).

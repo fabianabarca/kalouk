@@ -11,7 +11,7 @@
 
 ## Motivación
 
-En el contexto de pandemia y virtualización del 2020 y 2021, el curso utilizó plataformas para conferencias de voz y video, como Zoom, y plataformas para interactividad con las y los estudiantes, como Nearpod y Kahoot!. Sin embargo, estas herramientas no cubren todas las necesidades del curso y no explotan todas las **posibilidades pedagógicas de las tecnologías web** ni las **herramientas computacionales para el análisis de datos**.
+En el contexto de pandemia y virtualización del 2020 y 2021, el curso utilizó plataformas para conferencias de voz y video, como Zoom, y plataformas para interactividad con las y los estudiantes, como Kahoot! y Nearpod. Sin embargo, estas herramientas no cubren todas las necesidades del curso y no explotan todas las **posibilidades pedagógicas de las tecnologías web** ni las **herramientas computacionales para el análisis de datos**.
 
 Este proyecto planteó el desarrollo de un **ecosistema de componentes web** para presentaciones virtuales sincrónicas o contenido teórico asincrónico interactivo con el objetivo de crear una plataforma complementaria de apoyo para la docencia del curso.
 
@@ -72,11 +72,10 @@ _Flujo **unidireccional** de información_
 <Mermaid :code="`
 graph LR
     subgraph Presentación
-        direction LR
         D([Docente])
-        E([Estudiantes])
     end
-    D --> E
+    E([Estudiantes])
+    Presentación -- observación --> E
 `" />
 
 ✏️ Ejemplo: clase magistral con ayuda de una presentación de diapositivas utilizando **pantalla compartida** (_screencasting_).
@@ -132,7 +131,7 @@ graph LR
     end
     D([Docente])
     E <--> S
-    Experimentación -- supervisión --> D
+    D -- supervisión --> Experimentación
 `" />
 
 ✏️ Ejemplo: las y los estudiantes realizan un ejercicio de programación utilizando una **herramienta interactiva de programación**.
