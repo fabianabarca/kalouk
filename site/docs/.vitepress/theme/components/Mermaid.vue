@@ -124,8 +124,8 @@ const renderMermaid = async () => {
     const cleanCode = props.code.trim();
 
     // Use the simpler render method for v8
-    const svgCode = await mermaidInstance.render(props.id, cleanCode);
-    renderedSvg.value = svgCode;
+    const renderResult = await mermaidInstance.render(props.id, cleanCode);
+    renderedSvg.value = renderResult.svg;
   } catch (error) {
     console.error("Mermaid rendering error:", error);
     console.log("Mermaid code that failed:", props.code);
