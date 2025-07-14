@@ -160,7 +160,7 @@ En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Ver sección de [guía de aplicación](guia).
+Ver sección de [guía de aplicación](/resultados/guia.md).
 
 ## Evaluación
 
@@ -173,7 +173,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Ver sección de [evaluación](evaluacion).
+Ver sección de [evaluación](/resultados/evaluacion/index.md).
 
 ## Divulgación
 
@@ -186,4 +186,4 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Ver sección de [divulgación](divulgacion).
+Ver sección de [divulgación](/resultados/divulgacion.md).
