@@ -45,3 +45,13 @@ flowchart TD
 `" />
 
 Para entender mejor los componentes de Kalouk por medio de una clasificación en **interfaces**, **servicios** y **contexto**, es apropiado iniciar por la guía de aplicación de Kalouk al diseño pedagógico de un curso, en la siguiente sección.
+
+## Identidad visual
+
+### Tema personalizado de Kalouk para Slidev
+
+Impedit aliquam ad ipsam a ea sequi, nemo saepe ex sequi dolorum dolorem, voluptas numquam autem modi? Earum consequuntur inventore nihil quas, nulla ratione inventore explicabo repellendus molestiae libero ab aliquid sed? Dicta sequi rerum voluptatibus reiciendis quasi consequuntur minima, saepe vero rerum nihil laudantium aliquid distinctio eligendi, culpa sunt eos odio iure natus voluptates neque, ab reprehenderit quibusdam earum blanditiis quas maiores libero soluta deserunt.
+
+Disponible aquí: https://www.npmjs.com/package/slidev-theme-kalouk
+
+## <span class="i-simple-icons-python"></span> Python

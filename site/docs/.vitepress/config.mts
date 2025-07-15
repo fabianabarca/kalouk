@@ -7,15 +7,22 @@ export default defineConfig({
   cleanUrls: true,
   base: "/",
 
+  title: "Kalouk",
+  description: "Componentes web para matemáticas y programación",
+
+  markdown: {
+    theme: {
+      light: "min-light",
+      dark: "min-dark",
+    },
+  },
+
   vite: {
     plugins: [UnoCSS() as any],
     optimizeDeps: {
       include: ["mermaid"],
     },
   },
-
-  title: "Kalouk",
-  description: "Componentes web para matemáticas y programación",
 
   head: [
     [
@@ -31,6 +38,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/K_icon.png",
+    footer: {
+      message:
+        'Publicado bajo la <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Licencia Creative Commons CC BY-NC-SA 4.0</a>.',
+      copyright: "Derechos reservados © 2025 Fabián Abarca Calderón",
+    },
     nav: [
       { text: "Inicio", link: "/" },
       { text: "Proyecto", link: "/proyecto" },

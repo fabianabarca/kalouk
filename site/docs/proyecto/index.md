@@ -19,9 +19,9 @@ _Informe final | julio de 2025_
 | ------------------------------ | ----------------------------------- |
 | Código de proyecto             | **PD-IE-472-2022**                  |
 | Unidad académica               | **Escuela de Ingeniería Eléctrica** |
-| Vigencia inicial               | **1 abril 2022 - 31 marzo 2024**    |
+| Vigencia inicial               | **1 abril 2022 / 31 marzo 2024**    |
 | Estado                         | **Prórroga al 7 julio 2025**        |
-| Período informe final          | **1 abril 2024 - 7 julio 2025**     |
+| Período informe final          | **1 abril 2024 / 7 julio 2025**     |
 | Gestora Vicerrectoría Docencia | **Marielos Montero Dien**           |
 | Coordinadora Comisión Docencia | **Mercedes Chacón Vázquez**         |
 
@@ -35,14 +35,14 @@ fabian.abarca@ucr.ac.cr
 
 ### Estudiantes asistentes
 
-- Sirlany Mora García, <span class="text-sm">ECCI</span>
-- Wilmer Jesús Araya Rivas, <span class="text-sm">ECCI</span>
-- Yasty Sánchez Piedrahita, <span class="text-sm">ECCI</span>
-- Diego Alfaro Segura, <span class="text-sm">EIE</span>
+- Sirlany Mora García, <span class="text-sm font-italic">ECCI</span>
+- Wilmer Jesús Araya Rivas, <span class="text-sm font-italic">ECCI</span>
+- Yasty Sánchez Piedrahita, <span class="text-sm font-italic">ECCI</span>
+- Diego Alfaro Segura, <span class="text-sm font-italic">EIE</span>
 
-<span class="text-sm">ECCI - Escuela de Ciencias de la Computación e Informática, UCR</span>
+<span class="text-sm font-italic">ECCI - Escuela de Ciencias de la Computación e Informática, UCR</span>
 <br>
-<span class="text-sm">EIE - Escuela de Ingeniería Eléctrica, UCR</span>
+<span class="text-sm font-italic">EIE - Escuela de Ingeniería Eléctrica, UCR</span>
 
 ## Beneficiarios
 
@@ -191,7 +191,7 @@ Este proyecto necesitó dos prórrogas para su finalización por las dificultade
 
 Las dificultades radicaron en dos dimensiones: **tecnológica**, ya que el desarrollo de los componentes web fue retador y requirió más tiempo del inicialmente previsto, incluyendo un cambio completo de tecnologías hacia el final del proyecto, y **pedagógica**, ya que la implementación de las actividades interactivas en el curso Modelos Probabilísticos de Señales y Sistemas estuvo retrasada por la ausencia de las herramientas desarrolladas y no permitió un tiempo adecuado para su diseño.
 
-A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al criterio del autor, para la implementación de actividades interactivas en cursos de matemáticas y programación, con herramientas modernas de desarrollo web y de procesamiento de datos, con el potencial de crecer como proyecto de software de código abierto desarrollado por y para la comunidad educativa.
+A pesar de lo anterior -o gracias a lo anterior-, el proyecto experimentó una [transformación en un nuevo ecosistema](/diseno/ecosistema.md) que, al criterio del autor, logró trazar un camino prometedor para la implementación de actividades interactivas en cursos de matemáticas y programación, validando el propósito original del proyecto.
 
 ## Procesos emergentes
 
@@ -313,7 +313,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 | 6   | Evaluación          | 80%   |
 | 7   | Divulgación         | 75%   |
 
-Nota: hay un indicador por cada meta, entonces el porcentaje de avance es el mismo en ambos.
+Nota: hay un indicador por cada meta, entonces el porcentaje de avance es el mismo.
 
 La descripción de avance en relación con el 📆 cronograma y las 📝 observaciones están en la sección de objetivos.
 

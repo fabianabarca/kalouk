@@ -21,6 +21,10 @@ Para plantear el diseño, el proyecto consideró varias definiciones de interact
 
 Para entender mejor dónde están ubicadas las funcionalidades de las plataformas existentes y dónde está ubicado el sistema desarrollado, es necesario crear una clasificación de las actividades de interacción en las sesiones virtuales sincrónicas.
 
+El objetivo de esta clasificación es analizar las herramientas tecnológicas que pueden **mediar en cada tipo de interacción** y, asimismo, identificar la **propuesta de valor del sistema** desarrollado en el proyecto, en tanto que sea capaz de implementar actividades de interacción dentro de todos los cinco tipos identificados.
+
+Las herramientas tecnológicas más populares disponibles actualmente, como Zoom, Kahoot!, Nearpod, Socrative, etc., no ofrecen estas posibilidades o bien tienen un costo económico prohibitivo.
+
 ### Antecedentes
 
 Existen distintas clasificaciones de interactividad en la educación, entre ellas hay una importante clasificación general (Martin, 2012) que establece las relaciones: interacción docente-aprendiz, interacción aprendiz-aprendiz, interacción aprendiz-interfaz y la interacción aprendiz-contenido.
@@ -54,15 +58,15 @@ El rediseño de interfaces, explica Scolari, se basa "en la incorporación de nu
 
 ## Propuesta de clasificación de interacción
 
-La siguiente clasificación particular (de elaboración propia) es hecha según la dirección de los **flujos de información** y está compuesta de tres elementos (también llamados "actores" o "nodos"): _docente_, _estudiantes_ y _sistema_, donde "sistema" es entendido como una instancia o simulación del objeto de estudio, que generalmente será algún tipo de **contenido interactivo**, por ejemplo: la ejecución y visualización de programas de análisis de datos en Python.
+La siguiente clasificación particular (de elaboración propia) es hecha según la dirección de los **flujos de información** y está compuesta de tres elementos (también llamados "actores" o "nodos"): _docente_, _estudiantes_ y _sistema_, donde "sistema" es entendido como una instancia o simulación del objeto de estudio, que generalmente será algún tipo de **contenido interactivo** como, por ejemplo, la ejecución y visualización de programas de análisis de datos en Python.
 
 Las configuraciones o relaciones posibles entre estos "nodos" en un **ambiente virtual** son:
 
-1. Presentación
-1. Diálogo
-1. Demostración
-1. Experimentación
-1. Colaboración
+1. **Presentación**
+1. **Diálogo**
+1. **Demostración**
+1. **Experimentación**
+1. **Colaboración**
 
 ### Presentación
 
@@ -80,7 +84,10 @@ graph LR
     Presentación -- observación --> E
 `" />
 
-✏️ Ejemplo: clase magistral con ayuda de una presentación de diapositivas utilizando **pantalla compartida** (_screencasting_).
+<dl>
+<dt>✏️ <strong>Ejemplo</strong></dt>
+<dd>Clase magistral con ayuda de una presentación de diapositivas utilizando <strong>pantalla compartida</strong> (<em>screencasting</em>).</dd>
+</dl>
 
 ### Diálogo
 
@@ -98,7 +105,10 @@ graph LR
     D <--> E
 `" />
 
-✏️ Ejemplo: conversación oral o escrita en la plataforma utilizando **videoconferencia** o **chat**.
+<dl>
+<dt>✏️ <strong>Ejemplo</strong></dt>
+<dd>Conversación oral o escrita en la plataforma utilizando <strong>videoconferencia</strong> o <strong>chat</strong>.</dd>
+</dl>
 
 ### Demostración
 
@@ -117,7 +127,10 @@ graph LR
     Demostración -- observación --> E
 `" />
 
-✏️ Ejemplo: exploración del docente de una **herramienta interactiva de programación** utilizando **pantalla compartida** (_screencasting_)
+<dl>
+<dt>✏️ <strong>Ejemplo</strong></dt>
+<dd>Exploración del docente de una <strong>herramienta interactiva de programación</strong> utilizando <strong>pantalla compartida</strong> (<em>screencasting</em>)</dd>
+</dl>
 
 ### Experimentación
 
@@ -136,7 +149,10 @@ graph LR
     D -- supervisión --> Experimentación
 `" />
 
-✏️ Ejemplo: las y los estudiantes realizan un ejercicio de programación utilizando una **herramienta interactiva de programación**.
+<dl>
+<dt>✏️ <strong>Ejemplo</strong></dt>
+<dd>Las y los estudiantes realizan un ejercicio de programación utilizando una <strong>herramienta interactiva de programación</strong>.</dd>
+</dl>
 
 ### Colaboración
 
@@ -157,19 +173,20 @@ graph LR
     D <--> E
 `" />
 
-✏️ Ejemplo: docente y estudiantes realizan un ejercicio de programación utilizando una **herramienta interactiva de programación**.
+<dl>
+<dt>✏️ <strong>Ejemplo</strong></dt>
+<dd>Docente y estudiantes realizan un ejercicio de programación utilizando una <strong>herramienta interactiva de programación</strong>.</dd>
+</dl>
 
-### Propósito
-
-El objetivo de la clasificación descrita anteriormente es analizar las herramientas tecnológicas que pueden mediar en cada tipo de interacción y, asimismo, identificar la propuesta de valor del sistema desarrollado en el proyecto, en tanto que sea capaz de implementar actividades de interacción dentro de todos los cinco tipos identificados.
-
-Las herramientas tecnológicas más populares disponibles actualmente, como Zoom, Kahoot!, Nearpod, Socrative, etc., no ofrecen estas posibilidades o bien tienen un costo económico prohibitivo.
+## Comparación con otros sistemas
 
 Ninguna de las opciones de plataformas comerciales disponibles ofrece la posibilidad de mediar en todos los tipos de interacción descritos anteriormente, ni la posibilidad de mostrar ecuaciones o gráficas vectoriales (fundamentales para el curso). Además, en general no son herramientas gratuitas ni libres.
 
 Según las expectativas de diseño, el sistema puede sustituir funcionalmente a Kahoot!, la pantalla compartida de Zoom (pero no la videoconferencia), los sondeos de Zoom, Nearpod, Socrative y otros similares, además de incorporar la posibilidad a los estudiantes de experimentar con simulaciones de datos directamente, algo que no ofrece ninguna otra herramienta.
 
-En vista de lo anterior, fueron planteados los objetivos presentados en la siguiente sección.
+:information_source: **Más información**
+
+- 📥 [Requisitos](/diseno/requisitos.md)
 
 ## Referencias
 
