@@ -197,16 +197,65 @@ A pesar de lo anterior, el proyecto logró trazar un camino prometedor, al crite
 
 > Reporte de procesos emergentes como enlace con TFG, presentaciones en congresos, conferencias o seminarios, en el caso de haberse dado.
 
-Para el segundo ciclo del 2025 hay dos temas planteados de Proyecto Eléctrico (curso integrador de bachillerato en ingeniería eléctrica):
+Para el segundo ciclo del 2025 hay varios temas planteados de trabajos estudiantiles.
 
-- _Diseño y desarrollo de actividades interactivas con datos con las herramientas de Kalouk para la teoría del curso Modelos Probabilísticos de Señales y Sistemas_
-- _Implementación de un agente de inteligencia artificial con un servidor MCP para el curso Modelos Probabilísticos de Señales y Sistemas_
+### Proyecto eléctrico
 
-Y un tema planteado de trabajo final de graduación (TFG):
+Curso integrador de bachillerato en ingeniería eléctrica:
+
+- _Diseño y desarrollo de actividades interactivas de análisis de datos con el ecosistema Kalouk_
+
+::: details Objetivos
+
+#### Objetivo general
+
+Desarrollar cinco experiencias educativas interactivas relacionadas con los cinco temas principales de la teoría del curso Modelos Probabilísticos de Señales y Sistemas.
+
+:::
+
+- _Implementación de un agente de inteligencia artificial con el protocolo de contexto de modelos (MCP) y el ecosistema Kalouk_
+
+::: details Objetivos
+
+#### Objetivo general
+
+Desarrollar un servidor y un cliente con el protocolo de contexto de modelos (MCP, _Model Context Protocol_) para crear un agente de inteligencia artificial capaz de interactuar con los contenidos del curso y las herramientas de Kalouk.
+
+:::
+
+### Trabajo final de graduación
+
+Modalidad proyecto de graduación:
 
 - _Diseño de la estrategia de operación y mantenimiento del ecosistema Kalouk_
 
+::: details Objetivos
+
+#### Objetivo general
+
+Implementar una estrategia de operación y mantenimiento para el ecosistema de componentes Kalouk, por medio de plataformas tecnológicas para el monitoreo, la información de seguridad y la gestión de eventos, con el fin de procurar la optimización de un conjunto seleccionado de requisitos no funcionales del sistema.
+
+#### Objetivos específicos
+
+1. Identificar las tecnologías, arquitecturas, estándares y técnicas computacionales utilizadas en el monitoreo, la información de seguridad y la gestión de eventos de sistemas informáticos mediante una investigación bibliográfica y documental para la selección de las herramientas y perspectivas teóricas necesarias para el diseño de la estrategia.
+
+1. Describir las características de los sistemas de software como servicio (SaaS, _Software-as-a-Service_) en las categorías de sistemas de presentaciones en línea y plataformas de aprendizaje digital, mediante una investigación bibliográfica y documental para la identificación de los requisitos no funcionales más relevantes en la aplicación Kalouk.
+
+1. Modelar una estrategia de referencia para la operación y el mantenimiento del sistema mediante las metodologías elegidas, con el fin de procurar la optimización del conjunto de requisitos no funcionales.
+
+1. Implementar un prototipo de aplicación de la estrategia diseñada mediante una plataforma como prueba de concepto del sistema.
+
+1. Validar la implementación del prototipo de la estrategia por medio de simulaciones y pruebas de campo, para comprobar su funcionamiento y describir posibles mejoras futuras.
+
+:::
+
+### Otros enlaces
+
 Con los resultados obtenidos es posible y deseable la formulación de enlaces con otras iniciativas docentes y la participación en conferencias y seminarios en el futuro próximo.
+
+:information_source: **Más información**
+
+- 📣 [Divulgación](/resultados/divulgacion.md)
 
 ## Publicaciones o divulgaciones
 
@@ -254,17 +303,23 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 
 > Completar la tabla final del cumplimiento de los objetivos.
 
-|     | Objetivo específico | Metas | Indicadores |
-| --- | ------------------- | ----- | ----------- |
-| 1   | Requisitos          | 100%  | 100%        |
-| 2   | Tecnologías         | 100%  | 100%        |
-| 3   | Arquitectura        | 100%  | 100%        |
-| 4   | Programación        | 93%   | 93%         |
-| 5   | Contenidos          | 80%   | 80%         |
-| 6   | Evaluación          | 80%   | 80%         |
-| 7   | Divulgación         | 75%   | 75%         |
+|     | Objetivo específico | Metas |
+| --- | ------------------- | ----- |
+| 1   | Requisitos          | 100%  |
+| 2   | Tecnologías         | 100%  |
+| 3   | Arquitectura        | 100%  |
+| 4   | Programación        | 93%   |
+| 5   | Contenidos          | 80%   |
+| 6   | Evaluación          | 80%   |
+| 7   | Divulgación         | 75%   |
 
-La descripción de avance en relación con el 📆 cronograma y las 📝 observaciones están en la sección de [objetivos](/proyecto/objetivos.md).
+Nota: hay un indicador por cada meta, entonces el porcentaje de avance es el mismo en ambos.
+
+La descripción de avance en relación con el 📆 cronograma y las 📝 observaciones están en la sección de objetivos.
+
+:information_source: **Más información**
+
+- 📋 [Objetivos](/proyecto/objetivos.md)
 
 ## Informe económico
 

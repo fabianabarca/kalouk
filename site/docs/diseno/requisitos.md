@@ -153,12 +153,12 @@ La siguiente es una lista de características deseables para el sistema, recopil
 
 ## Comparación con sistemas existentes similares
 
-El sistema propuesta cae dentro del segmento de plataformas del tipo **software como servicio** (**SaaS**, _Software-as-a-Service_), y dentro de dos subcategorías:
+El sistema propuesto cae dentro del segmento de plataformas del tipo **software como servicio** (**SaaS**, _Software-as-a-Service_), y dentro de dos subcategorías:
 
 1. **Sistemas de presentaciones en línea**
 2. **Plataformas de aprendizaje digital**
 
-Existe una gran cantidad de opciones disponibles, del orden de cientos, sin embargo, en esta comparación solamente fueron analizados los más relevantes o similares por sus objetivos, según una investigación en línea hecha en https://www.g2.com/, un sitio para comparar productos de software, realizada en abril de 2023.
+Existe una gran cantidad de opciones disponibles, del orden de _cientos_, sin embargo, en esta comparación solamente fueron analizados los más relevantes o similares por sus objetivos, según una investigación en línea hecha realizada en abril de 2023 en https://www.g2.com/, un sitio para comparar productos de software.
 
 En la siguiente tabla fue asignado un punto por el cumplimiento de cada característica listada en la sección anterior.
 
@@ -189,14 +189,14 @@ En la siguiente tabla fue asignado un punto por el cumplimiento de cada caracter
 
 ::: tip Elección de la herramienta Slidev
 
-Con estos datos, la elección de [Slidev](https://sli.dev/) como plataforma de desarrollo es evidente, en función de la lista de características deseadas. Sin embargo, dicha elección no constituye una "calificación perfecta", ya que su edición no es sencilla y requiere conocimientos especializados de programación. Además, la plataforma carece de un sistema "back-end" para el registro de participantes, por lo que es necesario desarrollarlo también (ver sección [desarrollo](../desarrollo/)).
+Con estos datos, la elección de [Slidev](https://sli.dev/) como plataforma de desarrollo es evidente, en función de la lista de características deseadas. Sin embargo, dicha elección no constituye una "calificación perfecta", ya que su configuración no es sencilla y requiere conocimientos especializados de programación. Además, la plataforma carece de un sistema "back-end" (servidor de datos) para el registro de participantes y otras funcionalidades que lo requieren, por lo que es necesario desarrollarlo también (ver sección [desarrollo](/desarrollo/)).
 
 :::
 
 ::: danger Cambio de herramienta base
 
-Por la mayor parte del tiempo de ejecución del proyecto, la herramienta utilizada fue [Reveal.js](https://revealjs.com/). Sin embargo, a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas.
+Durante la mayor parte del tiempo de ejecución del proyecto, la herramienta utilizada fue [Reveal.js](https://revealjs.com/). Sin embargo, y a pesar de muchos esfuerzos, la plataforma no fue capaz de ofrecer la funcionalidad deseada para el sistema, incluyendo la ejecución de código y la edición de diapositivas. Esto representó un retraso significativo que provocó, en parte, las dos prórrogas solicitadas.
 
-Por tanto, esta herramienta fue desechada a favor de un nuevo _tech stack_ (conjunto de tecnologías).
+Por tanto, esta herramienta fue desechada a favor de un nuevo _tech stack_ (conjunto de tecnologías), el cual es ahora satisfactorio.
 
 :::

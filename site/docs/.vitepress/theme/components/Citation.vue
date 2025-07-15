@@ -26,7 +26,7 @@ onMounted(async () => {
       cite = await Cite.async(props.doi);
     } else if (props.citekey) {
       const bibtexText = await fetch(
-        new URL("/references.bib", import.meta.url)
+        new URL("../data/references.bib", import.meta.url)
       ).then((r) => r.text());
       console.log("BibTeX loaded:", bibtexText);
 

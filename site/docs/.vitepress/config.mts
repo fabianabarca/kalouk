@@ -54,7 +54,7 @@ export default defineConfig({
         text: "Diseño",
         collapsed: true,
         items: [
-          { text: "Descripción", link: "/diseno/" },
+          { text: "Sobre el diseño", link: "/diseno/" },
           { text: "Requisitos", link: "/diseno/requisitos" },
           { text: "Ecosistema", link: "/diseno/ecosistema" },
           { text: "Docencia", link: "/diseno/docencia" },
@@ -73,7 +73,7 @@ export default defineConfig({
         text: "Desarrollo",
         collapsed: true,
         items: [
-          { text: "Descripción", link: "/desarrollo/" },
+          { text: "Sobre el desarrollo", link: "/desarrollo/" },
           {
             text: "Metodología",
             link: "/desarrollo/metodologia",
@@ -85,7 +85,7 @@ export default defineConfig({
         text: "Resultados",
         collapsed: true,
         items: [
-          { text: "Descripción", link: "/resultados/" },
+          { text: "Sobre los resultados", link: "/resultados/" },
           { text: "Kalouk", link: "/resultados/kalouk" },
           { text: "Guía de aplicación", link: "/resultados/guia" },
           {

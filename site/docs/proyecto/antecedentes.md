@@ -2,30 +2,32 @@
 
 ::: info Puntos clave
 
-- IE0405 - Modelos Probabilísticos de Señales y Sistemas es un curso introductorio de probabilidad y estadística en la carrera de Ingeniería Eléctrica.
-- Para la enseñanza y la evaluación de sus conceptos, el curso utiliza herramientas de programación dedicadas al análisis y modelado de datos.
-- Una nueva clasificación de tipos de interacción es propuesta para analizar las herramientas tecnológicas que pueden mediar en cada una de estas interacciones.
-- El proyecto surge de la exploración de alternativas para presentar contenidos e interactividad durante las sesiones virtuales sincrónicas y la dificultad de encontrar una herramienta comercialmente disponible adecuada.
+- IE0405 - Modelos Probabilísticos de Señales y Sistemas es un **curso introductorio de probabilidad y estadística** en la carrera de Ingeniería Eléctrica.
+- Para la enseñanza y la evaluación de sus conceptos, el curso utiliza **herramientas de programación** dedicadas al **análisis y modelado de datos**.
+- Una nueva **clasificación de tipos de interacción** es propuesta para analizar las herramientas tecnológicas que pueden mediar en cada una de estas interacciones.
+- El proyecto surge de la **exploración de alternativas para presentar contenidos e interactividad** durante las sesiones virtuales sincrónicas y la dificultad de encontrar una herramienta comercialmente disponible adecuada.
 
 :::
 
 ## Motivación
 
-En el contexto de pandemia y virtualización del 2020 y 2021, el curso utilizó plataformas para conferencias de voz y video, como Zoom, y plataformas para interactividad con las y los estudiantes, como Kahoot! y Nearpod. Sin embargo, estas herramientas no cubren todas las necesidades del curso y no explotan todas las **posibilidades pedagógicas de las tecnologías web** ni las **herramientas computacionales para el análisis de datos**.
+En el contexto de pandemia y virtualización del 2020 y 2021, el curso utilizó plataformas para conferencias de voz y video, como Zoom, y plataformas para interactividad con las y los estudiantes, como Kahoot! y Nearpod. Sin embargo, estas herramientas no cubrieron todas las necesidades del curso y además no explotan todas las **posibilidades pedagógicas de las tecnologías web** ni de las **herramientas computacionales para el análisis de datos** (Stančin, 2019).
 
-Este proyecto planteó el desarrollo de un **ecosistema de componentes web** para presentaciones virtuales sincrónicas o contenido teórico asincrónico interactivo con el objetivo de crear una plataforma complementaria de apoyo para la docencia del curso.
+Este proyecto planteó el desarrollo de un **ecosistema de componentes web** para presentaciones virtuales sincrónicas o contenido teórico asincrónico **interactivo** con el objetivo de crear una plataforma complementaria de apoyo para la docencia del curso.
 
-Para plantear el diseño el proyecto consideró varias definiciones de interactividad para explotar con el sistema.
+Para plantear el diseño, el proyecto consideró varias definiciones de interactividad.
 
 ## Tipos de interactividad
 
 Para entender mejor dónde están ubicadas las funcionalidades de las plataformas existentes y dónde está ubicado el sistema desarrollado, es necesario crear una clasificación de las actividades de interacción en las sesiones virtuales sincrónicas.
 
-Existen distintas clasificaciones de interactividad en la educación, entre ellas hay una importante clasificación general [2] que establece las relaciones: interacción docente-aprendiz, interacción aprendiz-aprendiz, interacción aprendiz-interfaz y la interacción aprendiz-contenido.
+### Antecedentes
+
+Existen distintas clasificaciones de interactividad en la educación, entre ellas hay una importante clasificación general (Martin, 2012) que establece las relaciones: interacción docente-aprendiz, interacción aprendiz-aprendiz, interacción aprendiz-interfaz y la interacción aprendiz-contenido.
 
 <!-- prettier-ignore -->
 <Mermaid :code="`
-flowchart LR
+flowchart TD
     D([Docente])
     A([Aprendiz])
     C[Contenido]
@@ -36,9 +38,9 @@ flowchart LR
     A <--> C
 `" />
 
-También, una forma reciente de conceptualizar la clase virtual es como un "sistema ciber-físico" (CPS, _cyber-physical system_) [3] donde coexisten procesos físicos, computacionales y humanos en distintos patrones y modalidades, mediado por "capas" que incluyen: software multimedia (texto, imágenes, videos, etc.), ambientes virtuales de aprendizaje (como Mediación Virtual) y las herramientas de comunicación virtual (videoconferencia, pantalla compartida, etc.). Además, según [4], el aprendizaje en línea es o debe ser "cibernético" en tanto que es dependiente del uso de tecnologías de comunicación y herramientas inteligentes para la **comunicación y retroalimentación** entre las partes.
+También, una forma reciente de conceptualizar la clase virtual es como un "sistema ciber-físico" (CPS, _cyber-physical system_) (Olszewska, 2021) donde coexisten procesos físicos, computacionales y humanos en distintos patrones y modalidades, mediado por "capas" que incluyen: software multimedia (texto, imágenes, videos, etc.), ambientes virtuales de aprendizaje (como Mediación Virtual) y las herramientas de comunicación virtual (videoconferencia, pantalla compartida, etc.). Además, según (Scott, 2007), el aprendizaje en línea es o debe ser "cibernético" en tanto que es dependiente del uso de tecnologías de comunicación y herramientas inteligentes para la **comunicación y retroalimentación** entre las partes.
 
-Otra teoría que generaliza la clasificación de interacciones es propuesta por Scolari en "Las Leyes de la Interfaz" [5] donde plantea una interfaz como un concepto que engloba todo tipo de procesos tecnológicos y sociales, incluyendo el espacio educativo, ya sea presencial o virtual. Específicamente, una interfaz es "una red de actores humanos y tecnológicos que interactúan y mantienen diferentes tipos de relaciones entre sí". La identificación de actores, relaciones y procesos, según la clasificación de Scolari, será útil para contextualizar las funciones del sistema aquí propuesto.
+Otra teoría que generaliza la clasificación de interacciones es propuesta por Scolari en "Las Leyes de la Interfaz" (Scolari, 2018) donde plantea una interfaz como un concepto que engloba todo tipo de procesos tecnológicos y sociales, incluyendo el espacio educativo, ya sea presencial o virtual. Específicamente, una interfaz es "una red de actores humanos y tecnológicos que interactúan y mantienen diferentes tipos de relaciones entre sí". La identificación de actores, relaciones y procesos, según la clasificación de Scolari, será útil para contextualizar las funciones del sistema aquí propuesto.
 
 <!-- prettier-ignore -->
 <Mermaid :code="`
@@ -168,3 +170,11 @@ Ninguna de las opciones de plataformas comerciales disponibles ofrece la posibil
 Según las expectativas de diseño, el sistema puede sustituir funcionalmente a Kahoot!, la pantalla compartida de Zoom (pero no la videoconferencia), los sondeos de Zoom, Nearpod, Socrative y otros similares, además de incorporar la posibilidad a los estudiantes de experimentar con simulaciones de datos directamente, algo que no ofrece ninguna otra herramienta.
 
 En vista de lo anterior, fueron planteados los objetivos presentados en la siguiente sección.
+
+## Referencias
+
+<Citation citekey="stancin2019overview" />
+<Citation citekey="martin2012examining" />
+<Citation citekey="olszewska2021virtual" />
+<Citation citekey="scott2007cybernetic" />
+<Citation citekey="scolari2018leyes" />
