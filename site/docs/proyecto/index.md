@@ -277,7 +277,7 @@ Hay tres artículos en desarrollo, a partir del proceso y los resultados del pro
 
 :information_source: **Más información**
 
-- 💡 [Recomendaciones](/conclusiones/recomendaciones.md)
+- 💡 [Recomendaciones](/conclusiones.md)
 
 ## Reporte de personas participantes
 
