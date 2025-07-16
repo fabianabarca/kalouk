@@ -97,42 +97,69 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "✅ Sobre los resultados", link: "/resultados/" },
-          { text: "Kalouk", link: "/resultados/kalouk" },
-          { text: "Guía de aplicación", link: "/resultados/guia" },
+          { text: "🌐 Kalouk", link: "/resultados/kalouk" },
+          { text: "✏️ Guía de aplicación", link: "/resultados/guia" },
           {
-            text: "Servicios",
+            text: "🛠️ Servicios",
             collapsed: true,
             items: [
-              { text: "Introducción", link: "/resultados/servicios/" },
-              { text: "Kalouk WEB", link: "/resultados/servicios/kalouk-web" },
-              { text: "Kalouk MCP", link: "/resultados/servicios/kalouk-mcp" },
-            ],
-          },
-          {
-            text: "Interfaces",
-            collapsed: true,
-            items: [
-              { text: "Introducción", link: "/resultados/interfaces/" },
-              { text: "Kalouk CLI", link: "/resultados/interfaces/kalouk-cli" },
-              { text: "Kalouk JS", link: "/resultados/interfaces/kalouk-js" },
-              { text: "Kalouk PY", link: "/resultados/interfaces/kalouk-py" },
-              { text: "Kalouk XYZ", link: "/resultados/interfaces/kalouk-xyz" },
-              { text: "Kalouk PWA", link: "/resultados/interfaces/kalouk-pwa" },
-              { text: "Slidev", link: "/resultados/interfaces/slidev" },
-              { text: "VitePress", link: "/resultados/interfaces/vitepress" },
-            ],
-          },
-          {
-            text: "Contexto",
-            collapsed: true,
-            items: [
-              { text: "Introducción", link: "/resultados/contexto/" },
-              { text: "Kalouk PyX", link: "/resultados/contexto/kalouk-pyx" },
+              { text: "❓ ¿Qué son?", link: "/resultados/servicios/" },
               {
-                text: "improbabilidades.com",
+                text: "🌐 Kalouk WEB",
+                link: "/resultados/servicios/kalouk-web",
+              },
+              {
+                text: "🤖 Kalouk MCP",
+                link: "/resultados/servicios/kalouk-mcp",
+              },
+            ],
+          },
+          {
+            text: "🖥️ Interfaces",
+            collapsed: true,
+            items: [
+              { text: "❓ ¿Qué son?", link: "/resultados/interfaces/" },
+              {
+                text: "⌨️ Kalouk CLI",
+                link: "/resultados/interfaces/kalouk-cli",
+              },
+              {
+                text: "🟨 Kalouk JS",
+                link: "/resultados/interfaces/kalouk-js",
+              },
+              {
+                text: "🐍 Kalouk PY",
+                link: "/resultados/interfaces/kalouk-py",
+              },
+              {
+                text: "🌐 Kalouk XYZ",
+                link: "/resultados/interfaces/kalouk-xyz",
+              },
+              {
+                text: "📱 Kalouk PWA",
+                link: "/resultados/interfaces/kalouk-pwa",
+              },
+              { text: "🎨 Slidev", link: "/resultados/interfaces/slidev" },
+              {
+                text: "📚 VitePress",
+                link: "/resultados/interfaces/vitepress",
+              },
+            ],
+          },
+          {
+            text: "📄 Contexto",
+            collapsed: true,
+            items: [
+              { text: "❓ ¿Qué es?", link: "/resultados/contexto/" },
+              {
+                text: "🐍 Kalouk PyX",
+                link: "/resultados/contexto/kalouk-pyx",
+              },
+              {
+                text: "🌐 improbabilidades.com",
                 link: "/resultados/contexto/improbabilidades",
               },
-              { text: "Proyectos", link: "/resultados/contexto/proyectos" },
+              { text: "📁 Proyectos", link: "/resultados/contexto/proyectos" },
             ],
           },
           {

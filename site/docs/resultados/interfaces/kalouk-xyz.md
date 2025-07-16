@@ -6,4 +6,8 @@ Un sitio web para alojar presentaciones interactivas de Slidev para sesiones sin
 
 :::
 
-Sitio web para presentaciones interactivas, disponible en kalouk.xyz.
+::: danger En desarrollo
+
+Para este informe este sitio web no está listo. Para ver una demostración de Kalouk con las presentaciones interactivas, está [la demostración del informe](https://demo.kalouk.xyz/).
+
+:::

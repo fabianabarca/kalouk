@@ -1,9 +1,8 @@
 # Integración con Slidev
 
-::: info Puntos clave
+::: info ¿Qué es?
 
-- Puntos clave
-- Síntesis
+Adaptación de Kalouk para el uso de las presentaciones web interactivas Slidev.
 
 :::
 
@@ -17,12 +16,4 @@ El tema está disponible para uso público en el repositorio de paquetes npm en 
 
 Este tema presenta diseños de diapositivas específicos para la enseñanza de conceptos de programación y matemáticas.
 
-#### Ecuaciones
-
-#### Código
-
-## Complementos
-
-### `slidev-addon-kalouk`
-
-El complemento está disponible para uso público en el repositorio de paquetes npm en la dirección https://www.npmjs.com/package/slidev-addon-kalouk
+Para ver una demostración de Kalouk con las presentaciones interactivas, está [la demostración del informe](https://demo.kalouk.xyz/).

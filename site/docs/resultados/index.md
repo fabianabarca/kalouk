@@ -147,8 +147,8 @@ En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-- Kalouk WEB
-- Kalouk XYZ
+- Ver [Kalouk WEB](https://web.kalouk.xyz/)
+- Ver [Kalouk XYZ](https://kalouk.xyz/)
 
 ## Guía de aplicación
 
@@ -160,30 +160,30 @@ En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Ver sección de [guía de aplicación](/resultados/guia.md).
+- Ver sección de [guía de aplicación](/resultados/guia.md).
 
 ## Evaluación
 
 ::: info Metas e indicadores
 
-En esta página (ver [objetivos](/proyecto/objetivos.md)):
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob6|Me2` Presentación de resultados de la aplicación del instrumento de evaluación pedagógica del sistema
 - `Ob6|Me4` Presentación de resultados de la aplicación del instrumento de evaluación de desempeño del sistema
 
 :::
 
-Ver sección de [evaluación](/resultados/evaluacion/index.md).
+- Ver sección de resultados de [evaluación](/resultados/evaluacion/index.md).
 
 ## Divulgación
 
 ::: info Metas e indicadores
 
-En esta página (ver [objetivos](/proyecto/objetivos.md)):
+En esta sección (ver [objetivos](/proyecto/objetivos.md)):
 
 - `Ob7|Me1` Creación de un evento virtual para **demostración del sistema**, abierto a estudiantes y profesores de la Universidad de Costa Rica
 - `Ob7|Me2` **Documentación de la experiencia docente** en el proceso de creación y aplicación de las estrategias pedagógicas para el uso del sistema en clases
 
 :::
 
-Ver sección de [divulgación](/resultados/divulgacion.md).
+- Ver sección de resultados de [divulgación](/resultados/divulgacion.md).

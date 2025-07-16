@@ -24,6 +24,7 @@ _Informe final | julio de 2025_
 | Período informe final          | **1 abril 2024 / 7 julio 2025**     |
 | Gestora Vicerrectoría Docencia | **Marielos Montero Dien**           |
 | Coordinadora Comisión Docencia | **Mercedes Chacón Vázquez**         |
+| Asesora ProInnova              | **Lilliana Rojas Guillén**          |
 
 ## Participantes
 
