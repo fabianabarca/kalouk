@@ -43,7 +43,3 @@ features:
     details: Conclusiones, agradecimientos y referencias bibliográficas para el proyecto.
     link: /conclusiones/
 ---
-
-::: danger Trabajo en progreso
-Este informe estará disponible en **julio 2025**.
-:::
