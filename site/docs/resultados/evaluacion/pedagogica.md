@@ -8,32 +8,94 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-## Evaluación pedagógica
+## Experiencias de aprendizaje virtual
 
-Según los objetivos, la metodología y el cronograma, se desarrollará y aplicará un instrumento de evaluación pedagógica a aproximadamente 60 estudiantes con el objetivo de evaluar el impacto positivo o negativo del sistema propuesto en la enseñanza del curso, a partir de algunas sesiones sincrónicas de prueba con la plataforma.
+En relación con las experiencias:
 
-Atención (engagement)
-Variable objetivo
-Reto para la virtualidad
-Luchando en la “economía de la atención”
-Tres dimensiones:
-Afectivo
-Comportamiento
-Cognitivo
+<BarChart question="A1" />
+<br>
+<BarChart question="A2" />
+<br>
+<BarChart question="A3" />
+<br>
+<BarChart question="A4" />
+<br>
+<BarChart question="A5" />
+<br>
+<BarChart question="A6" />
+<br>
+<BarChart question="A7" />
+<br>
+<BarChart question="A8" />
+<br>
+<BarChart question="A9" />
+<br>
+<BarChart question="A10" />
+<br>
+<BarChart question="A11" />
+<br>
+<BarChart question="A12" />
+<br>
+<BarChart question="A13" />
+<br>
+<BarChart question="A14" />
+<br>
+<BarChart question="A15" />
+<br>
+<BarChart question="A16" />
+<br>
+<BarChart question="A17" />
+<br>
+<BarChart question="A18" />
+<br>
+<BarChart question="A19" />
+<br>
+<BarChart question="A20" />
+<br>
+<BarChart question="A21" />
+<br>
+<BarChart question="A22" />
+<br>
+<BarChart question="A23" />
+<br>
+<BarChart question="A24" />
+<br>
+<BarChart question="A25" />
+<br>
+<BarChart question="A26" />
+<br>
+<BarChart question="A27" />
+<br>
+<BarChart question="A28" />
+<br>
+<BarChart question="A29" />
+<br>
+<BarChart question="A30" />
 
-Métodos de determinación
-Manual: input de estudiantes y profesores en formularios o bitácoras
-Semi-automático: medición indirecta de la interacción de estudiantes con la plataforma
-Automático: evaluación de indicadores con visión por computador (movimiento de ojos, reconocimiento de sentimientos…) y análisis de archivos
+## Preferencias de aprendizaje virtual
 
-Prueba A/B
-Exposición "tradicional" versus las posibilidades de Kalouk de visualización y programación
-Dos subgrupos con una clase de una hora
-Intercalar temas con un modo (A) y con el otro (B) y aplicar las mediciones
+En relación con las preferencias:
 
-Formulario
-Estudiantes responden antes, durante y después
-Medición de tiempos de respuesta
-Hay pequeños quices, el sistema mide tiempo de respuesta y exactitud
-Interacción
-El sistema mide "clicks" y otros proxies
+<BarChart question="B1" />
+<br>
+<BarChart question="B2" />
+<br>
+<BarChart question="B3" />
+<br>
+<BarChart question="B4" />
+<br>
+<BarChart question="B5" />
+<br>
+<BarChart question="B6" />
+<br>
+<BarChart question="B7" />
+<br>
+<BarChart question="B8" />
+<br>
+<BarChart question="B9" />
+<br>
+<BarChart question="B10" />
+<br>
+<BarChart question="B11" />
+<br>
+<BarChart question="B12" />

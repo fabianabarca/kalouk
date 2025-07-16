@@ -71,7 +71,7 @@ export default defineConfig({
           { text: "🌐 Ecosistema", link: "/diseno/ecosistema" },
           { text: "🧮 Docente", link: "/diseno/docente" },
           {
-            text: "📝 Evaluación",
+            text: "📊 Evaluación",
             collapsed: true,
             items: [
               { text: "🧠 Pedagógica", link: "/diseno/evaluacion/pedagogica" },
@@ -163,14 +163,17 @@ export default defineConfig({
             ],
           },
           {
-            text: "Evaluación",
+            text: "📊 Evaluación",
             collapsed: true,
             items: [
-              { text: "Pedagógica", link: "/resultados/evaluacion/pedagogica" },
-              { text: "Técnica", link: "/resultados/evaluacion/tecnica" },
+              {
+                text: "🧠 Pedagógica",
+                link: "/resultados/evaluacion/pedagogica",
+              },
+              { text: "🛠️ Técnica", link: "/resultados/evaluacion/tecnica" },
             ],
           },
-          { text: "Divulgación", link: "/resultados/divulgacion" },
+          { text: "📢 Divulgación", link: "/resultados/divulgacion" },
         ],
       },
       { text: "Conclusiones", link: "/conclusiones/" },

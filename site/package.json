@@ -19,6 +19,7 @@
     "@citation-js/plugin-csl": "^0.7.18",
     "@citation-js/plugin-doi": "^0.7.18",
     "@kalouk/vitepress": "^0.1.0",
+    "chart.js": "^4.5.0",
     "mermaid": "^11.8.1"
   }
 }

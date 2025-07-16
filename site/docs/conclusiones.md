@@ -9,7 +9,10 @@
 - La guía pedagógica propone el concepto de "Espacio Kalouk", la base para crear experiencias educativas interactivas con las herramientas desarrolladas. Por otra parte, son presentados aquí una gran cantidad de contenidos del curso, incluyendo la página **improbabilidades.com**.
 - La evaluación del proyecto fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, el instrumento desarrollado y aplicado permitirá seguir tomando decisiones de diseño sobre el sistema para estar mejor ajustado a las necesidades, tanto pedagógicas como técnicas.
 - Igual que con la evaluación, la divulgación fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, hay excelentes perspectivas tanto de nuevas actividades de divulgación y promoción de la herramienta como de escritura de artículos académicos, donde hay al menos tres planteados.
-- El proyecto permitió disponer de una nueva herramienta para el proceso de nseñanza-aprendizaje, pensada y creada para las necesidades especiales de nuestra carrera, y así ofrecer nuevos insumos para avanzar en los procesos de virtualización con la creación de herramientas propias y específicas en un proyecto de software libre con potencial para tener exposición en el sector externo.
+- El proyecto permitió disponer de una nueva herramienta para el proceso de enseñanza-aprendizaje, pensada y creada para las necesidades especiales de nuestra carrera, y así ofrecer nuevos insumos para avanzar en los procesos de virtualización con la creación de herramientas propias y específicas en un proyecto de software libre con potencial para tener exposición en el sector externo.
 - Fue sugerido utilizar el sistema también para sesiones presenciales.
 
-## Recomendaciones
+## Recomendaciones y trabajo futuro
+
+- Invitar a la comunidad educativa de la Universidad de Costa Rica para participar de su desarrollo.
+- Continuar el vínculo con ProInnova para buscar opciones de comercialización y sostenibilidad financiera.
