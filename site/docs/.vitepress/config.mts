@@ -57,26 +57,25 @@ export default defineConfig({
         text: "Proyecto",
         collapsed: true,
         items: [
-          { text: "Información general", link: "/proyecto/" },
-          { text: "Antecedentes", link: "/proyecto/antecedentes" },
-          { text: "Objetivos", link: "/proyecto/objetivos" },
+          { text: "📖 Información general", link: "/proyecto/" },
+          { text: "📚 Antecedentes", link: "/proyecto/antecedentes" },
+          { text: "📋 Objetivos", link: "/proyecto/objetivos" },
         ],
       },
       {
         text: "Diseño",
         collapsed: true,
         items: [
-          { text: "Sobre el diseño", link: "/diseno/" },
-          { text: "Requisitos", link: "/diseno/requisitos" },
-          { text: "Ecosistema", link: "/diseno/ecosistema" },
-          { text: "Docencia", link: "/diseno/docencia" },
+          { text: "✏️ Sobre el diseño", link: "/diseno/" },
+          { text: "✅ Requisitos", link: "/diseno/requisitos" },
+          { text: "🌐 Ecosistema", link: "/diseno/ecosistema" },
+          { text: "🧮 Docente", link: "/diseno/docente" },
           {
-            text: "Evaluación",
+            text: "📝 Evaluación",
             collapsed: true,
             items: [
-              { text: "Descripción", link: "/diseno/evaluacion" },
-              { text: "Pedagógica", link: "/diseno/evaluacion/pedagogica" },
-              { text: "Técnica", link: "/diseno/evaluacion/tecnica" },
+              { text: "🧠 Pedagógica", link: "/diseno/evaluacion/pedagogica" },
+              { text: "🛠️ Técnica", link: "/diseno/evaluacion/tecnica" },
             ],
           },
         ],
@@ -85,19 +84,19 @@ export default defineConfig({
         text: "Desarrollo",
         collapsed: true,
         items: [
-          { text: "Sobre el desarrollo", link: "/desarrollo/" },
+          { text: "⌨️ Sobre el desarrollo", link: "/desarrollo/" },
           {
-            text: "Metodología",
+            text: "🗺️ Metodología",
             link: "/desarrollo/metodologia",
           },
-          { text: "Tecnologías", link: "/desarrollo/tecnologias" },
+          { text: "💻 Tecnologías", link: "/desarrollo/tecnologias" },
         ],
       },
       {
         text: "Resultados",
         collapsed: true,
         items: [
-          { text: "Sobre los resultados", link: "/resultados/" },
+          { text: "✅ Sobre los resultados", link: "/resultados/" },
           { text: "Kalouk", link: "/resultados/kalouk" },
           { text: "Guía de aplicación", link: "/resultados/guia" },
           {
@@ -140,7 +139,6 @@ export default defineConfig({
             text: "Evaluación",
             collapsed: true,
             items: [
-              { text: "Introducción", link: "/resultados/evaluacion" },
               { text: "Pedagógica", link: "/resultados/evaluacion/pedagogica" },
               { text: "Técnica", link: "/resultados/evaluacion/tecnica" },
             ],
@@ -148,16 +146,7 @@ export default defineConfig({
           { text: "Divulgación", link: "/resultados/divulgacion" },
         ],
       },
-      {
-        text: "Conclusiones",
-        collapsed: true,
-        items: [
-          { text: "Conclusiones", link: "/conclusiones/" },
-          { text: "Análisis", link: "/conclusiones/analisis" },
-          { text: "Agradecimientos", link: "/conclusiones/agradecimientos" },
-          { text: "Referencias", link: "/conclusiones/referencias" },
-        ],
-      },
+      { text: "Conclusiones", link: "/conclusiones/" },
     ],
 
     socialLinks: [

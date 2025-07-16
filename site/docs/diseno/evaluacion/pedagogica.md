@@ -8,15 +8,59 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-## Instrumento
+## Instrumentos de evaluación
 
-Disponible como Google Forms: https://forms.gle/QHimWYJmvsqpbSPw7
+En este proyecto hay interés por conocer varios aspectos relevantes del aprendizaje virtual:
+
+- las **experiencias** actuales de los estudiantes
+- las **preferencias** de los estudiantes
+- la **atención** (_engagement_) de los estudiantes durante las sesiones
+
+En este último aspecto, y según (Dewan, 2019) hay tres formas de determinación de la atención de los estudiantes en una sesión virtual:
+
+- **Manual**: retroalimentación directa de estudiantes y profesores
+- **Semi-automático**: medición indirecta de la interacción de los estudiantes con la plataforma
+- **Automático**: evaluación de indicadores de atención con sensores y procesamiento avanzado de datos
+
+Algunos de los métodos utilizados están en el siguiente diagrama:
+
+<Mermaid :code="`
+graph TD
+    A((Detección)) -----> B([Automática])
+    A ---> C([Semi-automática])
+    A --> D([Manual])
+    B ---> E[Basado en visión por computador]
+    B --> F[Análisis de datos de sensores]
+    C ---> G[Análisis de bitácora automática]
+    C ----> H[Rastreo de atención]
+    E --> I[Expresión facial]
+    E ---> J[Gestos y postura]
+    E ----> K[Movimiento de ojos]
+    D ---> L[Verificación observacional]
+    D --> M[Auto-reporte]
+`" />
+
+Por tanto, para el proyecto fueron propuestas dos estrategias: una manual, con formulario, y otra semi-automática. Las opciones automáticas no son consideradas todavía.
+
+## Evaluación manual
+
+::: info Objetivo
+
+El objetivo de esta evaluación manual es conocer sobre las experiencias actuales y las preferencias de los estudiantes en relación con el aprendizaje virtual, utilizando versiones adaptadas de dos instrumentos de evaluación validados académicamente.
+
+:::
+
+Fue utilizado un formulario, disponible como Google Forms: https://forms.gle/QHimWYJmvsqpbSPw7
 
 Los resultados y el análisis están en la sección de [resultados de la evaluación pedagógica](/resultados/evaluacion/pedagogica.md).
 
+::: tip Escala de evaluación
+
 Las preguntas en las siguientes dos secciones utilizan una escala numérico tipo Likert del 1 al 5, donde 1 representa "en desacuerdo" y 5 es "de acuerdo".
 
-### Experiencia de aprendizaje virtual
+:::
+
+### _Experiencias_ de aprendizaje virtual
 
 |     | Pregunta                                                                               |
 | --- | -------------------------------------------------------------------------------------- |
@@ -51,7 +95,7 @@ Las preguntas en las siguientes dos secciones utilizan una escala numérico tipo
 | A29 | Desempeño un papel importante en mi aprendizaje                                        |
 | A30 | Enfrento el aprendizaje a mi manera                                                    |
 
-### Preferencias de aprendizaje virtual
+### _Preferencias_ de aprendizaje virtual
 
 |     | Pregunta                                                                                                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -68,7 +112,44 @@ Las preguntas en las siguientes dos secciones utilizan una escala numérico tipo
 | B11 | Las actividades, tareas y/o proyectos en línea deberían fomentar el análisis activo, la evaluación y la síntesis de múltiples perspectivas expresadas por todos                |
 | B12 | Las actividades, tareas y/o proyectos en línea deberían motivar a todos a evaluar el progreso de aprendizaje de los demás                                                      |
 
+## Evaluación semi-automática
+
+::: info Objetivo de la evaluación
+
+La variable objetivo de esta evaluación es la atención (_engagement_), la cual representa un reto para el aprendizaje virtual, por cuanto una clase virtual tradicional está "luchando" en la **economía de la atención**, compitiendo por el recurso escaso de la atención que capturan las aplicaciones móviles u otros elementos.
+
+:::
+
+Tres dimensiones:
+
+- Afectivo
+- Comportamental
+- Cognitivo
+
+#### Prueba A/B
+
+- Exposición "tradicional" versus las posibilidades del sistema de visualización y programación
+- Dos subgrupos con una clase de una hora
+- Intercalar temas con un modo (A) y con el otro (B) y aplicar las mediciones
+
+#### Formulario
+
+- Estudiantes responden antes, durante y después
+- Medición de tiempos de respuesta
+- Hay pruebas cortas, el sistema mide tiempo de respuesta y exactitud
+
+#### Interacción
+
+- El sistema mide "clicks" y otros proxies
+
+::: danger Aplicación
+
+Por limitaciones de tiempo, la aplicación de la evaluación semi-automática no fue realizada todavía, pero será implementada en el futuro con el instrumento propuesto.
+
+:::
+
 ## Referencias
 
+<Citation citekey="dewan2019engagement" />
 <Citation citekey="ong2023enhancing" />
 <Citation citekey="cole2021student" />

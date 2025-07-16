@@ -1,8 +1,6 @@
-# Conclusiones
+# Para finalizar
 
-::: info
-Esta sección muestra las conclusiones del proyecto
-:::
+## Conclusiones
 
 Población beneficiada
 ¿Quién o quiénes?
@@ -20,3 +18,5 @@ Nuevos insumos para avanzar en los procesos de virtualización con la creación 
 - La guía pedagógica propone el concepto de "Espacio Kalouk", la base para crear experiencias educativas interactivas con las herramientas desarrolladas. Por otra parte, son presentados aquí una gran cantidad de contenidos del curso, incluyendo la página **improbabilidades.com**.
 - La evaluación del proyecto fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, el instrumento desarrollado y aplicado permitirá seguir tomando decisiones de diseño sobre el sistema para estar mejor ajustado a las necesidades, tanto pedagógicas como técnicas.
 - Igual que con la evaluación, la divulgación fue uno de los aspectos de más difícil ejecución, por cuanto los retrasos en la implementación tecnológica dejaron poco tiempo para esta sección. Sin embargo, hay excelentes perspectivas tanto de nuevas actividades de divulgación y promoción de la herramienta como de escritura de artículos académicos, donde hay al menos tres planteados.
+
+## Recomendaciones

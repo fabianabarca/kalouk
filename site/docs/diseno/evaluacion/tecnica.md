@@ -12,7 +12,11 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 Los resultados y el análisis están en la sección de [resultados de la evaluación técnica](/resultados/evaluacion/tecnica.md).
 
+::: tip Escala de evaluación
+
 Las preguntas en las siguientes secciones utilizan una escala numérico tipo Likert del 1 al 5, donde 1 representa "insatisfactorio" y 5 es "satisfactorio".
+
+:::
 
 ### Usabilidad y experiencia
 
@@ -62,6 +66,8 @@ Las preguntas en las siguientes secciones utilizan una escala numérico tipo Lik
 | Estabilidad                  | Ausencia de fallos o comportamiento inesperado                 |
 | Indicadores de escalabilidad | Comportamiento del sistema bajo carga aumentada                |
 | Eficiencia de recursos       | Uso óptimo de los recursos del sistema                         |
+
+Esta es una **evaluación propia**, completada por el autor. Los resultados y el análisis están en la sección de [resultados de la evaluación técnica](/resultados/evaluacion/tecnica.md).
 
 ## Referencias
 

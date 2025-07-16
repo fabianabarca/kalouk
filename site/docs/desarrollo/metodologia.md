@@ -20,7 +20,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 | Documentación             | **VitePress**          |
 | Servidor de pruebas       | **DigitalOcean**       |
 
-Hay más detalles sobre la selección de las herramientas y la metodología de desarrollo en las siguientes secciones.
+Hay más detalles sobre esta selección de las herramientas y la metodología de desarrollo en las siguientes secciones.
 
 ## Documentación del proyecto
 

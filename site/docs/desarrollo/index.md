@@ -8,7 +8,7 @@ En este apartado (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Para el desarrollo del proyecto fue elegida una metodología y un conjunto de herramientas de desarrollo para nuestro trabajo, bajo la guía de las buenas prácticas de la ingeniería de software. Luego, fueron elegidas las "tecnologías", es decir, los sistemas de software que son utilizados para construir el sistema.
+Para el desarrollo del proyecto fue elegida una metodología y un conjunto de herramientas bajo la guía de las buenas prácticas de la ingeniería de software. Luego, fueron elegidas las _tecnologías_, es decir, los sistemas de software que son utilizados para construir el sistema.
 
 ## Secciones
 

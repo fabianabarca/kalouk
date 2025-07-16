@@ -22,7 +22,7 @@ En estas secciones (ver [objetivos](/proyecto/objetivos.md)):
 
 :::
 
-Este proyecto desarrolló una gran cantidad de componentes tecnológicos que interactúan entre sí para crear un espacio educativo interactivo y moderno, con gran potencial de crecimiento en la comunidad de software libre.
+Este proyecto desarrolló una importante cantidad de componentes tecnológicos que interactúan entre sí para crear un espacio educativo interactivo y moderno.
 
 Los siguientes son los componentes tecnológicos y pedagógicos desarrollados:
 

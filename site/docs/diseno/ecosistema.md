@@ -14,7 +14,7 @@ En esta página (ver [objetivos](/proyecto/objetivos.md)):
 
 ::: tip Ecosistema de componentes web
 
-El proyecto evolucionó para pasar de un **sistema de presentaciones** a un **ecosistema de componentes web** para facilitar la creación de contenidos interactivos aplicados al análisis de datos.
+El proyecto evolucionó para pasar de un **sistema de presentaciones** a un **ecosistema de componentes web** para facilitar la creación de contenidos interactivos aplicados al análisis de datos, utilizados en presentaciones en línea pero también en contenido teórico y ejercicios de programación.
 
 :::
 
@@ -32,11 +32,13 @@ Esta transformación es producto de la experiencia acumulada durante el desarrol
 
 ## Arquitectura del sistema
 
-La arquitectura del sistema muestra los componentes más importantes, su funcionalidad y la relación entre las partes. Aquí es presentado de forma genérica.
+> La arquitectura del sistema muestra los componentes más importantes, su funcionalidad y la relación entre las partes.
+
+La arquitectura aquí es presentada de forma genérica, mientras que en la sección [Kalouk](/resultados/kalouk.md) está la implementación específica del proyecto.
 
 ::: warning Metas obsoletas
 
-Debido a la transformación del proyecto de una página web a un ecosistema de componentes web, las metas asociadas con el objetivo específico 3 (arquitectura) ya no representan el desarrollo realizado. Por tanto, las metas equivalentes son:
+Debido a la transformación del proyecto de una página web a un ecosistema de componentes web, las metas asociadas con el objetivo específico 3 (arquitectura) ya no representan el desarrollo realizado. Por tanto, las metas nuevas y equivalentes son:
 
 - 🚫 _Creación del mapa del sitio_ <br> ✅ **Creación del diagrama tecnológico del sistema**
 - 🚫 _Creación de la página de inicio del sitio y otras páginas misceláneas_ <br> ✅ **Creación de los sitios informativos de los componentes del sistema**
@@ -45,6 +47,8 @@ Debido a la transformación del proyecto de una página web a un ecosistema de c
 :::
 
 ### Diagrama tecnológico
+
+El diagrama tecnológico a continuación muestra dos grandes áreas: el **servidor**, donde la información es procesada y almacenada, y el **cliente**, donde las personas usuarias interactúan con los datos.
 
 <Mermaid :code="`
 flowchart TD
@@ -71,6 +75,8 @@ flowchart TD
     Servidor <-- modelos de comunicación --> Cliente
 `" />
 
+Los componentes genéricos del ecosistema son:
+
 - **Datos sintéticos**: generación de datos sintéticos (artificiales), útiles para los ejercicios de programación de estadística y probabilidad.
 - **Base de datos**: almacenamiento del registro de participantes, evaluaciones, contenidos del curso y otros.
 - **Contexto para agentes IA**: servidor capaz de ofrecer contexto (información complementaria) a agentes de inteligencia artificial para responder preguntar relacionadas con el curso.
@@ -82,10 +88,12 @@ flowchart TD
 - **Modelos de comunicación**: una variedad de métodos de comunicación entre clientes y servidores para habilitar ejercicios de interactividad diferentes:
   - _API_: habilita interacción con la base de datos para recopilar, crear, eliminar o actualizar registros.
   - _Webhooks_: permite la automatización de acciones en el servidor cuando suceden eventos.
-  - _WebSocket_: crea un canal bidireccional persistente entre cliente y servidor que habilita interactividad como chats o datos en tiempo real.
+  - _WebSocket_: crea un canal bidireccional persistente entre cliente y servidor que habilita interactividad, como en chats o datos en tiempo real.
   - _SSE_: crea un canal unidireccional persistente que permite el envío de eventos del servidor a los clientes.
 
 ### Sitios informativos
+
+A raíz de la estructura de los resultados, hay varios sitios web del proyecto.
 
 :information_source: **Más información**
 
@@ -93,6 +101,8 @@ flowchart TD
 
 ### Identidad visual
 
+La identidad visual fue diseñada para "Kalouk", el nombre del producto del proyecto.
+
 :information_source: **Más información**
 
-- 🌐 [Kalouk](/resultados/kalouk.md)
+- 🔵 [Kalouk](/resultados/kalouk.md)
